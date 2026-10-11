@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-esk8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f0f0f"/>
+      <stop offset="50%" stop-color="#2a1414"/>
+      <stop offset="100%" stop-color="#140a0a"/>
+    </linearGradient>
+    <linearGradient id="red-esk8" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+    <filter id="glow-esk8">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="600" height="340" fill="url(#bg-esk8)"/>
+  <!-- Drivetrain Belt Gear & Lithium Matrix Blueprint -->
+  <g transform="translate(180, 150)">
+    <!-- 21700 Battery Matrix (4x3 cells) -->
+    <g fill="#1f0f0f" stroke="#dc2626" stroke-width="2">
+      <circle cx="-60" cy="-40" r="16"/>
+      <circle cx="-20" cy="-40" r="16"/>
+      <circle cx="20" cy="-40" r="16"/>
+      <circle cx="60" cy="-40" r="16"/>
+
+      <circle cx="-60" cy="0" r="16"/>
+      <circle cx="-20" cy="0" r="16"/>
+      <circle cx="20" cy="0" r="16"/>
+      <circle cx="60" cy="0" r="16"/>
+
+      <circle cx="-60" cy="40" r="16"/>
+      <circle cx="-20" cy="40" r="16"/>
+      <circle cx="20" cy="40" r="16"/>
+      <circle cx="60" cy="40" r="16"/>
+    </g>
+    <!-- Nickel Strip Busbar overlay -->
+    <path d="M -60 -40 L 60 -40 M -60 0 L 60 0 M -60 40 L 60 40" stroke="#f87171" stroke-width="4" stroke-opacity="0.8" stroke-dasharray="10,6"/>
+  </g>
+  <!-- Motor Pulley & Drivetrain Gear -->
+  <g transform="translate(420, 150)">
+    <!-- Big Wheel Pulley -->
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#7f1d1d" stroke-width="6"/>
+    <!-- Gear teeth -->
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#ef4444" stroke-width="4" stroke-dasharray="6,6" filter="url(#glow-esk8)"/>
+    <!-- Center Hub -->
+    <circle cx="0" cy="0" r="22" fill="#140a0a" stroke="#f87171" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="6" fill="#ffffff"/>
+    <!-- Motor Pinion Pulley -->
+    <circle cx="-90" cy="-35" r="16" fill="#140a0a" stroke="#ef4444" stroke-width="2"/>
+    <!-- Drivetrain Belt -->
+    <path d="M -90 -51 L 0 -60 M -90 -19 L 0 60" stroke="#dc2626" stroke-width="3" stroke-dasharray="4,4"/>
+  </g>
+  <text x="50" y="45" font-family="'JetBrains Mono', monospace" font-size="11" fill="#f87171">BATTERY: 12S4P 21700 MOLICEL</text>
+  <text x="50" y="65" font-family="'JetBrains Mono', monospace" font-size="10" fill="#991b1b">VESC FOC MOTOR CONTROL // 80A DUAL</text>
+  <text x="300" y="295" font-family="'JetBrains Mono', monospace" font-size="11" fill="#94a3b8" text-anchor="middle" letter-spacing="2">BESPOKE ELECTRIC PROPULSION &amp; TELEMETRY</text>
+</svg>

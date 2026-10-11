@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-ai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141824"/>
+      <stop offset="50%" stop-color="#1a202c"/>
+      <stop offset="100%" stop-color="#0f131a"/>
+    </linearGradient>
+    <linearGradient id="copper-ai" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97736"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="glow-ai" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="600" height="340" fill="url(#bg-ai)"/>
+  <!-- Grid Matrix -->
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <line x1="0" y1="85" x2="600" y2="85"/>
+    <line x1="0" y1="170" x2="600" y2="170"/>
+    <line x1="0" y1="255" x2="600" y2="255"/>
+    <line x1="150" y1="0" x2="150" y2="340"/>
+    <line x1="300" y1="0" x2="300" y2="340"/>
+    <line x1="450" y1="0" x2="450" y2="340"/>
+  </g>
+  <!-- Data Pipeline Paths -->
+  <path d="M 60 170 Q 180 80 300 170 T 540 170" fill="none" stroke="url(#copper-ai)" stroke-width="3" filter="url(#glow-ai)"/>
+  <path d="M 60 220 Q 200 290 320 190 T 540 140" fill="none" stroke="#d97736" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <path d="M 120 100 L 220 170 L 300 110 L 420 220 L 500 140" fill="none" stroke="#f59e0b" stroke-opacity="0.6" stroke-width="2"/>
+  <!-- Pipeline Nodes -->
+  <circle cx="120" cy="100" r="6" fill="#f59e0b"/>
+  <circle cx="220" cy="170" r="9" fill="#141824" stroke="#d97736" stroke-width="3"/>
+  <circle cx="300" cy="170" r="14" fill="#d97736" fill-opacity="0.2" stroke="#f59e0b" stroke-width="2" filter="url(#glow-ai)"/>
+  <circle cx="300" cy="170" r="5" fill="#ffffff"/>
+  <circle cx="420" cy="220" r="8" fill="#141824" stroke="#f59e0b" stroke-width="2.5"/>
+  <circle cx="500" cy="140" r="6" fill="#d97736"/>
+  <!-- Telemetry Badge -->
+  <rect x="420" y="24" width="150" height="34" rx="6" fill="#0f131a" stroke="#d97736" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="495" y="46" font-family="'JetBrains Mono', monospace" font-size="12" fill="#f59e0b" text-anchor="middle" letter-spacing="1">$148M PIM FLOW</text>
+  <!-- Central Icon Symbol -->
+  <text x="300" y="290" font-family="'JetBrains Mono', monospace" font-size="11" fill="#94a3b8" text-anchor="middle" letter-spacing="2">AI-AUGMENTED SUPPLIER INGESTION</text>
+</svg>

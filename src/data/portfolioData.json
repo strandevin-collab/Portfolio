@@ -1,0 +1,1234 @@
+{
+  "profile": {
+    "name": "Evin Strand",
+    "tagline": "Product Information Analyst • Data Analytics • AI Integration • Continuous Improvement",
+    "location": "Hutchinson Island, FL",
+    "email": "strandevin@gmail.com",
+    "phone": "(262) 325-2112",
+    "bio": "Product Information Analyst at Grainger stewarding enterprise catalog operations valued at $148M+. Former Wisconsin Army National Guard Fire Direction Specialist and Chaplain's Assistant. Bridges high-stakes data integrity, generative AI workflow acceleration, and high-empathy team stewardship with an artisan's commitment to precision engineering.",
+    "education": {
+      "degree": "B.A. Corporate & Health Communication (Minor: General Business)",
+      "school": "University of Wisconsin-Whitewater",
+      "certifications": [
+        "SHRM-CP | Certified Professional (Society for Human Resource Management)",
+        "US Army Field Artillery School (Fort Sill, OK) — Tactical Compute Honor Graduate"
+      ]
+    },
+    "skills": [
+      "Enterprise PIM Systems",
+      "Generative AI Workflow Integration",
+      "Smartsheet Automation",
+      "Tactical Data Accuracy (100%)",
+      "Attrition Modeling & Retention",
+      "Cross-Functional Stakeholder Alignment",
+      "Hybrid Team Leadership",
+      "Prompt Systems Architecture",
+      "Salesforce & Jira",
+      "Power BI & DAX"
+    ],
+    "downloads": {
+      "resumeDocx": "/assets/Evin_Strand_Resume.docx",
+      "coverLetterPdf": "/assets/Evin_Strand_Cover_Letter.pdf"
+    },
+    "socialLinks": [
+      {
+        "id": "email",
+        "label": "Email",
+        "icon": "Mail",
+        "url": "mailto:strandevin@gmail.com"
+      },
+      {
+        "id": "phone",
+        "label": "Phone",
+        "icon": "Phone",
+        "url": "tel:2623252112"
+      },
+      {
+        "id": "location",
+        "label": "Location",
+        "icon": "MapPin",
+        "url": "https://maps.google.com/?q=Hutchinson+Island,+FL"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "icon": "Linkedin",
+        "url": "https://linkedin.com/in/evin-strand"
+      }
+    ],
+    "portrait": "/assets/profile_pic.jpg",
+    "quote": "Great data systems should feel effortless. Precision engineering meets operational stewardship.",
+    "heroFocus": [
+      {
+        "number": "01",
+        "label": "Enterprise PIM"
+      },
+      {
+        "number": "02",
+        "label": "Smartsheet Systems"
+      },
+      {
+        "number": "03",
+        "label": "Tactical Compute"
+      },
+      {
+        "number": "04",
+        "label": "Agentic Prompting"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "resume-docs",
+      "title": "Resume / Cover Letter",
+      "subtitle": "Professional Career History, Executive Narrative & Official Documents",
+      "description": "Comprehensive career chronology spanning Grainger enterprise catalog stewardship, US Army National Guard tactical data operations, leadership credentials, and downloadable Word/PDF files.",
+      "image": "/assets/editorial_resume_card.jpg",
+      "icon": "FileText",
+      "badge": "Official Dossier",
+      "accentColor": "#f59e0b",
+      "itemCount": 3,
+      "featuredTag": "Credentials & Documents"
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "subtitle": "Data Analytics, AI Integration & Talent Systems",
+      "description": "5 end-to-end strategic initiatives demonstrating full project lifecycle management, AI research sourcing, cross-functional site merger talent architecture, and high-impact operational leadership.",
+      "image": "/assets/editorial_projects_card.jpg",
+      "icon": "Layers",
+      "badge": "Enterprise & Systems",
+      "accentColor": "#d97736",
+      "itemCount": 5,
+      "featuredTag": "AI & PIM Workflows"
+    },
+    {
+      "id": "hobbies",
+      "title": "Hobbies / Interests",
+      "subtitle": "Hardware Engineering, Tactile Bas-Relief Craft & Coastal Hydrology",
+      "description": "Hands-on physical craftsmanship: spot-welded 12S4P 21700 lithium electric skateboards, sub-millimeter 3D bas-relief sculptural modeling, and Atlantic tidal current observation along Hutchinson Island.",
+      "image": "/assets/editorial_hobbies_card.jpg",
+      "icon": "Cpu",
+      "badge": "Craft & Physics",
+      "accentColor": "#10b981",
+      "itemCount": 3,
+      "featuredTag": "Physical Fabrication"
+    }
+  ],
+  "items": [
+    {
+      "id": "curriculum-vitae",
+      "categoryId": "resume-docs",
+      "image": "/assets/card-grainger-bench.svg",
+      "categoryBadge": "Career Record",
+      "title": "Curriculum Vitae / Professional Resume",
+      "role": "Product Information Analyst | Operations | Military Veteran",
+      "organization": "Grainger Industrial Supply • Army National Guard • Retail GM",
+      "timeline": "2015 – Present",
+      "teaser": "Detailed professional career chronology including Grainger catalog stewardship ($148M scope), Smartsheet recruitment automation, 100% tactical fire direction compute accuracy, and team mentorship.",
+      "accentColor": "#f59e0b",
+      "itemType": "document",
+      "tags": [
+        "Enterprise PIM",
+        "AI Integration",
+        "Smartsheet Automation",
+        "Attrition Modeling",
+        "Military Fire Direction",
+        "SHRM-CP",
+        "Hybrid Leadership"
+      ],
+      "document": {
+        "summary": "Product Information Analyst at Grainger stewarding enterprise catalog operations valued at $148M+. Former Wisconsin Army National Guard Fire Direction Specialist and Chaplain's Assistant. Combines rigorous mathematical data accuracy with generative AI acceleration and empathetic personnel stewardship.",
+        "experience": [
+          {
+            "company": "Grainger Industrial Supply",
+            "location": "Remote / Hybrid",
+            "period": "2021 – Present",
+            "roles": [
+              {
+                "title": "Product Information Analyst",
+                "period": "2023 – Present",
+                "bullets": [
+                  "Managed an average of three concurrent projects with a total average value of $148 million, leveraging stakeholder relationships to ensure on-time delivery and meet budgetary goals.",
+                  "Identified and developed the candidate bench strategy for the PI department, utilizing Smartsheet to provide automated status updates and real-time tracking.",
+                  "Designed and facilitated organizational leadership development workshops ('Lunch-&-Learns') to equip leaders with recognition strategies.",
+                  "Achieved a 40% reduction in task completion time by leveraging AI tools to optimize supplier research and transform customer feedback into data-driven action plans."
+                ],
+                "spotlight": {
+                  "title": "Mentorship & Internal Bench Initiative",
+                  "description": "Architected the candidate bench strategy in Smartsheet with real-time tracking, actively mentoring and preparing internal cross-departmental team members to successfully transition into enterprise catalog analytics."
+                }
+              },
+              {
+                "title": "Hiring Manager (Stretch Assignment)",
+                "period": "2022 – 2023",
+                "bullets": [
+                  "Coordinated an average of 40 candidate interviews weekly while redesigning the interview process to enhance efficiency during a corporate site merger.",
+                  "Developed a centralized recruitment framework to consolidate two high-volume hiring initiatives, coordinating with 25+ cross-functional stakeholders.",
+                  "Led an initiative to track and analyze attrition trends, delivering data-driven insights to senior leadership for targeted retention strategies."
+                ]
+              },
+              {
+                "title": "Customer Experience Supervisor",
+                "period": "2021 – 2022",
+                "bullets": [
+                  "Managed and developed a hybrid team of 16 customer experience representatives through personalized behavioral coaching and development plans.",
+                  "Redesigned the new hire onboarding program, reducing time-to-proficiency by an average of 60 days and decreasing new hire attrition.",
+                  "Facilitated daily virtual team meetings to foster cohesion and ensure alignment with key business objectives."
+                ]
+              }
+            ]
+          },
+          {
+            "company": "Retail Operations & General Management",
+            "location": "Wisconsin",
+            "period": "2015 – 2021",
+            "roles": [
+              {
+                "title": "General Manager: Anytime Fitness • Target • Best Buy",
+                "period": "2015 – 2021",
+                "bullets": [
+                  "Over 6 years of progressive customer-facing leadership, advancing from representative to General Manager with full operational, P&L, and staffing oversight.",
+                  "Led and mentored teams of 30+ employees, fostering a culture of collaboration, accountability, and customer-centricity.",
+                  "Spearheaded onboarding, training, and professional development programs to maintain high-performing operational environments."
+                ]
+              }
+            ]
+          },
+          {
+            "company": "Army National Guard – Wisconsin",
+            "location": "Wisconsin & Fort Sill, OK",
+            "period": "2016 – 2022",
+            "roles": [
+              {
+                "title": "Fire Direction Specialist & Chaplain's Assistant",
+                "period": "2016 – 2022",
+                "bullets": [
+                  "Managed and maintained advanced automated tactical data systems, ensuring 100% computational accuracy in high-stakes environments while coordinating complex data transmissions across diverse communication networks.",
+                  "Managed sensitive communications and personnel issues with strict confidentiality, serving as a trusted liaison between command leadership, soldiers, and the chaplain."
+                ]
+              }
+            ]
+          }
+        ],
+        "education": [
+          {
+            "institution": "University of Wisconsin-Whitewater",
+            "degree": "B.A. Corporate & Health Communication (Minor: General Business)"
+          }
+        ],
+        "certifications": [
+          "SHRM-CP | Certified Professional (Society for Human Resource Management)",
+          "US Army Field Artillery School (Lawton, OK) — Tactical Compute Honor Graduate"
+        ]
+      },
+      "diagram": null
+    },
+    {
+      "id": "executive-cover-letter",
+      "categoryId": "resume-docs",
+      "image": "/assets/card-agentic.svg",
+      "categoryBadge": "Narrative Statement",
+      "title": "Professional Cover Letter & Leadership Philosophy",
+      "role": "Product Information Analyst",
+      "organization": "Candidate Portfolio Dossier",
+      "timeline": "2026",
+      "teaser": "A structured personal statement articulating how high-stakes military compute accuracy, enterprise catalog stewardship, and human empathy converge into high-leverage systems.",
+      "accentColor": "#f59e0b",
+      "itemType": "document",
+      "tags": [
+        "Leadership Philosophy",
+        "Data Governance",
+        "AI Stewardship",
+        "Operational Empathy",
+        "Systems Thinking"
+      ],
+      "document": {
+        "letterSections": [
+          {
+            "heading": "The Intersection of Clinical Precision and Human Empathy",
+            "body": "In high-consequence environments—whether computing ballistic firing solutions where a transposed digit risks catastrophe, or governing multi-million-dollar enterprise catalog lines—data fidelity is not an abstract preference; it is an ethical obligation. My career has been defined by bridging this technical precision with genuine, human-centered stewardship."
+          },
+          {
+            "heading": "Enterprise Data Stewardship at Grainger",
+            "body": "At Grainger, I steward high-velocity product information across portfolios averaging $148 million. When chaotic, non-standardized supplier spec sheets created ingestion bottlenecks, I did not merely execute manual entry. I engineered generative AI parsing frameworks that compressed research task completion times by 40%, freeing analyst bandwidth to engage suppliers in strategic quality consultations."
+          },
+          {
+            "heading": "Operational Leadership & Talent Systems",
+            "body": "As a Hiring Manager on stretch assignment and Customer Experience Supervisor, I recognized that operational throughput depends entirely on psychological safety and clear systems. When tasked with managing 40 candidate interviews weekly across 25+ stakeholders during a corporate site merger, I built automated Smartsheet telemetry to eliminate interview fatigue. Concurrently, by restructuring hybrid onboarding around modular peer coaching, we reduced time-to-proficiency by 60 days."
+          },
+          {
+            "heading": "Military Doctrine: Calm Under Degraded Conditions",
+            "body": "My six years in the Wisconsin Army National Guard as both a Fire Direction Specialist and Chaplain's Assistant forged a rare duality: the clinical discipline required for 100% tactical computational accuracy, paired with the discretion and pastoral empathy required to de-escalate crises between soldiers and command. I bring this unflappable calm and craftsmanship to every enterprise challenge."
+          }
+        ]
+      },
+      "diagram": null
+    },
+    {
+      "id": "military-record",
+      "categoryId": "resume-docs",
+      "image": "/assets/card-military.svg",
+      "categoryBadge": "Defense Service",
+      "title": "US Army National Guard Service & Tactical Compute",
+      "role": "Fire Direction Specialist & Chaplain's Assistant",
+      "organization": "Army National Guard – Wisconsin",
+      "timeline": "2016 – 2022 (6 Years Honorable Service)",
+      "teaser": "Zero-margin ballistic fire direction record on automated digital networks and confidential ethical liaison between command leadership and enlisted soldiers.",
+      "accentColor": "#38bdf8",
+      "itemType": "document",
+      "tags": [
+        "Automated Tactical Data Systems",
+        "Zero-Error Ballistics",
+        "Degraded Comms",
+        "Confidential Pastoral Liaison",
+        "Ethical Stewardship"
+      ],
+      "document": {
+        "militaryTenure": "6 Years (2016 – 2022)",
+        "unit": "Wisconsin Army National Guard — Field Artillery",
+        "school": "US Army Field Artillery School (Fort Sill, OK)",
+        "coreDuties": [
+          "Operated automated tactical data systems (AFATDS) to calculate real-time firing solutions including meteorological offsets, powder charge temperatures, and propellant burn rates.",
+          "Maintained a flawless 100% computational data fidelity record during live-fire tactical field exercises under austere, degraded radio communication conditions.",
+          "Served as Chaplain's Assistant: maintained absolute 100% confidentiality while managing critical personnel welfare issues, establishing an essential bridge between unit commanders and frontline personnel."
+        ]
+      },
+      "diagram": null
+    },
+    {
+      "id": "custom-electric-skateboards",
+      "categoryId": "hobbies",
+      "image": "/assets/card-skateboards.svg",
+      "categoryBadge": "Hardware & Firmware",
+      "title": "High-Discharge Custom Electric Skateboards & VESC Telemetry",
+      "role": "Builder, Spot-Welder & Firmware Tuner",
+      "organization": "Independent Garage Lab",
+      "timeline": "Ongoing",
+      "teaser": "Engineered bespoke personal electric vehicles from scratch: spot-welded 12S4P 21700 lithium battery packs, programmed VESC field-oriented motor control, and machined CNC drivetrains.",
+      "accentColor": "#ef4444",
+      "itemType": "hobby",
+      "tags": [
+        "VESC 6 FOC Tuning",
+        "12S4P Molicel 21700",
+        "Nickel Busbar Spot-Welding",
+        "Smart Bluetooth BMS",
+        "Thermal Dissipation",
+        "Regenerative Braking"
+      ],
+      "specs": [
+        {
+          "label": "Battery Architecture",
+          "value": "12S4P Molicel P42A",
+          "note": "50.4V Peak, 16.8Ah (846 Wh)"
+        },
+        {
+          "label": "Continuous Discharge",
+          "value": "80 Amps Sustained",
+          "note": "Pure copper/nickel sandwich busbars"
+        },
+        {
+          "label": "Top Velocity",
+          "value": "42 MPH",
+          "note": "Dual 6374 190KV brushless motors"
+        },
+        {
+          "label": "Motor Controller",
+          "value": "Dual VESC 6+",
+          "note": "Custom Field-Oriented Control curves"
+        }
+      ],
+      "story": {
+        "inception": "Commercial off-the-shelf electric skateboards suffer from thermal throttling under sustained incline loads, generic speed controller lag, and battery enclosures with fragile solder joints prone to road vibration failure.",
+        "challenge": "Safely delivering 80+ amps of continuous electrical current through a compact physical deck while dampening high-frequency road vibrations, preventing cell puncture, and modeling thermal dissipation without active fan cooling.",
+        "strategy": "Hand-built a custom 12S4P battery pack using genuine Molicel P42A 21700 cells spot-welded with slotted pure nickel sheets and fishpaper insulation. Programmed open-source VESC speed controllers via Bluetooth telemetry, fine-tuning throttle ramp curves and linear regenerative braking.",
+        "outcome": "Constructed high-torque, reliable belt-drive boards tested over hundreds of road miles with zero cutouts or thermal shutdowns. Hands-on mastery of electrical thermodynamics, mechanical stress tolerances, and firmware tuning."
+      },
+      "diagram": {
+        "nodes": [
+          {
+            "id": "40",
+            "type": "input",
+            "data": {
+              "label": "12S4P Molicel Battery Pack",
+              "phase": "INCEPTION",
+              "sub": "50.4V Peak • 846 Wh Capacity"
+            },
+            "position": {
+              "x": 60,
+              "y": 70
+            }
+          },
+          {
+            "id": "41",
+            "data": {
+              "label": "Smart Bluetooth BMS",
+              "phase": "STRATEGY",
+              "sub": "Per-Cell Voltage & Temp Safety"
+            },
+            "position": {
+              "x": 300,
+              "y": 70
+            }
+          },
+          {
+            "id": "42",
+            "data": {
+              "label": "Dual VESC 6 Motor Controller",
+              "phase": "STRATEGY",
+              "sub": "Field-Oriented Control (FOC)"
+            },
+            "position": {
+              "x": 540,
+              "y": 70
+            }
+          },
+          {
+            "id": "43",
+            "type": "output",
+            "data": {
+              "label": "Dual 6374 190KV Drivetrain",
+              "phase": "OUTCOME",
+              "sub": "42 MPH • Linear Regen Braking"
+            },
+            "position": {
+              "x": 780,
+              "y": 70
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "e40-41",
+            "source": "40",
+            "target": "41",
+            "label": "High-Current Discharge",
+            "animated": true,
+            "style": {
+              "stroke": "#ef4444"
+            }
+          },
+          {
+            "id": "e41-42",
+            "source": "41",
+            "target": "42",
+            "label": "Telemetry & Protection",
+            "animated": true,
+            "style": {
+              "stroke": "#f59e0b"
+            }
+          },
+          {
+            "id": "e42-43",
+            "source": "42",
+            "target": "43",
+            "label": "3-Phase PWM Power",
+            "animated": true,
+            "style": {
+              "stroke": "#10b981"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "bas-relief-art",
+      "categoryId": "hobbies",
+      "image": "/assets/card-bas-relief.svg",
+      "categoryBadge": "Craft & Sculpture",
+      "title": "3D Bas-Relief Sculptural Art & Light Falloff Physics",
+      "role": "Sculptural Designer & Dimensional Modeler",
+      "organization": "Personal Studio | Hutchinson Island, FL",
+      "timeline": "Ongoing",
+      "teaser": "Exploring physical surface depth through sub-millimeter bas-relief modeling, calculating directional light falloff, and compressing 3D forms into millimeters of tactile relief.",
+      "accentColor": "#10b981",
+      "itemType": "hobby",
+      "tags": [
+        "3D Bas-Relief",
+        "Directional Lighting",
+        "Specular Highlight Math",
+        "Tactile Substrate Carving",
+        "Patience & Detail"
+      ],
+      "specs": [
+        {
+          "label": "Relief Depth",
+          "value": "±3.0 mm",
+          "note": "Sub-millimeter vertical contour compression"
+        },
+        {
+          "label": "Lighting Model",
+          "value": "Dynamic Directional",
+          "note": "Light vector calculates highlight falloff"
+        },
+        {
+          "label": "Substrate",
+          "value": "High-Density Composite",
+          "note": "Precision sculpted and sealed surfaces"
+        }
+      ],
+      "story": {
+        "inception": "In bas-relief sculpting, full three-dimensional anatomical and architectural forms must be flattened into mere millimeters of physical depth. The visual illusion of mass and depth relies entirely on how incident light catches carved bevel edges.",
+        "challenge": "Balancing steep edge undercuts that create dark cast shadows with gradual draft angles that catch soft specular glints, without losing anatomical proportion.",
+        "strategy": "Meticulously calculate how light angles interact with carved contours—a physical discipline directly mirrored in this website's carved UI cards and dynamic mouse-tracking specular highlights.",
+        "outcome": "Physical artworks that reward patient, close inspection. The discipline of the craft directly informs professional data integrity: respecting materials, honoring historical methods, and understanding that lasting systems require meticulous patience."
+      },
+      "diagram": null
+    },
+    {
+      "id": "saltwater-hydrology",
+      "categoryId": "hobbies",
+      "image": "/assets/card-military.svg",
+      "categoryBadge": "Ocean & Lore",
+      "title": "Atlantic Saltwater Hydrology & Tolkien Lore",
+      "role": "Coastal Tide Observer & Lore Scholar",
+      "organization": "Hutchinson Island Waters",
+      "timeline": "Ongoing",
+      "teaser": "Studying Atlantic lunar tidal current shifts along Hutchinson Island, practicing patient observational stewardship, and analyzing Tolkien's mythological linguistic frameworks.",
+      "accentColor": "#38bdf8",
+      "itemType": "hobby",
+      "tags": [
+        "Atlantic Coastal Hydrology",
+        "Lunar Tidal Cycles",
+        "Estuary Dynamics",
+        "Tolkien Mythopoeia",
+        "Observational Stewardship"
+      ],
+      "specs": [
+        {
+          "label": "Observation Cycle",
+          "value": "Semi-Diurnal Tides",
+          "note": "Tracking 6-hour Atlantic flood and ebb shifts"
+        },
+        {
+          "label": "Water Ecosystem",
+          "value": "Indian River Lagoon & Inlet",
+          "note": "Salinity, water clarity, and predator movement"
+        },
+        {
+          "label": "Philology Architecture",
+          "value": "70+ Years Consistency",
+          "note": "Linguistic root frameworks of Middle-earth"
+        }
+      ],
+      "story": {
+        "inception": "Coastal saltwater ecosystems and deep literary legendariums share a profound commonality: they are governed by subtle, underlying rules that cannot be rushed or approximated.",
+        "challenge": "In saltwater fishing and coastal observation, conditions change hour-by-hour based on wind shear, lunar gravity, barometric pressure, and water temperature. Impatience yields nothing.",
+        "strategy": "Cultivate the habit of quiet, sustained observation. Read the rip currents, observe baitfish displacement along underwater shelves, and study how J.R.R. Tolkien constructed enduring mythological credibility through linguistically consistent sub-creation.",
+        "outcome": "A deeply grounded mindset that resists modern superficiality. Whether analyzing catalog taxonomies or reading an Atlantic tidal rip, patient observation reveals the true structure beneath the surface."
+      },
+      "diagram": null
+    },
+    {
+      "id": "product-data-process-optimization",
+      "categoryId": "projects",
+      "domain": "data-ai",
+      "image": "/assets/card-project-01.svg",
+      "categoryBadge": "Data Analytics & AI",
+      "title": "Product Data Process Optimization & Tool Integration",
+      "role": "Product Information Analyst",
+      "organization": "Grainger Industrial Supply",
+      "timeline": "2023 – Present",
+      "teaser": "Engineered end-to-end data process optimization for an average of 3 concurrent initiatives valued at $148M, integrating AI research tools and structuring customer feedback to achieve a 40% cycle time reduction.",
+      "accentColor": "#38bdf8",
+      "itemType": "project",
+      "tags": [
+        "Enterprise PIM",
+        "AI Tool Sourcing",
+        "Process Engineering",
+        "Feedback Structuring",
+        "$148M Portfolio"
+      ],
+      "telemetry": [
+        {
+          "label": "Cycle Time Reduction",
+          "value": 40,
+          "suffix": "%",
+          "precision": 0
+        },
+        {
+          "label": "Avg Portfolio Value",
+          "value": 148,
+          "prefix": "$",
+          "suffix": "M",
+          "precision": 0
+        },
+        {
+          "label": "Concurrent Project Streams",
+          "value": 3,
+          "precision": 0
+        }
+      ],
+      "story": {
+        "inception": "Initiated project charter and established financial baseline of $148 million across an average of three concurrent data research initiatives, aligning key cross-functional stakeholders.",
+        "challenge": "Conducted baseline workflow audits on manual research tasks. Evaluated and sourced AI tools capable of streamlining supplier research while formulating engineering methods to structure subjective customer feedback into actionable plans.",
+        "strategy": "Deployed AI tools across live workflows while demonstrating remote team leadership. Enforced rigorous milestone tracking to deliver projects on-time and within budget.",
+        "outcome": "Validated a 40% reduction in completion time for data research tasks and successfully handed off enhanced departmental operating efficiencies."
+      },
+      "mindMap": {
+        "hub": {
+          "code": "PROJECT 01",
+          "label": "Product Data Optimization",
+          "subtitle": "$148M Baseline • AI Tool Sourcing • 40% Cycle Cut",
+          "accent": "#38bdf8"
+        },
+        "branches": [
+          {
+            "id": "b1",
+            "phaseCode": "PHASE 01",
+            "phaseName": "Initiation & Scope",
+            "side": "left",
+            "badgeColor": "bg-sky-950 text-sky-300 border-sky-500/30",
+            "accent": "#38bdf8",
+            "tasks": [
+              {
+                "code": "1.01",
+                "title": "Project Charter",
+                "desc": "Define project charter for an average of three concurrent data research initiatives.",
+                "meta": "3 Streams"
+              },
+              {
+                "code": "1.02",
+                "title": "Financial Baseline",
+                "desc": "Establish the total average project value at $148 million.",
+                "meta": "$148M Baseline"
+              },
+              {
+                "code": "1.03",
+                "title": "Stakeholder Alignment",
+                "desc": "Identify key stakeholders and leverage strong collaborative relationships.",
+                "meta": "Cross-Functional"
+              }
+            ]
+          },
+          {
+            "id": "b2",
+            "phaseCode": "PHASE 02",
+            "phaseName": "Workflow & AI Sourcing",
+            "side": "left",
+            "badgeColor": "bg-blue-950 text-blue-300 border-blue-500/30",
+            "accent": "#60a5fa",
+            "tasks": [
+              {
+                "code": "1.04",
+                "title": "Workflow Audit",
+                "desc": "Conduct baseline analysis of existing manual data research tasks.",
+                "meta": "Research Baseline"
+              },
+              {
+                "code": "1.05",
+                "title": "AI Tool Sourcing",
+                "desc": "Evaluate AI tools capable of streamlining supplier product research.",
+                "meta": "Tool Evaluation"
+              },
+              {
+                "code": "1.06",
+                "title": "Process Engineering",
+                "desc": "Design process optimization strategies for data ingestion tasks.",
+                "meta": "Ingestion Design"
+              },
+              {
+                "code": "1.07",
+                "title": "Feedback Structuring",
+                "desc": "Formulate a method to translate subjective customer feedback into data-driven action plans.",
+                "meta": "Sentiment Logic"
+              }
+            ]
+          },
+          {
+            "id": "b3",
+            "phaseCode": "PHASE 03",
+            "phaseName": "Execution & Delivery",
+            "side": "right",
+            "badgeColor": "bg-indigo-950 text-indigo-300 border-indigo-500/30",
+            "accent": "#818cf8",
+            "tasks": [
+              {
+                "code": "1.08",
+                "title": "Tool Deployment",
+                "desc": "Leverage AI tools to streamline supplier product research and process customer feedback.",
+                "meta": "Live Deployment"
+              },
+              {
+                "code": "1.09",
+                "title": "Remote Leadership",
+                "desc": "Demonstrate adaptability and effective remote team leadership throughout deployment.",
+                "meta": "Distributed Sync"
+              },
+              {
+                "code": "1.10",
+                "title": "Milestone Tracking",
+                "desc": "Ensure on-time delivery while meeting all budgetary goals.",
+                "meta": "Budget & Schedule"
+              }
+            ]
+          },
+          {
+            "id": "b4",
+            "phaseCode": "PHASE 04",
+            "phaseName": "Outcomes & Validation",
+            "side": "right",
+            "badgeColor": "bg-emerald-950 text-emerald-300 border-emerald-500/30",
+            "accent": "#10b981",
+            "tasks": [
+              {
+                "code": "1.11",
+                "title": "Efficiency Validation",
+                "desc": "Confirm a 40% reduction in completion time for data research tasks.",
+                "meta": "40% Time Cut"
+              },
+              {
+                "code": "1.12",
+                "title": "Operational Handoff",
+                "desc": "Validate enhanced overall departmental efficiency and establish standard operating protocols.",
+                "meta": "Enterprise Lift"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "corporate-merger-talent-acquisition",
+      "categoryId": "projects",
+      "domain": "talent-retention",
+      "image": "/assets/card-project-03.svg",
+      "categoryBadge": "Talent Systems",
+      "title": "Corporate Merger Talent Acquisition Redesign",
+      "role": "Hiring Manager (Stretch Assignment)",
+      "organization": "Grainger Industrial Supply",
+      "timeline": "2022 – 2023",
+      "teaser": "Redesigned interview workflows during a corporate site merger across 25+ cross-functional leaders, coordinating 40 weekly interviews and establishing an executive attrition analytics framework.",
+      "accentColor": "#f59e0b",
+      "itemType": "project",
+      "tags": [
+        "Site Merger Operations",
+        "Interview Funnel Optimization",
+        "25+ Stakeholders",
+        "40 Interviews/Wk",
+        "Attrition Analytics"
+      ],
+      "telemetry": [
+        {
+          "label": "Weekly Interviews Coordinated",
+          "value": 40,
+          "suffix": " / Wk",
+          "precision": 0
+        },
+        {
+          "label": "Cross-Functional Assembly",
+          "value": 25,
+          "suffix": "+",
+          "precision": 0
+        },
+        {
+          "label": "Turnover Data Integration",
+          "value": 100,
+          "suffix": "% Executive",
+          "precision": 0
+        }
+      ],
+      "story": {
+        "inception": "Evaluated structural recruitment challenges introduced by the corporate site merger, cultivating collaborative relationships across 25+ supervisors and business partners.",
+        "challenge": "Synchronized cross-functional hiring objectives in a hybrid setting, isolating evaluation bottlenecks and conflicting protocols across merging teams.",
+        "strategy": "Redesigned the interview funnel to coordinate an average of 40 weekly interviews while establishing a centralized data architecture to track historical cohort turnover.",
+        "outcome": "Synthesized raw attrition trends into strategic insights, delivering targeted retention briefings directly to senior executive leadership."
+      },
+      "mindMap": {
+        "hub": {
+          "code": "PROJECT 02",
+          "label": "Merger Talent Acquisition",
+          "subtitle": "25+ Stakeholders • 40 Interviews/Wk • Attrition Analytics",
+          "accent": "#f59e0b"
+        },
+        "branches": [
+          {
+            "id": "b1",
+            "phaseCode": "PHASE 01",
+            "phaseName": "Assessment & Alignment",
+            "side": "left",
+            "badgeColor": "bg-amber-950 text-amber-300 border-amber-500/30",
+            "accent": "#f59e0b",
+            "tasks": [
+              {
+                "code": "2.01",
+                "title": "Structural Assessment",
+                "desc": "Evaluate the challenges introduced by the corporate site merger.",
+                "meta": "Merger Analysis"
+              },
+              {
+                "code": "2.02",
+                "title": "Cross-Functional Assembly",
+                "desc": "Cultivate strong collaborative relationships with over 25 supervisors and business partners.",
+                "meta": "25+ Partners"
+              },
+              {
+                "code": "2.03",
+                "title": "Objective Synchronization",
+                "desc": "Optimize communication to achieve shared hiring objectives in a hybrid setting.",
+                "meta": "Hybrid Sync"
+              }
+            ]
+          },
+          {
+            "id": "b2",
+            "phaseCode": "PHASE 02",
+            "phaseName": "Funnel Redesign & Execution",
+            "side": "right",
+            "badgeColor": "bg-orange-950 text-orange-300 border-orange-500/30",
+            "accent": "#ea580c",
+            "tasks": [
+              {
+                "code": "2.04",
+                "title": "Funnel Optimization",
+                "desc": "Strategically redesign and streamline the interview process to enhance efficiency.",
+                "meta": "Rubric Redesign"
+              },
+              {
+                "code": "2.05",
+                "title": "High-Volume Coordination",
+                "desc": "Coordinate an average of 40 candidate interviews weekly through the new system.",
+                "meta": "40 Weekly Intv"
+              }
+            ]
+          },
+          {
+            "id": "b3",
+            "phaseCode": "PHASE 03",
+            "phaseName": "Attrition & Executive Strategy",
+            "side": "right",
+            "badgeColor": "bg-rose-950 text-rose-300 border-rose-500/30",
+            "accent": "#ec4899",
+            "tasks": [
+              {
+                "code": "2.06",
+                "title": "Data Framework Setup",
+                "desc": "Lead an initiative to track and capture historical turnover data.",
+                "meta": "Cohort Tracking"
+              },
+              {
+                "code": "2.07",
+                "title": "Attrition Analysis",
+                "desc": "Analyze current attrition trends across the workforce.",
+                "meta": "Trend Isolation"
+              },
+              {
+                "code": "2.08",
+                "title": "Insight Synthesis",
+                "desc": "Translate raw turnover data into actionable, data-driven insights.",
+                "meta": "Root Cause"
+              },
+              {
+                "code": "2.09",
+                "title": "Executive Reporting",
+                "desc": "Deliver attrition findings directly to senior leadership.",
+                "meta": "Senior Briefing"
+              },
+              {
+                "code": "2.10",
+                "title": "Strategic Deployment",
+                "desc": "Develop targeted retention strategies specifically for new hires.",
+                "meta": "Retention Action"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "onboarding-optimization-hybrid-development",
+      "categoryId": "projects",
+      "domain": "talent-retention",
+      "image": "/assets/card-project-05.svg",
+      "categoryBadge": "Hybrid Leadership",
+      "title": "Onboarding Optimization & Hybrid Team Development",
+      "role": "Customer Experience Supervisor",
+      "organization": "Grainger Industrial Supply",
+      "timeline": "2021 – 2022",
+      "teaser": "Restructured customer experience onboarding curriculum and led a 16-member hybrid team through daily standups and personalized coaching, cutting time-to-proficiency by an average of 60 days.",
+      "accentColor": "#10b981",
+      "itemType": "project",
+      "tags": [
+        "Onboarding Architecture",
+        "-60 Days Proficiency",
+        "16 Hybrid Reps",
+        "Daily Virtual Standups",
+        "Behavioral Coaching"
+      ],
+      "telemetry": [
+        {
+          "label": "Time-to-Proficiency Cut",
+          "value": 60,
+          "suffix": " Days Avg",
+          "precision": 0
+        },
+        {
+          "label": "Hybrid Team Led",
+          "value": 16,
+          "suffix": " Reps",
+          "precision": 0
+        },
+        {
+          "label": "Standup Cadence",
+          "value": 100,
+          "suffix": "% Daily",
+          "precision": 0
+        }
+      ],
+      "story": {
+        "inception": "Evaluated capability baselines across a 16-member customer experience team, auditing historical onboarding for training inconsistencies and practical milestone delays.",
+        "challenge": "Redesigned core onboarding modules to guarantee identical training experiences while creating individualized behavioral development frameworks.",
+        "strategy": "Instituted daily virtual standups to maintain strategic alignment, delivering structured 1-on-1 coaching sessions tailored to individual performance metrics.",
+        "outcome": "Reduced time-to-proficiency by an average of 60 days, decreased early new hire attrition, and sustained peak engagement across a distributed hybrid team."
+      },
+      "mindMap": {
+        "hub": {
+          "code": "PROJECT 03",
+          "label": "Onboarding & Hybrid Team",
+          "subtitle": "-60 Days Proficiency • 16 Hybrid Reps • Daily Standups",
+          "accent": "#10b981"
+        },
+        "branches": [
+          {
+            "id": "b1",
+            "phaseCode": "PHASE 01",
+            "phaseName": "Assessment & Design",
+            "side": "left",
+            "badgeColor": "bg-teal-950 text-teal-300 border-teal-500/30",
+            "accent": "#14b8a6",
+            "tasks": [
+              {
+                "code": "3.01",
+                "title": "Team Evaluation",
+                "desc": "Evaluate the current capabilities of a 16-member customer experience representative team.",
+                "meta": "16-Member Baseline"
+              },
+              {
+                "code": "3.02",
+                "title": "Onboarding Audit",
+                "desc": "Analyze the existing new hire training framework for inconsistencies.",
+                "meta": "Curriculum Gap"
+              },
+              {
+                "code": "3.03",
+                "title": "Curriculum Redesign",
+                "desc": "Redesign and optimize the onboarding program to establish a consistent experience.",
+                "meta": "Standardized Core"
+              },
+              {
+                "code": "3.04",
+                "title": "Coaching Framework",
+                "desc": "Design personalized behavioral coaching and development plans.",
+                "meta": "1-on-1 Plans"
+              }
+            ]
+          },
+          {
+            "id": "b2",
+            "phaseCode": "PHASE 02",
+            "phaseName": "Operational Implementation",
+            "side": "right",
+            "badgeColor": "bg-emerald-950 text-emerald-300 border-emerald-500/30",
+            "accent": "#10b981",
+            "tasks": [
+              {
+                "code": "3.05",
+                "title": "Development Execution",
+                "desc": "Implement the tailored development plans to drive professional growth.",
+                "meta": "Active Coaching"
+              },
+              {
+                "code": "3.06",
+                "title": "Communication Protocol",
+                "desc": "Facilitate daily virtual team meetings.",
+                "meta": "Daily Standups"
+              },
+              {
+                "code": "3.07",
+                "title": "Cohesion Building",
+                "desc": "Foster team cohesion and promote open communication channels during daily stand-ups.",
+                "meta": "Team Culture"
+              },
+              {
+                "code": "3.08",
+                "title": "Strategic Alignment",
+                "desc": "Ensure team activities maintain consistent alignment with key business objectives.",
+                "meta": "Goal Alignment"
+              }
+            ]
+          },
+          {
+            "id": "b3",
+            "phaseCode": "PHASE 03",
+            "phaseName": "Outcomes & KPIs",
+            "side": "right",
+            "badgeColor": "bg-green-950 text-green-300 border-green-500/30",
+            "accent": "#22c55e",
+            "tasks": [
+              {
+                "code": "3.09",
+                "title": "Proficiency Tracking",
+                "desc": "Measure the impact of the redesigned onboarding program.",
+                "meta": "Metric Audit"
+              },
+              {
+                "code": "3.10",
+                "title": "Velocity Metric",
+                "desc": "Confirm a reduction in time-to-proficiency by an average of 60 days.",
+                "meta": "-60 Days Velocity"
+              },
+              {
+                "code": "3.11",
+                "title": "Retention Metric",
+                "desc": "Record a significant decrease in new hire attrition.",
+                "meta": "Lower Attrition"
+              },
+              {
+                "code": "3.12",
+                "title": "Capability Handoff",
+                "desc": "Validate enhanced overall team effectiveness.",
+                "meta": "Team Performance"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "organizational-leadership-development",
+      "categoryId": "projects",
+      "domain": "data-ai",
+      "image": "/assets/card-project-02.svg",
+      "categoryBadge": "Culture & Leadership",
+      "title": "Organizational Leadership Development Workshop Series",
+      "role": "Product Information Analyst",
+      "organization": "Grainger Industrial Supply",
+      "timeline": "2023 – Present",
+      "teaser": "Designed and facilitated organizational 'Lunch-&-Learn' workshop series equipping leaders with recognition strategies to foster a motivating, cross-departmental team culture.",
+      "accentColor": "#818cf8",
+      "itemType": "project",
+      "tags": [
+        "Leadership Development",
+        "Lunch-&-Learns",
+        "Culture Engineering",
+        "Recognition Strategies",
+        "Cross-Departmental Reach"
+      ],
+      "telemetry": [
+        {
+          "label": "Workshop Architecture",
+          "value": 1,
+          "suffix": " System",
+          "precision": 0
+        },
+        {
+          "label": "Delivery Model",
+          "value": 100,
+          "suffix": "% Hybrid",
+          "precision": 0
+        },
+        {
+          "label": "Leadership Culture Lift",
+          "value": 1,
+          "suffix": " Repeatable",
+          "precision": 0
+        }
+      ],
+      "story": {
+        "inception": "Analyzed organizational culture feedback to isolate gaps in leadership recognition, employee motivation, and peer engagement across multiple operational departments.",
+        "challenge": "Engineered a versatile curriculum architecture branded as 'Lunch-&-Learns' designed to maximize voluntary executive and supervisory attendance.",
+        "strategy": "Authored interactive course materials and facilitated live workshops to train organizational leaders on concrete, actionable recognition techniques.",
+        "outcome": "Established a repeatable organizational workshop framework that enhanced leadership culture and strengthened employee motivation."
+      },
+      "mindMap": {
+        "hub": {
+          "code": "PROJECT 04",
+          "label": "Leadership 'Lunch-&-Learns'",
+          "subtitle": "Recognition Architecture • Cross-Departmental Rollout",
+          "accent": "#818cf8"
+        },
+        "branches": [
+          {
+            "id": "b1",
+            "phaseCode": "PHASE 01",
+            "phaseName": "Needs Assessment & Design",
+            "side": "left",
+            "badgeColor": "bg-indigo-950 text-indigo-300 border-indigo-500/30",
+            "accent": "#818cf8",
+            "tasks": [
+              {
+                "code": "4.01",
+                "title": "Cultural Assessment",
+                "desc": "Identify gaps in team motivation and recognition across the organization.",
+                "meta": "Gap Identification"
+              },
+              {
+                "code": "4.02",
+                "title": "Curriculum Architecture",
+                "desc": "Design leadership development workshops, branded as 'Lunch-&-Learns'.",
+                "meta": "Workshop Model"
+              },
+              {
+                "code": "4.03",
+                "title": "Content Engineering",
+                "desc": "Develop targeted training material focused specifically on recognition strategies.",
+                "meta": "Practical Toolkit"
+              }
+            ]
+          },
+          {
+            "id": "b2",
+            "phaseCode": "PHASE 02",
+            "phaseName": "Facilitation & Impact",
+            "side": "right",
+            "badgeColor": "bg-purple-950 text-purple-300 border-purple-500/30",
+            "accent": "#c084fc",
+            "tasks": [
+              {
+                "code": "4.04",
+                "title": "Organizational Rollout",
+                "desc": "Facilitate the workshops at an organizational level.",
+                "meta": "Company-Wide"
+              },
+              {
+                "code": "4.05",
+                "title": "Capability Transfer",
+                "desc": "Equip leaders with the newly developed recognition strategies.",
+                "meta": "Leader Training"
+              },
+              {
+                "code": "4.06",
+                "title": "Cultural Impact",
+                "desc": "Foster a positive and motivating team culture across departments.",
+                "meta": "Repeatable Model"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "retail-operations-workforce-scaling",
+      "categoryId": "projects",
+      "domain": "operations",
+      "image": "/assets/card-project-07.svg",
+      "categoryBadge": "Operations & Leadership",
+      "title": "Retail Operations & Large-Scale Workforce Scaling",
+      "role": "General Manager (Anytime Fitness, Target, Best Buy)",
+      "organization": "Anytime Fitness / Target / Best Buy",
+      "timeline": "2015 – 2021",
+      "teaser": "Exercised full operational oversight over 6+ years across high-volume retail environments, mentoring teams of 30+ employees and standardizing onboarding pipelines.",
+      "accentColor": "#eab308",
+      "itemType": "project",
+      "tags": [
+        "Operational Oversight",
+        "Workforce Scaling (30+)",
+        "General Management",
+        "Onboarding Pipelines",
+        "Culture of Excellence"
+      ],
+      "telemetry": [
+        {
+          "label": "Customer-Facing Leadership",
+          "value": 6,
+          "suffix": "+ Years",
+          "precision": 0
+        },
+        {
+          "label": "Team Members Mentored",
+          "value": 30,
+          "suffix": "+ Staff",
+          "precision": 0
+        },
+        {
+          "label": "Operational Oversight",
+          "value": 100,
+          "suffix": "% GM Level",
+          "precision": 0
+        }
+      ],
+      "story": {
+        "inception": "Assumed general manager oversight across major retail store facilities, establishing operational baselines and floor service standards.",
+        "challenge": "Engineered workplace culture centered on customer-centricity and continuous improvement, restructuring shift coverage and onboarding pipelines.",
+        "strategy": "Spearheaded hiring, onboarding, and structured mentoring programs for over 30 customer service staff members.",
+        "outcome": "Maintained sustained high performance, full operational governance, and elevated staff retention over 6+ years of general management."
+      },
+      "mindMap": {
+        "hub": {
+          "code": "PROJECT 05",
+          "label": "Retail Operations Scaling",
+          "subtitle": "6+ Years GM • 30+ Team Mentored • Operational Oversight",
+          "accent": "#eab308"
+        },
+        "branches": [
+          {
+            "id": "b1",
+            "phaseCode": "PHASE 01",
+            "phaseName": "Operational Strategy",
+            "side": "left",
+            "badgeColor": "bg-amber-950 text-amber-300 border-amber-500/30",
+            "accent": "#f59e0b",
+            "tasks": [
+              {
+                "code": "5.01",
+                "title": "Facility Oversight",
+                "desc": "Assume full operational oversight as a General Manager.",
+                "meta": "GM Governance"
+              },
+              {
+                "code": "5.02",
+                "title": "Cultural Engineering",
+                "desc": "Foster a workplace culture focused on collaboration, customer-centricity, and continuous improvement.",
+                "meta": "Service Culture"
+              }
+            ]
+          },
+          {
+            "id": "b2",
+            "phaseCode": "PHASE 02",
+            "phaseName": "Talent Acquisition & Training",
+            "side": "right",
+            "badgeColor": "bg-yellow-950 text-yellow-300 border-yellow-500/30",
+            "accent": "#eab308",
+            "tasks": [
+              {
+                "code": "5.03",
+                "title": "Talent Sourcing",
+                "desc": "Spearhead the onboarding processes for incoming employees.",
+                "meta": "Pipeline Setup"
+              },
+              {
+                "code": "5.04",
+                "title": "Training Deployment",
+                "desc": "Direct the training and continued professional development of team members.",
+                "meta": "Staff Development"
+              }
+            ]
+          },
+          {
+            "id": "b3",
+            "phaseCode": "PHASE 03",
+            "phaseName": "Team Leadership & Mentorship",
+            "side": "right",
+            "badgeColor": "bg-emerald-950 text-emerald-300 border-emerald-500/30",
+            "accent": "#10b981",
+            "tasks": [
+              {
+                "code": "5.05",
+                "title": "Large-Scale Mentorship",
+                "desc": "Lead and mentor teams consisting of 30+ customer service employees.",
+                "meta": "30+ Employees"
+              },
+              {
+                "code": "5.06",
+                "title": "Performance Management",
+                "desc": "Ensure the success of team members to foster a high-performing team environment.",
+                "meta": "High Performance"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

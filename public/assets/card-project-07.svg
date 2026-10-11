@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-card-project-07.svg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="60%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#060911"/>
+    </linearGradient>
+    <linearGradient id="glow-card-project-07.svg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <filter id="f-card-project-07.svg" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="600" height="340" fill="url(#bg-card-project-07.svg)"/>
+  
+  <!-- Subtle Matrix Grid -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="85" x2="600" y2="85"/>
+    <line x1="0" y1="170" x2="600" y2="170"/>
+    <line x1="0" y1="255" x2="600" y2="255"/>
+    <line x1="150" y1="0" x2="150" y2="340"/>
+    <line x1="300" y1="0" x2="300" y2="340"/>
+    <line x1="450" y1="0" x2="450" y2="340"/>
+  </g>
+
+  <!-- Flow Circuit Graphic -->
+  <g filter="url(#f-card-project-07.svg)">
+    <path d="M 80 170 Q 200 90 300 170 T 520 170" fill="none" stroke="url(#glow-card-project-07.svg)" stroke-width="2.5"/>
+    <path d="M 120 220 C 220 270, 380 70, 480 120" fill="none" stroke="#eab308" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- Active Decision Nodes -->
+  <circle cx="140" cy="140" r="5" fill="#eab308"/>
+  <circle cx="300" cy="170" r="12" fill="#090d16" stroke="#eab308" stroke-width="2.5"/>
+  <circle cx="300" cy="170" r="4" fill="#ffffff"/>
+  <circle cx="460" cy="200" r="6" fill="#ca8a04"/>
+
+  <!-- Telemetry Badge (Top Right) -->
+  <rect x="310" y="24" width="260" height="32" rx="16" fill="#090d16" stroke="#eab308" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="440" y="45" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#eab308" text-anchor="middle" letter-spacing="1">6+ YEARS // 30+ TEAM MENTORED</text>
+
+  <!-- Title (Bottom Center) -->
+  <text x="300" y="300" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="middle" letter-spacing="2">RETAIL OPERATIONS EXCELLENCE</text>
+</svg>
