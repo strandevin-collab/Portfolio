@@ -6,7 +6,7 @@ import HoverLightButton from '../ui/HoverLightButton'
 import BasReliefWrapper from '../cards/BasReliefWrapper'
 
 export default function HeroSection() {
-  const { profile, setContactModalOpen, goToCategory } = usePortfolio()
+  const { profile, setContactModalOpen, goToCategory, goToItem } = usePortfolio()
 
   return (
     <section className="pt-4 sm:pt-6 pb-6 px-3 sm:px-6 lg:px-8 max-w-7xl mx-auto">
@@ -94,22 +94,20 @@ export default function HeroSection() {
 
             <div className="pt-2 flex flex-wrap gap-2.5">
               <HoverLightButton
-                href={profile.downloads.resumeDocx}
-                download="Evin_Strand_Resume.docx"
-                variant="navy"
-                className="px-3.5 py-1.5 text-[11px]"
-              >
-                <Download className="w-3 h-3 text-sapphire-light" />
-                <span>Resume (.docx)</span>
-              </HoverLightButton>
-              <HoverLightButton
-                href={profile.downloads.coverLetterPdf}
-                download="Evin_Strand_Cover_Letter.pdf"
+                onClick={() => goToItem('curriculum-vitae')}
                 variant="navy"
                 className="px-3.5 py-1.5 text-[11px]"
               >
                 <FileText className="w-3 h-3 text-sapphire-light" />
-                <span>Cover Letter (.pdf)</span>
+                <span>Resume Dossier</span>
+              </HoverLightButton>
+              <HoverLightButton
+                onClick={() => goToItem('executive-cover-letter')}
+                variant="navy"
+                className="px-3.5 py-1.5 text-[11px]"
+              >
+                <FileText className="w-3 h-3 text-sapphire-light" />
+                <span>Cover Letter</span>
               </HoverLightButton>
             </div>
           </div>

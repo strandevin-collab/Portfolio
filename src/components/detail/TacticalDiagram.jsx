@@ -482,7 +482,7 @@ function MindMapCanvas({ mindMap, diagramData, item }) {
       {/* Bottom Interaction Guide */}
       <div className="absolute bottom-3 left-4 z-10 text-[10px] font-mono text-slate-400 bg-navy-900/90 border border-white/5 px-3 py-1 rounded-full shadow-md pointer-events-none flex items-center gap-2">
         <GitBranch className="w-3 h-3 text-sapphire-light" />
-        <span>Click branch to expand tasks • Drag canvas • Scroll to zoom</span>
+        <span>Click branch to expand tasks • Drag canvas • Use controls to zoom</span>
       </div>
 
       <ReactFlow
@@ -494,8 +494,8 @@ function MindMapCanvas({ mindMap, diagramData, item }) {
         fitViewOptions={{ padding: 0.22 }}
         panOnScroll={false}
         panOnDrag={[1, 2]}
-        zoomOnScroll={true}
-        preventScrolling={false}
+        zoomOnScroll={false}
+        preventScrolling={true}
         minZoom={0.2}
         maxZoom={1.8}
         className="tactical-flow"

@@ -16,10 +16,11 @@ export default function DetailModal({ item, onClose }) {
 
   useEffect(() => {
     document.addEventListener('keydown', handleKeyDown)
+    const prevOverflow = document.body.style.overflow
     document.body.style.overflow = 'hidden' // Lock background scroll
     return () => {
       document.removeEventListener('keydown', handleKeyDown)
-      document.body.style.overflow = 'unset'
+      document.body.style.overflow = prevOverflow || 'unset'
     }
   }, [handleKeyDown])
 
@@ -86,8 +87,8 @@ export default function DetailModal({ item, onClose }) {
           {/* Soft Divider */}
           <div className="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
-          {/* Modal Main Content Area */}
-          <div className="flex-1 overflow-hidden p-4 sm:p-6 lg:p-8">
+          {/* Modal Main Content Area (Scrollable on small screens, split-screen on desktop) */}
+          <div className="flex-1 overflow-y-auto lg:overflow-hidden p-4 sm:p-6 lg:p-8 custom-scrollbar">
             {isDocument ? (
               /* Dedicated Document / History Viewer for Resume & Cover Letter */
               <div className="max-w-5xl mx-auto h-full overflow-hidden">
@@ -95,14 +96,14 @@ export default function DetailModal({ item, onClose }) {
               </div>
             ) : hasDiagram ? (
               /* Split-Screen Dashboard: Left (Narrative) | Right (Interactive React Flow) */
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 h-full">
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 min-h-full lg:h-full">
                 {/* Left Side: The Narrative (5 cols on lg) */}
-                <div className="lg:col-span-5 h-[40vh] lg:h-full overflow-hidden">
+                <div className="lg:col-span-5 max-h-[55vh] lg:max-h-none lg:h-full overflow-y-auto custom-scrollbar">
                   <NarrativeView item={item} isSingleColumn={false} />
                 </div>
 
                 {/* Right Side: The Tactical Diagram (7 cols on lg) */}
-                <div className="lg:col-span-7 h-[45vh] lg:h-full overflow-hidden flex flex-col">
+                <div className="lg:col-span-7 h-[380px] sm:h-[450px] lg:h-full overflow-hidden flex flex-col">
                   <TacticalDiagram diagramData={item.diagram} mindMap={item.mindMap} item={item} />
                 </div>
               </div>

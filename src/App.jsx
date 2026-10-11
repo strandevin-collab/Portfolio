@@ -18,7 +18,8 @@ export default function App() {
     closeItemModal,
     setContactModalOpen,
     goBackToHub,
-    profile
+    profile,
+    goToItem
   } = usePortfolio()
 
   return (
@@ -90,7 +91,7 @@ export default function App() {
 
         {/* Main 3-Tier SPA View Container */}
         <main className="flex-1 w-full relative">
-          <AnimatePresence mode="wait">
+          <AnimatePresence mode="sync">
             {activeLevel === 1 && (
               <CategoryHub key="level-1-hub" />
             )}
@@ -123,21 +124,19 @@ export default function App() {
               © {new Date().getFullYear()} {profile.name} • Portfolio Dossier in Deep Blue & Ivory
             </p>
             <div className="flex items-center gap-4 text-slate-300">
-              <a
-                href={profile.downloads.resumeDocx}
-                download="Evin_Strand_Resume.docx"
+              <button
+                onClick={() => goToItem('curriculum-vitae')}
                 className="hover:text-ivory transition-colors"
               >
-                Resume (.docx)
-              </a>
+                Resume Dossier
+              </button>
               <span>•</span>
-              <a
-                href={profile.downloads.coverLetterPdf}
-                download="Evin_Strand_Cover_Letter.pdf"
+              <button
+                onClick={() => goToItem('executive-cover-letter')}
                 className="hover:text-ivory transition-colors"
               >
-                Cover Letter (.pdf)
-              </a>
+                Cover Letter
+              </button>
               <span>•</span>
               <button
                 onClick={() => setContactModalOpen(true)}

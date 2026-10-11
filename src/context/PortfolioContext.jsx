@@ -33,9 +33,10 @@ export function PortfolioProvider({ children }) {
 
   // Navigation handlers
   const goToCategory = (categoryId) => {
+    document.body.style.overflow = 'unset'
     setSelectedCategoryId(categoryId)
     setSelectedItemId(null)
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    window.scrollTo({ top: 0, behavior: 'instant' })
   }
 
   const goToItem = (itemId) => {
@@ -48,12 +49,14 @@ export function PortfolioProvider({ children }) {
 
   const closeItemModal = () => {
     setSelectedItemId(null)
+    document.body.style.overflow = 'unset'
   }
 
   const goBackToHub = () => {
+    document.body.style.overflow = 'unset'
     setSelectedItemId(null)
     setSelectedCategoryId(null)
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    window.scrollTo({ top: 0, behavior: 'instant' })
   }
 
   const value = {

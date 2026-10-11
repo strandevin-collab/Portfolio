@@ -29,10 +29,10 @@ export default function CinematicCover() {
     }
   ]
 
-  const scrollToOverview = () => {
-    const el = document.getElementById('portfolio-overview')
+  const scrollToDomains = () => {
+    const el = document.getElementById('core-domains-section') || document.getElementById('portfolio-overview')
     if (el) {
-      el.scrollIntoView({ behavior: 'smooth' })
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' })
     }
   }
 
@@ -157,7 +157,7 @@ export default function CinematicCover() {
           className="mt-10"
         >
           <button
-            onClick={scrollToOverview}
+            onClick={scrollToDomains}
             className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/10 hover:bg-white/15 text-ivory-200 hover:text-white backdrop-blur-md transition-all duration-300 text-xs font-mono font-medium shadow-md hover:shadow-lg cursor-pointer"
           >
             <span>Explore 3 Domains</span>
