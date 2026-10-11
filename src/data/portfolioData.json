@@ -27,8 +27,8 @@
       "Power BI & DAX"
     ],
     "downloads": {
-      "resumeDocx": "/assets/Evin_Strand_Resume.docx",
-      "coverLetterPdf": "/assets/Evin_Strand_Cover_Letter.pdf"
+      "resumeDocx": "./assets/Evin_Strand_Resume.docx",
+      "coverLetterPdf": "./assets/Evin_Strand_Cover_Letter.pdf"
     },
     "socialLinks": [
       {
@@ -56,7 +56,7 @@
         "url": "https://linkedin.com/in/evin-strand"
       }
     ],
-    "portrait": "/assets/profile_pic.jpg",
+    "portrait": "./assets/profile_pic.jpg",
     "quote": "Great data systems should feel effortless. Precision engineering meets operational stewardship.",
     "heroFocus": [
       {
@@ -83,7 +83,7 @@
       "title": "Resume / Cover Letter",
       "subtitle": "Professional Career History, Executive Narrative & Official Documents",
       "description": "Comprehensive career chronology spanning Grainger enterprise catalog stewardship, US Army National Guard tactical data operations, leadership credentials, and downloadable Word/PDF files.",
-      "image": "/assets/editorial_resume_card.jpg",
+      "image": "./assets/editorial_resume_card.jpg",
       "icon": "FileText",
       "badge": "Official Dossier",
       "accentColor": "#f59e0b",
@@ -95,7 +95,7 @@
       "title": "Projects",
       "subtitle": "Data Analytics, AI Integration & Talent Systems",
       "description": "5 end-to-end strategic initiatives demonstrating full project lifecycle management, AI research sourcing, cross-functional site merger talent architecture, and high-impact operational leadership.",
-      "image": "/assets/editorial_projects_card.jpg",
+      "image": "./assets/editorial_projects_card.jpg",
       "icon": "Layers",
       "badge": "Enterprise & Systems",
       "accentColor": "#d97736",
@@ -107,7 +107,7 @@
       "title": "Hobbies / Interests",
       "subtitle": "Hardware Engineering, Tactile Bas-Relief Craft & Coastal Hydrology",
       "description": "Hands-on physical craftsmanship: spot-welded 12S4P 21700 lithium electric skateboards, sub-millimeter 3D bas-relief sculptural modeling, and Atlantic tidal current observation along Hutchinson Island.",
-      "image": "/assets/editorial_hobbies_card.jpg",
+      "image": "./assets/editorial_hobbies_card.jpg",
       "icon": "Cpu",
       "badge": "Craft & Physics",
       "accentColor": "#10b981",
@@ -119,7 +119,7 @@
     {
       "id": "curriculum-vitae",
       "categoryId": "resume-docs",
-      "image": "/assets/card-grainger-bench.svg",
+      "image": "./assets/card-grainger-bench.svg",
       "categoryBadge": "Career Record",
       "title": "Curriculum Vitae / Professional Resume",
       "role": "Product Information Analyst | Operations | Military Veteran",
@@ -227,7 +227,7 @@
     {
       "id": "executive-cover-letter",
       "categoryId": "resume-docs",
-      "image": "/assets/card-agentic.svg",
+      "image": "./assets/card-agentic.svg",
       "categoryBadge": "Narrative Statement",
       "title": "Professional Cover Letter & Leadership Philosophy",
       "role": "Product Information Analyst",
@@ -268,7 +268,7 @@
     {
       "id": "military-record",
       "categoryId": "resume-docs",
-      "image": "/assets/card-military.svg",
+      "image": "./assets/card-military.svg",
       "categoryBadge": "Defense Service",
       "title": "US Army National Guard Service & Tactical Compute",
       "role": "Fire Direction Specialist & Chaplain's Assistant",
@@ -299,7 +299,7 @@
     {
       "id": "custom-electric-skateboards",
       "categoryId": "hobbies",
-      "image": "/assets/card-skateboards.svg",
+      "image": "./assets/card-skateboards.svg",
       "categoryBadge": "Hardware & Firmware",
       "title": "High-Discharge Custom Electric Skateboards & VESC Telemetry",
       "role": "Builder, Spot-Welder & Firmware Tuner",
@@ -434,7 +434,7 @@
     {
       "id": "bas-relief-art",
       "categoryId": "hobbies",
-      "image": "/assets/card-bas-relief.svg",
+      "image": "./assets/card-bas-relief.svg",
       "categoryBadge": "Craft & Sculpture",
       "title": "3D Bas-Relief Sculptural Art & Light Falloff Physics",
       "role": "Sculptural Designer & Dimensional Modeler",
@@ -478,7 +478,7 @@
     {
       "id": "saltwater-hydrology",
       "categoryId": "hobbies",
-      "image": "/assets/card-military.svg",
+      "image": "./assets/card-military.svg",
       "categoryBadge": "Ocean & Lore",
       "title": "Atlantic Saltwater Hydrology & Tolkien Lore",
       "role": "Coastal Tide Observer & Lore Scholar",
@@ -523,7 +523,7 @@
       "id": "product-data-process-optimization",
       "categoryId": "projects",
       "domain": "data-ai",
-      "image": "/assets/card-project-01.svg",
+      "image": "./assets/card-project-01.svg",
       "categoryBadge": "Data Analytics & AI",
       "title": "Product Data Process Optimization & Tool Integration",
       "role": "Product Information Analyst",
@@ -692,7 +692,7 @@
       "id": "corporate-merger-talent-acquisition",
       "categoryId": "projects",
       "domain": "talent-retention",
-      "image": "/assets/card-project-03.svg",
+      "image": "./assets/card-project-03.svg",
       "categoryBadge": "Talent Systems",
       "title": "Corporate Merger Talent Acquisition Redesign",
       "role": "Hiring Manager (Stretch Assignment)",
@@ -839,7 +839,7 @@
       "id": "onboarding-optimization-hybrid-development",
       "categoryId": "projects",
       "domain": "talent-retention",
-      "image": "/assets/card-project-05.svg",
+      "image": "./assets/card-project-05.svg",
       "categoryBadge": "Hybrid Leadership",
       "title": "Onboarding Optimization & Hybrid Team Development",
       "role": "Customer Experience Supervisor",
@@ -998,7 +998,7 @@
       "id": "organizational-leadership-development",
       "categoryId": "projects",
       "domain": "data-ai",
-      "image": "/assets/card-project-02.svg",
+      "image": "./assets/card-project-02.svg",
       "categoryBadge": "Culture & Leadership",
       "title": "Organizational Leadership Development Workshop Series",
       "role": "Product Information Analyst",
@@ -1111,7 +1111,7 @@
       "id": "retail-operations-workforce-scaling",
       "categoryId": "projects",
       "domain": "operations",
-      "image": "/assets/card-project-07.svg",
+      "image": "./assets/card-project-07.svg",
       "categoryBadge": "Operations & Leadership",
       "title": "Retail Operations & Large-Scale Workforce Scaling",
       "role": "General Manager (Anytime Fitness, Target, Best Buy)",

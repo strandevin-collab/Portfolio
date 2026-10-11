@@ -122,7 +122,7 @@ export default function HeroSection() {
             >
               <div className="relative w-full h-full">
                 <img
-                  src={profile.portrait || '/assets/profile_pic.jpg'}
+                  src={profile.portrait || './assets/profile_pic.jpg'}
                   alt={profile.name}
                   className="w-full h-full object-cover object-top filter brightness-[0.98] contrast-[1.03] transition-transform duration-700 group-hover:scale-105"
                 />

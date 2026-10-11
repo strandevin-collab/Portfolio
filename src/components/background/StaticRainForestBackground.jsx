@@ -8,7 +8,7 @@ export default function StaticRainForestBackground() {
 
       {/* Atmospheric Misty Rain Forest Picture (Almost Faded Out) */}
       <img
-        src="/assets/forest_rain_bg.jpg"
+        src="./assets/forest_rain_bg.jpg"
         alt="Misty Rain Forest Background"
         className="absolute inset-0 w-full h-full object-cover object-center opacity-25 filter blur-[0.5px] scale-105"
       />

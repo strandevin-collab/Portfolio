@@ -31,7 +31,7 @@ export default function DocumentDetailView({ item }) {
 
           <div className="flex items-center gap-2.5">
             <HoverLightButton
-              href="/assets/Evin_Strand_Resume.docx"
+              href="./assets/Evin_Strand_Resume.docx"
               download="Evin_Strand_Resume.docx"
               variant="ivory"
               className="px-4 py-1.5"
@@ -40,7 +40,7 @@ export default function DocumentDetailView({ item }) {
               <span>Download (.docx)</span>
             </HoverLightButton>
             <HoverLightButton
-              href="/assets/Evin_Strand_Cover_Letter.pdf"
+              href="./assets/Evin_Strand_Cover_Letter.pdf"
               download="Evin_Strand_Cover_Letter.pdf"
               variant="navy"
               className="px-4 py-1.5"
