@@ -91,15 +91,13 @@ export default function App() {
 
         {/* Main 3-Tier SPA View Container */}
         <main className="flex-1 w-full relative">
-          <AnimatePresence mode="sync">
-            {activeLevel === 1 && (
-              <CategoryHub key="level-1-hub" />
-            )}
+          {activeLevel === 1 && (
+            <CategoryHub key="level-1-hub" />
+          )}
 
-            {activeLevel >= 2 && (
-              <SubItemsView key="level-2-subitems" />
-            )}
-          </AnimatePresence>
+          {activeLevel >= 2 && (
+            <SubItemsView key="level-2-subitems" />
+          )}
         </main>
 
         {/* Level 3: Detail Modal (Mounted when an item is selected) */}

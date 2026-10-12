@@ -99,6 +99,16 @@ export default function PrintDossier() {
               </div>
             )}
 
+            {/* In-Depth Executive Story Narrative */}
+            {item.storyNarrative && !item.story && (
+              <div className="text-xs text-gray-800 space-y-1.5 mt-2">
+                {item.storyNarrative.context && <p><strong>Context:</strong> {item.storyNarrative.context}</p>}
+                {item.storyNarrative.mandate && <p><strong>Mandate:</strong> {item.storyNarrative.mandate}</p>}
+                {item.storyNarrative.execution && <p><strong>Execution:</strong> {item.storyNarrative.execution}</p>}
+                {item.storyNarrative.impact && <p><strong>Impact:</strong> {item.storyNarrative.impact}</p>}
+              </div>
+            )}
+
             {/* Document Content if document item */}
             {item.document?.experience && (
               <div className="text-xs text-gray-800 space-y-2 mt-2">

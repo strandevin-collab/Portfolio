@@ -87,8 +87,8 @@ export default function SubItemsView() {
         </p>
       </div>
 
-      {/* Filter Tabs for Projects (Borderless Frosted Pills) */}
-      {isProjects && (
+      {/* Filter Tabs for Stories (Borderless Frosted Pills) */}
+      {isStories && (
         <div className="flex flex-wrap items-center gap-2 mb-8 p-1.5 rounded-2xl bg-navy-950/70 backdrop-blur-md border border-white/5 shadow-xl w-fit">
           {filterTabs.map(tab => {
             const isActive = activeFilter === tab.id

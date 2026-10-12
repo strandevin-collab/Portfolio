@@ -1,5 +1,5 @@
 import React from 'react'
-import { ArrowUpRight, GitBranch, Calendar, Building2, FileText } from 'lucide-react'
+import { ArrowUpRight, GitBranch, Calendar, Building2, FileText, BookOpen } from 'lucide-react'
 import BasReliefWrapper from './BasReliefWrapper'
 
 export default function ItemCard({ item, onClick }) {
@@ -39,6 +39,13 @@ export default function ItemCard({ item, onClick }) {
               <span className="flex items-center gap-1 text-[10px] font-mono px-2.5 py-1 rounded-full bg-navy-950/80 backdrop-blur-md text-ivory">
                 <FileText className="w-3 h-3 text-sapphire-light" />
                 <span>Full Record</span>
+              </span>
+            )}
+
+            {item.itemType === 'story' && (
+              <span className="flex items-center gap-1 text-[10px] font-mono px-2.5 py-1 rounded-full bg-navy-950/80 backdrop-blur-md text-sapphire-light">
+                <BookOpen className="w-3 h-3 text-sapphire-glow" />
+                <span>Executive Story</span>
               </span>
             )}
           </div>
