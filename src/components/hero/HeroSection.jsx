@@ -42,10 +42,16 @@ export default function HeroSection() {
               Resume
             </button>
             <button
-              onClick={() => goToCategory('projects')}
+              onClick={() => goToCategory('stories')}
               className="px-3.5 py-1.5 rounded-full hover:bg-navy-950/60 hover:text-white transition-all duration-200 hover:shadow-[0_0_15px_rgba(56,189,248,0.25)]"
             >
-              Projects
+              Stories
+            </button>
+            <button
+              onClick={() => goToCategory('ai-projects')}
+              className="px-3.5 py-1.5 rounded-full hover:bg-navy-950/60 hover:text-white transition-all duration-200 hover:shadow-[0_0_15px_rgba(56,189,248,0.25)]"
+            >
+              AI Projects
             </button>
             <button
               onClick={() => goToCategory('hobbies')}

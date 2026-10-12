@@ -22,16 +22,16 @@ export default function SubItemsView() {
 
   if (!selectedCategory) return null
 
-  // Project Domain Filters
-  const isProjects = selectedCategory.id === 'projects'
-  const filterTabs = isProjects ? [
-    { id: 'all', label: 'All Projects', count: categoryItems.length },
+  // Story Domain Filters
+  const isStories = selectedCategory.id === 'stories' || selectedCategory.id === 'projects'
+  const filterTabs = isStories ? [
+    { id: 'all', label: 'All Stories', count: categoryItems.length },
     { id: 'data-ai', label: 'Data & AI', count: categoryItems.filter(i => i.domain === 'data-ai').length },
     { id: 'talent-retention', label: 'Talent & Retention', count: categoryItems.filter(i => i.domain === 'talent-retention').length },
     { id: 'operations', label: 'Operations & Leadership', count: categoryItems.filter(i => i.domain === 'operations').length }
   ] : []
 
-  const displayedItems = isProjects && activeFilter !== 'all'
+  const displayedItems = isStories && activeFilter !== 'all'
     ? categoryItems.filter(i => i.domain === activeFilter)
     : categoryItems
 
@@ -52,7 +52,15 @@ export default function SubItemsView() {
               Level 2 // {selectedCategory.badge}
             </span>
             <span className="text-xs font-mono text-slate-300">
-              {displayedItems.length} of {categoryItems.length} {selectedCategory.id === 'resume-docs' ? 'Official Records' : selectedCategory.id === 'hobbies' ? 'Crafts & Interests' : 'Case Studies'}
+              {displayedItems.length} of {categoryItems.length} {
+                selectedCategory.id === 'resume-docs'
+                  ? 'Official Records'
+                  : selectedCategory.id === 'hobbies'
+                  ? 'Crafts & Interests'
+                  : selectedCategory.id === 'ai-projects'
+                  ? 'Interactive Systems'
+                  : 'Case Studies'
+              }
             </span>
           </div>
 

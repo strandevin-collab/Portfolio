@@ -80,11 +80,11 @@ export default function CategoryHub() {
               </p>
 
               <HoverLightButton
-                onClick={() => goToCategory('projects')}
+                onClick={() => goToCategory('stories')}
                 variant="navy"
                 className="px-4 py-2 shrink-0"
               >
-                <span>Explore Projects</span>
+                <span>Explore Stories</span>
                 <span className="w-5 h-5 rounded-full bg-ivory text-navy-950 flex items-center justify-center transition-colors">
                   <ArrowRight className="w-3 h-3 text-navy-950" />
                 </span>
@@ -95,8 +95,8 @@ export default function CategoryHub() {
           {/* Soft Divider */}
           <div className="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent mb-10" />
 
-          {/* The 3 Major Tiles in a 3-Column Responsive Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+          {/* The 4 Major Domain Tiles in a 4-Column Responsive Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {categories.map((category, idx) => (
               <motion.div
                 key={category.id}

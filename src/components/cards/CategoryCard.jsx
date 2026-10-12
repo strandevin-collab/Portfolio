@@ -1,11 +1,12 @@
 import React from 'react'
-import { ArrowRight, Layers, FileText, Cpu } from 'lucide-react'
+import { ArrowRight, Layers, FileText, Cpu, Sparkles } from 'lucide-react'
 import BasReliefWrapper from './BasReliefWrapper'
 
 const iconMap = {
   FileText: FileText,
   Layers: Layers,
-  Cpu: Cpu
+  Cpu: Cpu,
+  Sparkles: Sparkles
 }
 
 export default function CategoryCard({ category, onClick }) {

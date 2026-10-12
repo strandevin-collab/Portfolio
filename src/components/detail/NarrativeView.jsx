@@ -9,7 +9,6 @@ import {
   Lightbulb,
   Award
 } from 'lucide-react'
-import TerminalDecoder from './TerminalDecoder'
 import TelemetryCounter from './TelemetryCounter'
 
 export default function NarrativeView({ item, isSingleColumn = false }) {
@@ -17,7 +16,7 @@ export default function NarrativeView({ item, isSingleColumn = false }) {
 
   return (
     <div className="w-full h-full overflow-y-auto pr-2 custom-scrollbar space-y-6 text-ivory">
-      {/* Tactical Header with Cryptographic Terminal Decode (Borderless) */}
+      {/* Tactical Header with Instant Serif Typography (No Decoder) */}
       <div className="pb-5">
         <div className="flex flex-wrap items-center gap-3 text-xs font-mono text-slate-300 mb-3">
           <span className="flex items-center gap-1.5 text-ivory font-semibold px-3 py-1 rounded-full bg-navy-950/80 shadow-sm">
@@ -35,9 +34,9 @@ export default function NarrativeView({ item, isSingleColumn = false }) {
           </span>
         </div>
 
-        {/* Cryptographic Decode Headline in Ivory */}
-        <h2 className="text-2xl sm:text-3xl font-mono font-bold text-ivory-50 leading-tight">
-          <TerminalDecoder text={item.title} speed={20} delay={150} />
+        {/* Clean, Instant Editorial Headline */}
+        <h2 className="text-2xl sm:text-3xl font-serif font-bold text-ivory-50 leading-tight">
+          {item.title}
         </h2>
 
         <p className="mt-3 text-sm font-sans text-ivory-200 leading-relaxed font-light">

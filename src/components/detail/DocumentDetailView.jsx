@@ -8,7 +8,6 @@ import {
   CheckCircle2,
   Sparkles
 } from 'lucide-react'
-import TerminalDecoder from './TerminalDecoder'
 import HoverLightButton from '../ui/HoverLightButton'
 
 export default function DocumentDetailView({ item }) {
@@ -51,8 +50,8 @@ export default function DocumentDetailView({ item }) {
           </div>
         </div>
 
-        <h2 className="text-2xl sm:text-3xl font-mono font-bold text-ivory-50 leading-tight">
-          <TerminalDecoder text={title} speed={20} delay={150} />
+        <h2 className="text-2xl sm:text-3xl font-serif font-bold text-ivory-50 leading-tight">
+          {title}
         </h2>
         <p className="mt-2 text-xs font-mono text-sapphire-glow font-medium">
           {role}

@@ -16,16 +16,22 @@ export default function CinematicCover() {
       subtitle: 'Credentials & Dossier'
     },
     {
-      id: 'projects',
+      id: 'stories',
       number: '02',
-      title: 'Projects',
-      subtitle: 'Enterprise Systems & AI'
+      title: 'Stories',
+      subtitle: '5 Flagship Case Studies'
+    },
+    {
+      id: 'ai-projects',
+      number: '03',
+      title: 'AI Projects',
+      subtitle: 'Autonomous Mind Map'
     },
     {
       id: 'hobbies',
-      number: '03',
+      number: '04',
       title: 'Hobbies',
-      subtitle: 'Crafts & Engineering'
+      subtitle: 'Crafts & Physics'
     }
   ]
 
@@ -160,7 +166,7 @@ export default function CinematicCover() {
             onClick={scrollToDomains}
             className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/10 hover:bg-white/15 text-ivory-200 hover:text-white backdrop-blur-md transition-all duration-300 text-xs font-mono font-medium shadow-md hover:shadow-lg cursor-pointer"
           >
-            <span>Explore 3 Domains</span>
+            <span>Explore 4 Domains</span>
             <ChevronDown className="w-3.5 h-3.5 transform group-hover:translate-y-0.5 text-ivory-300 group-hover:text-white transition-transform" />
           </button>
         </motion.div>
