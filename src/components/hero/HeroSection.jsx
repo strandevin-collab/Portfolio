@@ -77,8 +77,8 @@ export default function HeroSection({ onExplore }) {
         {/* Soft Divider */}
         <div className="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
-        {/* 2. Main Hero Content Grid (3 Columns, Top-Aligned) */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start py-6 sm:py-10 relative z-10">
+        {/* 2. Main Hero Content Grid (3 Columns, Vertically Centered) */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-5 sm:py-7 relative z-10">
           
           {/* Left Column: Greeting & Big Bold Title in Crisp Ivory */}
           <div className="lg:col-span-4 space-y-4">
@@ -127,47 +127,41 @@ export default function HeroSection({ onExplore }) {
             </div>
           </div>
 
-          {/* Center Column: Dramatic Cinematic Portrait with Moving Aurora & Light Sheen */}
-          <div className="lg:col-span-5 flex justify-center">
+          {/* Center Column: Dramatic Cinematic Portrait with Subtle Ambient Aura */}
+          <div className="lg:col-span-4 flex justify-center">
             <div className="relative group/portrait">
               {/* 1. Ambient Moving Aurora Backlight Glow (Slow Breathing Sapphire & Sky) */}
-              <div className="absolute -inset-3 bg-gradient-to-tr from-sapphire-glow/25 via-sky-400/20 to-sapphire/35 rounded-[3rem] blur-2xl opacity-60 group-hover/portrait:opacity-100 transition-opacity duration-1000 animate-pulse pointer-events-none" />
+              <div className="absolute -inset-3 bg-gradient-to-tr from-sapphire-glow/20 via-sky-400/15 to-sapphire/30 rounded-[3rem] blur-2xl opacity-60 group-hover/portrait:opacity-100 transition-opacity duration-700 pointer-events-none" />
               
               {/* 2. Soft Corner Telemetry Glow Orbs */}
               <div className="absolute -top-4 -right-4 w-32 h-32 bg-sky-300/15 rounded-full blur-2xl pointer-events-none" />
               <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-sapphire/20 rounded-full blur-2xl pointer-events-none" />
 
-              {/* 3. The Portrait Frame with BasRelief Sheen */}
+              {/* 3. The Portrait Frame with Subtle Organic Lift */}
               <BasReliefWrapper
-                className="relative w-72 h-80 sm:w-80 sm:h-96 rounded-3xl overflow-hidden shadow-[0_25px_60px_rgba(2,6,17,0.9),0_0_40px_rgba(56,189,248,0.15)] border border-white/10 group-hover/portrait:border-sapphire-light/50 p-0 transition-all duration-500"
+                className="relative w-72 h-80 sm:w-80 sm:h-96 rounded-3xl overflow-hidden shadow-[0_25px_60px_rgba(2,6,17,0.9),0_0_35px_rgba(56,189,248,0.12)] border border-white/10 group-hover/portrait:border-sapphire-light/40 group-hover/portrait:-translate-y-1 p-0 transition-all duration-500"
                 interactive={true}
               >
                 <div className="relative w-full h-full overflow-hidden">
                   <img
                     src={profile.portrait || './assets/profile_pic.jpg'}
                     alt={profile.name}
-                    className="w-full h-full object-cover object-top filter brightness-[0.98] contrast-[1.03] transition-transform duration-700 group-hover/portrait:scale-105"
+                    className="w-full h-full object-cover object-top filter brightness-[0.98] contrast-[1.03] transition-transform duration-700 ease-out group-hover/portrait:scale-[1.03]"
                   />
                   {/* Soft bottom vignette gradient into deep navy */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-navy-900/90 via-transparent to-transparent opacity-80" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-navy-900/90 via-transparent to-transparent opacity-80 pointer-events-none" />
 
-                  {/* Moving diagonal glass sheen reflection on hover */}
-                  <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/15 to-transparent opacity-0 group-hover/portrait:opacity-100 transition-opacity duration-700 pointer-events-none" />
-                  
-                  {/* Subtle live indicator badge on top right of portrait */}
-                  <div className="absolute top-3.5 right-3.5 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-navy-950/80 backdrop-blur-md border border-white/10 text-[10px] font-mono text-ivory-100 shadow-sm pointer-events-none">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-                    <span>Verified Dossier</span>
-                  </div>
+                  {/* Gentle moving diagonal glass sheen reflection on hover */}
+                  <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent opacity-0 group-hover/portrait:opacity-100 transition-opacity duration-700 pointer-events-none" />
                 </div>
               </BasReliefWrapper>
             </div>
           </div>
 
-          {/* Right Column: Clean Editorial Philosophy Quote (Unboxed, Pure Typography) */}
-          <div className="lg:col-span-3 flex flex-col justify-center lg:pl-6 space-y-4 relative">
+          {/* Right Column: Clean Editorial Philosophy Quote (Unboxed, Pure Typography, Vertically Centered) */}
+          <div className="lg:col-span-4 flex flex-col justify-center lg:pl-6 space-y-4 relative my-auto">
             {/* Subtle editorial watermark quotation mark */}
-            <span className="text-7xl font-serif text-sapphire-glow/15 select-none absolute -top-8 -left-2 pointer-events-none leading-none">
+            <span className="text-7xl font-serif text-sapphire-glow/15 select-none absolute -top-8 -left-1 pointer-events-none leading-none">
               “
             </span>
 
@@ -177,8 +171,8 @@ export default function HeroSection({ onExplore }) {
                 "{profile.quote || 'Never tell people how to do things. Tell them what to do and they will surprise you with their ingenuity.'}"
               </p>
               
-              <div className="pt-1 flex items-center gap-2">
-                <div className="w-6 h-px bg-sapphire-light/60" />
+              <div className="pt-1.5 flex items-center gap-2">
+                <div className="w-8 h-px bg-sapphire-light/60" />
                 <cite className="font-mono text-xs text-sapphire-light uppercase tracking-widest font-semibold not-italic">
                   {profile.quoteAuthor || 'General George S. Patton'}
                 </cite>
