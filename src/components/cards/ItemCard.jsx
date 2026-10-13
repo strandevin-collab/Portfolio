@@ -9,46 +9,55 @@ export default function ItemCard({ item, onClick }) {
       className="h-full flex flex-col justify-between overflow-hidden p-0"
     >
       <div>
-        {/* Card Visual Header / Image Graphic (Borderless) */}
-        <div className="relative h-44 w-full overflow-hidden bg-navy-950 flex items-center justify-center p-4 shadow-inner">
+        {/* Card Header Badges (Above image, eliminating any overlap with graphic headers) */}
+        <div className="pt-4 px-5 pb-3 flex items-center justify-between border-b border-white/5 bg-navy-950/40">
+          <span
+            className="text-[11px] font-mono uppercase tracking-wider font-semibold px-3 py-1 rounded-full bg-navy-900/90 border border-white/10 text-ivory shadow-sm"
+          >
+            {item.categoryBadge}
+          </span>
+
+          {(item.diagram || item.mindMap) && (
+            <span className="flex items-center gap-1.5 text-[10px] font-mono px-2.5 py-1 rounded-full bg-sapphire/20 border border-sapphire-light/30 text-sapphire-light">
+              <GitBranch className="w-3 h-3 text-sapphire-glow" />
+              <span>Interactive Map</span>
+            </span>
+          )}
+
+          {item.itemType === 'document' && (
+            <span className="flex items-center gap-1.5 text-[10px] font-mono px-2.5 py-1 rounded-full bg-white/5 border border-white/10 text-ivory">
+              <FileText className="w-3 h-3 text-sapphire-light" />
+              <span>Full Record</span>
+            </span>
+          )}
+
+          {item.itemType === 'story' && (
+            <span className="flex items-center gap-1.5 text-[10px] font-mono px-2.5 py-1 rounded-full bg-sapphire/20 border border-sapphire-light/30 text-sapphire-light font-medium">
+              <BookOpen className="w-3 h-3 text-sapphire-glow" />
+              <span>Official Story</span>
+            </span>
+          )}
+        </div>
+
+        {/* Card Visual Header / Image Graphic (Cinematic Full-Bleed Framing) */}
+        <div className="relative h-48 sm:h-52 w-full overflow-hidden bg-navy-950/90 flex items-center justify-center shadow-inner border-b border-white/5">
+          {/* Subtle Ambient Radial Backlight */}
+          <div
+            className="absolute inset-0 pointer-events-none opacity-30 group-hover:opacity-60 transition-opacity duration-500 z-10"
+            style={{
+              background: `radial-gradient(circle at 50% 50%, ${item.accentColor || '#38bdf8'}40 0%, transparent 70%)`
+            }}
+          />
+          {/* Subtle Bottom Vignette Gradient */}
+          <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent opacity-70 z-10 pointer-events-none" />
           <img
             src={item.image}
             alt={item.title}
-            className="w-full h-full object-contain filter drop-shadow-[0_8px_16px_rgba(2,6,17,0.8)] transform group-hover:scale-105 transition-transform duration-500"
+            className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 relative"
             onError={(e) => {
               e.currentTarget.style.display = 'none'
             }}
           />
-
-          {/* Top badges overlay (Borderless Glassmorphism) */}
-          <div className="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between">
-            <span
-              className="text-[11px] font-mono uppercase tracking-wider font-semibold px-3 py-1 rounded-full bg-navy-950/80 backdrop-blur-md text-ivory shadow-md"
-            >
-              {item.categoryBadge}
-            </span>
-
-            {(item.diagram || item.mindMap) && (
-              <span className="flex items-center gap-1 text-[10px] font-mono px-2.5 py-1 rounded-full bg-navy-950/80 backdrop-blur-md text-sapphire-light">
-                <GitBranch className="w-3 h-3 text-sapphire-glow" />
-                <span>Interactive Map</span>
-              </span>
-            )}
-
-            {item.itemType === 'document' && (
-              <span className="flex items-center gap-1 text-[10px] font-mono px-2.5 py-1 rounded-full bg-navy-950/80 backdrop-blur-md text-ivory">
-                <FileText className="w-3 h-3 text-sapphire-light" />
-                <span>Full Record</span>
-              </span>
-            )}
-
-            {item.itemType === 'story' && (
-              <span className="flex items-center gap-1 text-[10px] font-mono px-2.5 py-1 rounded-full bg-navy-950/80 backdrop-blur-md text-sapphire-light">
-                <BookOpen className="w-3 h-3 text-sapphire-glow" />
-                <span>Executive Story</span>
-              </span>
-            )}
-          </div>
         </div>
 
         {/* Content Body */}
@@ -81,9 +90,17 @@ export default function ItemCard({ item, onClick }) {
             {item.teaser}
           </p>
 
+          {/* Single Tasteful Key Impact Badge for Stories */}
+          {item.keyMetric && (
+            <div className="mb-4 py-2 px-3 rounded-xl bg-sapphire/15 border border-sapphire-light/30 flex items-center justify-between text-xs font-mono">
+              <span className="text-slate-300 text-[10px] uppercase tracking-wider font-medium">Verified Impact</span>
+              <span className="font-bold text-sapphire-light text-xs truncate max-w-[200px]">{item.keyMetric}</span>
+            </div>
+          )}
+
           {/* Project Telemetry pills (Borderless) */}
           {item.telemetry && item.telemetry.length > 0 && (
-            <div className="grid grid-cols-2 gap-2 mb-4 p-3 rounded-2xl bg-navy-950/60 shadow-inner">
+            <div className="grid grid-cols-2 gap-2 mb-4 p-3 rounded-2xl bg-navy-950/40 border border-white/5 shadow-inner">
               {item.telemetry.slice(0, 2).map((tel, idx) => (
                 <div key={idx} className="flex flex-col">
                   <span className="text-[10px] font-mono uppercase text-slate-400 tracking-wider">
@@ -99,7 +116,7 @@ export default function ItemCard({ item, onClick }) {
 
           {/* Hobby Technical Specs pills (Borderless) */}
           {item.specs && item.specs.length > 0 && (
-            <div className="grid grid-cols-2 gap-2 mb-4 p-3 rounded-2xl bg-navy-950/60 shadow-inner">
+            <div className="grid grid-cols-2 gap-2 mb-4 p-3 rounded-2xl bg-navy-950/40 border border-white/5 shadow-inner">
               {item.specs.slice(0, 2).map((sp, idx) => (
                 <div key={idx} className="flex flex-col">
                   <span className="text-[10px] font-mono uppercase text-slate-400 tracking-wider">

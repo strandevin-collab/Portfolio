@@ -1,11 +1,11 @@
 {
   "profile": {
     "name": "Evin Strand",
-    "tagline": "Product Information Analyst • Data Analytics • AI Integration • Continuous Improvement",
+    "tagline": "Product Information Analyst • Resilient Team Leadership • Continuous Improvement • Modern AI Tools",
     "location": "Hutchinson Island, FL",
     "email": "strandevin@gmail.com",
     "phone": "(262) 325-2112",
-    "bio": "Product Information Analyst at Grainger stewarding enterprise catalog operations valued at $148M+. Former Wisconsin Army National Guard Fire Direction Specialist and Chaplain's Assistant. Bridges high-stakes data integrity, generative AI workflow acceleration, and high-empathy team stewardship with an artisan's commitment to precision engineering.",
+    "bio": "Product Information Analyst at Grainger stewarding enterprise catalog portfolios averaging $148M+. Former Wisconsin Army National Guard Fire Direction Specialist and Chaplain's Assistant. Deeply committed to building strong, resilient teams, developing people, and establishing continuous improvement processes. Passionate about empowering cross-functional teams with modern AI tools, structured mentorship, and scalable operational frameworks that unlock human potential.",
     "education": {
       "degree": "B.A. Corporate & Health Communication (Minor: General Business)",
       "school": "University of Wisconsin-Whitewater",
@@ -15,16 +15,16 @@
       ]
     },
     "skills": [
+      "Resilient Team Leadership",
+      "People Development & Mentorship",
+      "Continuous Process Improvement",
+      "Modern AI & Automation Tools",
       "Enterprise PIM Systems",
-      "Generative AI Workflow Integration",
-      "Smartsheet Automation",
-      "Tactical Data Accuracy (100%)",
+      "Smartsheet Workflow Automation",
+      "Tactical Data Precision (100%)",
       "Attrition Modeling & Retention",
       "Cross-Functional Stakeholder Alignment",
-      "Hybrid Team Leadership",
-      "Prompt Systems Architecture",
-      "Salesforce & Jira",
-      "Power BI & DAX"
+      "Hybrid Team Operations"
     ],
     "downloads": {
       "resumeDocx": "./assets/Evin_Strand_Resume.docx",
@@ -56,24 +56,24 @@
         "url": "https://linkedin.com/in/evin-strand"
       }
     ],
-    "portrait": "./assets/profile_pic.jpg",
-    "quote": "Great data systems should feel effortless. Precision engineering meets operational stewardship.",
+    "quote": "Never tell people how to do things. Tell them what to do and they will surprise you with their ingenuity.",
+    "quoteAuthor": "General George S. Patton",
     "heroFocus": [
       {
         "number": "01",
-        "label": "Enterprise PIM"
+        "label": "Resilient Team Leadership"
       },
       {
         "number": "02",
-        "label": "Smartsheet Systems"
+        "label": "People Development & Coaching"
       },
       {
         "number": "03",
-        "label": "Tactical Compute"
+        "label": "Continuous Process Design"
       },
       {
         "number": "04",
-        "label": "Agentic Prompting"
+        "label": "Modern AI & Tooling"
       }
     ]
   },
@@ -81,57 +81,57 @@
     {
       "id": "resume-docs",
       "title": "Resume",
-      "subtitle": "Professional Career History, Executive Narrative & Official Documents",
-      "description": "Comprehensive career chronology spanning Grainger enterprise catalog stewardship, US Army National Guard tactical data operations, leadership credentials, and downloadable Word/PDF files.",
+      "subtitle": "Team Leadership Track Record, Talent Development & Enterprise Stewardship",
+      "description": "Comprehensive leadership chronology spanning cross-functional team supervision, people development, military tactical compute accuracy, HR talent systems (SHRM-CP), and enterprise process modernization.",
       "image": "./assets/editorial_resume_card.jpg",
       "icon": "FileText",
       "badge": "Official Records",
       "accentColor": "#f59e0b",
       "itemCount": 3,
-      "featuredTag": "Credentials & Documents"
+      "featuredTag": "Leadership & Credentials"
     },
     {
       "id": "stories",
       "title": "Stories",
-      "subtitle": "Data Systems, Enterprise Optimization & Organizational Scale",
-      "description": "5 executive narratives detailing complex enterprise catalog automation, merger integration, talent architecture, and cross-functional leadership, structured around high-stakes problem solving.",
+      "subtitle": "Empowering Teams, Developing People & Modernizing Operational Workflows",
+      "description": "Three flagship executive narratives highlighting how building resilient culture, championing recognition, and discovering high-leverage AI tools directly empower teams to reclaim capacity and thrive.",
       "image": "./assets/editorial_projects_card.jpg",
       "icon": "Layers",
-      "badge": "Executive Case Studies",
+      "badge": "Official Stories",
       "accentColor": "#38bdf8",
-      "itemCount": 5,
-      "featuredTag": "5 Flagship Stories"
+      "itemCount": 3,
+      "featuredTag": "3 Flagship Stories"
     },
     {
       "id": "ai-projects",
       "title": "AI Projects",
-      "subtitle": "Autonomous Architectures, Multi-Agent Loops & Knowledge Fabrics",
-      "description": "Interactive system topologies and agentic pipeline blueprints exploring automated multimodal data ingestion, vector retrieval-augmented generation (RAG), and human-in-the-loop validation.",
+      "subtitle": "Active In-Progress // Multi-Agent Engineering Swarms (Under Construction)",
+      "description": "Three active, living engineering initiatives currently under construction and continuous development. Governed by autonomous multi-agent engineering swarms delivering sprint releases, living codebases, and interactive cognitive Mind Maps.",
       "image": "./assets/editorial_ai_card.jpg",
       "icon": "Sparkles",
-      "badge": "Agentic Systems",
+      "badge": "Active In-Progress // Under Construction",
       "accentColor": "#38bdf8",
-      "itemCount": 1,
-      "featuredTag": "Interactive Mind Map"
+      "itemCount": 3,
+      "featuredTag": "Living Systems Under Construction"
     },
     {
       "id": "hobbies",
       "title": "Hobbies",
-      "subtitle": "Hardware Engineering, Tactile Bas-Relief Craft & Coastal Hydrology",
-      "description": "Hands-on physical craftsmanship: spot-welded 12S4P 21700 lithium electric skateboards, sub-millimeter 3D bas-relief sculptural modeling, and Atlantic tidal current observation along Hutchinson Island.",
+      "subtitle": "Literature & Lore • Terrain & Waterways • Spartan Endurance Training",
+      "description": "Disciplined personal pursuits reflecting the ethos of continuous improvement: deep studies of classic literature and Tolkien lore, multi-terrain exploration, and rigorous endurance conditioning.",
       "image": "./assets/editorial_hobbies_card.jpg",
-      "icon": "Cpu",
-      "badge": "Crafts & Engineering",
+      "icon": "Compass",
+      "badge": "Personal Pursuits",
       "accentColor": "#10b981",
       "itemCount": 3,
-      "featuredTag": "Physical Fabrication"
+      "featuredTag": "3 Personal Disciplines"
     }
   ],
   "items": [
     {
       "id": "curriculum-vitae",
       "categoryId": "resume-docs",
-      "image": "./assets/card-grainger-bench.svg",
+      "image": "./assets/thumb-resume-cv.jpg",
       "categoryBadge": "Career Record",
       "title": "Curriculum Vitae / Professional Resume",
       "role": "Product Information Analyst | Operations | Military Veteran",
@@ -150,7 +150,7 @@
         "Hybrid Leadership"
       ],
       "document": {
-        "summary": "Product Information Analyst at Grainger stewarding enterprise catalog operations valued at $148M+. Former Wisconsin Army National Guard Fire Direction Specialist and Chaplain's Assistant. Combines rigorous mathematical data accuracy with generative AI acceleration and empathetic personnel stewardship.",
+        "summary": "Accomplished analyst and servant leader with a proven record of building resilient teams, developing talent, and engineering continuous improvement frameworks. Stewards enterprise catalog portfolios averaging $148M+ at Grainger, combining clinical data precision with modern AI tools, automated Smartsheet workflows, and structured mentorship to empower cross-functional teams and elevate organizational performance.",
         "experience": [
           {
             "company": "Grainger Industrial Supply",
@@ -161,10 +161,10 @@
                 "title": "Product Information Analyst",
                 "period": "2023 – Present",
                 "bullets": [
-                  "Managed an average of three concurrent projects with a total average value of $148 million, leveraging stakeholder relationships to ensure on-time delivery and meet budgetary goals.",
-                  "Identified and developed the candidate bench strategy for the PI department, utilizing Smartsheet to provide automated status updates and real-time tracking.",
-                  "Designed and facilitated organizational leadership development workshops ('Lunch-&-Learns') to equip leaders with recognition strategies.",
-                  "Achieved a 40% reduction in task completion time by leveraging AI tools to optimize supplier research and transform customer feedback into data-driven action plans."
+                  "Stewarded an average of three concurrent enterprise catalog portfolios with a total average value of $148 million, partnering closely with cross-functional stakeholders to guarantee data fidelity and on-time delivery.",
+                  "Architected and operationalized the candidate bench strategy for the PI department using Smartsheet, providing automated status telemetry and mentoring internal talent to build a sustainable analytical talent pipeline.",
+                  "Co-led organizational recognition charter initiatives and facilitated leadership development Lunch-&-Learn workshops to foster psychological safety, appreciation, and resilient team culture.",
+                  "Pioneered modern AI workflows across category research operations, achieving a 40% efficiency gain by automating product attribute audits and review sentiment analysis, freeing team capacity for strategic collaboration."
                 ],
                 "spotlight": {
                   "title": "Mentorship & Internal Bench Initiative",
@@ -175,18 +175,18 @@
                 "title": "Hiring Manager (Stretch Assignment)",
                 "period": "2022 – 2023",
                 "bullets": [
-                  "Coordinated an average of 40 candidate interviews weekly while redesigning the interview process to enhance efficiency during a corporate site merger.",
-                  "Developed a centralized recruitment framework to consolidate two high-volume hiring initiatives, coordinating with 25+ cross-functional stakeholders.",
-                  "Led an initiative to track and analyze attrition trends, delivering data-driven insights to senior leadership for targeted retention strategies."
+                  "Led and unified high-volume recruitment operations during a corporate site merger, coordinating 40+ candidate interviews weekly across 25+ cross-functional leadership stakeholders.",
+                  "Engineered a centralized, cross-site interviewing model that eliminated candidate scheduling bottlenecks and cut required weekly leadership calendar holds from 4 hours to 1.5–2 hours (50%+ time recovered for leaders).",
+                  "Conducted deep-dive attrition and retention trend analyses, providing executive leadership with predictive talent insights to proactively improve employee engagement and team stability."
                 ]
               },
               {
                 "title": "Customer Experience Supervisor",
                 "period": "2021 – 2022",
                 "bullets": [
-                  "Managed and developed a hybrid team of 16 customer experience representatives through personalized behavioral coaching and development plans.",
-                  "Redesigned the new hire onboarding program, reducing time-to-proficiency by an average of 60 days and decreasing new hire attrition.",
-                  "Facilitated daily virtual team meetings to foster cohesion and ensure alignment with key business objectives."
+                  "Led, coached, and inspired a hybrid team of 16 customer experience representatives, cultivating high psychological safety, daily operational cohesion, and individual career roadmaps.",
+                  "Overhauled the new-hire onboarding curriculum around structured peer mentorship and modular behavioral coaching, slashing average time-to-proficiency by 60 days and markedly reducing initial-term attrition.",
+                  "Facilitated daily stand-ups and collaborative problem-solving forums, empowering representatives to resolve complex customer inquiries while maintaining peak team morale."
                 ]
               }
             ]
@@ -200,9 +200,9 @@
                 "title": "General Manager: Anytime Fitness • Target • Best Buy",
                 "period": "2015 – 2021",
                 "bullets": [
-                  "Over 6 years of progressive customer-facing leadership, advancing from representative to General Manager with full operational, P&L, and staffing oversight.",
-                  "Led and mentored teams of 30+ employees, fostering a culture of collaboration, accountability, and customer-centricity.",
-                  "Spearheaded onboarding, training, and professional development programs to maintain high-performing operational environments."
+                  "Progressed through 6 years of escalating leadership to General Manager, steering full P&L, staffing, and multi-unit operational performance across high-volume retail environments.",
+                  "Recruited, developed, and mentored teams of 30+ associates, building a culture of mutual accountability, empathetic leadership, and customer-first execution.",
+                  "Established continuous improvement training programs that improved staff retention, accelerated leadership succession, and consistently exceeded operational benchmarks."
                 ]
               }
             ]
@@ -216,8 +216,8 @@
                 "title": "Fire Direction Specialist & Chaplain's Assistant",
                 "period": "2016 – 2022",
                 "bullets": [
-                  "Managed and maintained advanced automated tactical data systems, ensuring 100% computational accuracy in high-stakes environments while coordinating complex data transmissions across diverse communication networks.",
-                  "Managed sensitive communications and personnel issues with strict confidentiality, serving as a trusted liaison between command leadership, soldiers, and the chaplain."
+                  "Operated automated tactical data systems (AFATDS) in high-stress, degraded comms environments, maintaining a flawless 100% computational firing accuracy record.",
+                  "Served as Chaplain's Assistant and confidential advisor, safeguarding sensitive personnel welfare with 100% discretion and serving as an empathetic bridge between soldiers and command staff."
                 ]
               }
             ]
@@ -239,39 +239,40 @@
     {
       "id": "executive-cover-letter",
       "categoryId": "resume-docs",
-      "image": "./assets/card-agentic.svg",
+      "image": "./assets/thumb-cover-letter.jpg",
       "categoryBadge": "Narrative Statement",
       "title": "Professional Cover Letter & Leadership Philosophy",
       "role": "Product Information Analyst",
       "organization": "Candidate Portfolio Dossier",
       "timeline": "2026",
-      "teaser": "A structured personal statement articulating how high-stakes military compute accuracy, enterprise catalog stewardship, and human empathy converge into high-leverage systems.",
+      "teaser": "An executive personal statement articulating how building resilient teams, structured mentorship, and continuous process discovery converge to unlock operational excellence and human potential.",
       "accentColor": "#f59e0b",
       "itemType": "document",
       "tags": [
-        "Leadership Philosophy",
-        "Data Governance",
-        "AI Stewardship",
-        "Operational Empathy",
-        "Systems Thinking"
+        "Resilient Team Leadership",
+        "People Development",
+        "Continuous Improvement",
+        "Modern AI & Automation",
+        "Systems Thinking",
+        "Operational Empathy"
       ],
       "document": {
         "letterSections": [
           {
-            "heading": "The Intersection of Clinical Precision and Human Empathy",
-            "body": "In high-consequence environments—whether computing ballistic firing solutions where a transposed digit risks catastrophe, or governing multi-million-dollar enterprise catalog lines—data fidelity is not an abstract preference; it is an ethical obligation. My career has been defined by bridging this technical precision with genuine, human-centered stewardship."
+            "heading": "The Core Conviction: Great Systems Begin with Resilient People",
+            "body": "In high-consequence environments—whether computing ballistic firing solutions where a transposed digit risks catastrophe, or governing multi-million-dollar enterprise catalog lines—operational excellence is not achieved by pressure, but by psychological safety, clear standards, and investing deeply in people. My leadership philosophy centers on building resilient teams that communicate transparently, support one another through ambiguity, and take pride in collective craftsmanship."
           },
           {
-            "heading": "Enterprise Data Stewardship at Grainger",
-            "body": "At Grainger, I steward high-velocity product information across portfolios averaging $148 million. When chaotic, non-standardized supplier spec sheets created ingestion bottlenecks, I did not merely execute manual entry. I engineered generative AI parsing frameworks that compressed research task completion times by 40%, freeing analyst bandwidth to engage suppliers in strategic quality consultations."
+            "heading": "Enterprise Stewardship & Continuous Tool Discovery at Grainger",
+            "body": "At Grainger, I steward high-velocity product information across enterprise portfolios averaging $148 million. Rather than accepting manual friction as inevitable, I actively champion continuous improvement: discovering and introducing modern generative AI workflows and automated attribute validation that unlocked a 40% efficiency gain across category research. Crucially, this recovered capacity was reinvested directly back into our people—giving analysts the breathing room to engage suppliers strategically, eliminate burnout, and pursue higher-order initiatives."
           },
           {
-            "heading": "Operational Leadership & Talent Systems",
-            "body": "As a Hiring Manager on stretch assignment and Customer Experience Supervisor, I recognized that operational throughput depends entirely on psychological safety and clear systems. When tasked with managing 40 candidate interviews weekly across 25+ stakeholders during a corporate site merger, I built automated Smartsheet telemetry to eliminate interview fatigue. Concurrently, by restructuring hybrid onboarding around modular peer coaching, we reduced time-to-proficiency by 60 days."
+            "heading": "Developing People, Mentorship & Scalable Talent Systems",
+            "body": "As a Hiring Manager and Customer Experience Supervisor, I recognized that developing people is the single highest-leverage investment a leader can make. During a major cross-site corporate merger involving 25+ stakeholders, I designed an automated Smartsheet recruitment framework that eliminated leader interview fatigue and cut required calendar holds by more than 50%. Concurrently, I redesigned hybrid onboarding around structured peer mentorship and behavioral coaching, reducing time-to-proficiency by 60 days and establishing a sustainable talent pipeline that empowered internal team members to transition into advanced analytics roles."
           },
           {
-            "heading": "Military Doctrine: Calm Under Degraded Conditions",
-            "body": "My six years in the Wisconsin Army National Guard as both a Fire Direction Specialist and Chaplain's Assistant forged a rare duality: the clinical discipline required for 100% tactical computational accuracy, paired with the discretion and pastoral empathy required to de-escalate crises between soldiers and command. I bring this unflappable calm and craftsmanship to every enterprise challenge."
+            "heading": "Military Foundation: Calm Under Pressure & Pastoral Stewardship",
+            "body": "My six years in the Wisconsin Army National Guard as both a Fire Direction Specialist and Chaplain's Assistant forged a vital leadership perspective: the unwavering discipline required for 100% computational data accuracy under austere conditions, paired with the deep empathy, discretion, and emotional intelligence required to advocate for soldiers and resolve crises. I bring this steady calm, genuine passion for developing people, and dedication to building resilient operational processes to every team I lead."
           }
         ]
       },
@@ -280,7 +281,7 @@
     {
       "id": "military-record",
       "categoryId": "resume-docs",
-      "image": "./assets/card-military.svg",
+      "image": "./assets/thumb-military-compute.jpg",
       "categoryBadge": "Defense Service",
       "title": "US Army National Guard Service & Tactical Compute",
       "role": "Fire Direction Specialist & Chaplain's Assistant",
@@ -309,601 +310,346 @@
       "diagram": null
     },
     {
-      "id": "product-data-process-optimization",
+      "id": "driving-efficiency-emerging-tech",
       "categoryId": "stories",
       "domain": "data-ai",
-      "image": "./assets/card-project-01.svg",
-      "categoryBadge": "Enterprise Case Study",
-      "title": "Product Data Process Optimization & Tool Integration",
+      "image": "./assets/thumb-story-ai-efficiency.jpg",
+      "categoryBadge": "Data & Emerging Tech",
+      "title": "Driving Efficiency with Emerging Tech",
       "role": "Product Information Analyst",
       "organization": "Grainger Industrial Supply",
       "timeline": "2023 – Present",
-      "teaser": "Engineered end-to-end data process optimization for an average of 3 concurrent initiatives valued at $148M, integrating AI research tools and structuring customer feedback to achieve a 40% cycle time reduction.",
+      "teaser": "Modernizing labor-intensive category research through applied AI, attribute gap scanning, and customer review sentiment analytics.",
       "accentColor": "#38bdf8",
       "itemType": "story",
       "tags": [
-        "Enterprise PIM",
-        "AI Tool Sourcing",
-        "Process Engineering",
-        "Feedback Structuring",
-        "$148M Portfolio"
+        "AI Workflow Integration",
+        "Product Attribute Values",
+        "Sentiment Analysis",
+        "Process Modernization",
+        "Data Health"
       ],
-      "telemetry": [
-        {
-          "label": "Cycle Time Reduction",
-          "value": 40,
-          "suffix": "%",
-          "precision": 0
-        },
-        {
-          "label": "Avg Portfolio Value",
-          "value": 148,
-          "prefix": "$",
-          "suffix": "M",
-          "precision": 0
-        },
-        {
-          "label": "Concurrent Project Streams",
-          "value": 3,
-          "precision": 0
-        }
-      ],
+      "storyText": "As a Product Information Analyst, conducting in-depth research for our category review process is a core responsibility. When artificial intelligence tools were first introduced to our department, I wanted to explore how we could modernize our most labor-intensive workflows and make our analytical operations dramatically more efficient. Historically, evaluating Product Attribute Values (PAVs) to spot data gaps and rule discrepancies was incredibly manual, as was trying to extract actionable insights from mountains of online customer feedback. To solve this, I integrated these newly available capabilities directly into my process. I utilized automated processing to rapidly scan vast datasets of attribute values, giving us a holistic, immediate view of our data health. Simultaneously, I ran sentiment analysis on customer reviews to pinpoint exactly where users were struggling. Pioneering this technological shift improved category research efficiency by 40%—transforming hours of manual verification into streamlined data auditing, accelerating data-backed product decisions while establishing robust data health standards.",
       "story": {
-        "inception": "Initiated project charter and established financial baseline of $148 million across an average of three concurrent data research initiatives, aligning key cross-functional stakeholders.",
-        "challenge": "Conducted baseline workflow audits on manual research tasks. Evaluated and sourced AI tools capable of streamlining supplier research while formulating engineering methods to structure subjective customer feedback into actionable plans.",
-        "strategy": "Deployed AI tools across live workflows while demonstrating remote team leadership. Enforced rigorous milestone tracking to deliver projects on-time and within budget.",
-        "outcome": "Validated a 40% reduction in completion time for data research tasks and successfully handed off enhanced departmental operating efficiencies."
+        "inception": "As a Product Information Analyst, sought to modernize labor-intensive category review research upon the introduction of AI tools, focusing on maximizing operational efficiency.",
+        "challenge": "Manual evaluation of Product Attribute Values (PAVs) and extracting insights from mountains of online reviews created significant research bottlenecks.",
+        "strategy": "Integrated automated scanning to rapidly audit attribute datasets and ran sentiment analysis on customer reviews to isolate pain points.",
+        "outcome": "Pioneered a technological shift that increased research workflow efficiency by 40%, accelerated product decisions, and established an efficient operational baseline."
       },
-      "storyNarrative": {
-        "context": "At Grainger, stewarding product information across thousands of industrial SKUs represents a $148M commercial footprint. In legacy operations, vendor specification sheets arrived in disparate formats, creating prolonged data harmonization cycles and merchandising delays.",
-        "mandate": "Architect an end-to-end automation workflow to compress catalog onboarding lead times, eliminate manual re-keying, and enforce rigorous quality gates without adding administrative overhead.",
-        "execution": "Designed and deployed an integrated Smartsheet automation pipeline combined with custom prompt engineering workflows. Created structured ingestion templates, automated vendor feedback loops, and cross-referenced taxonomy rules deterministically.",
-        "impact": "Compressed operational task cycle times by 40%, established 100% data audit integrity across product lines, and created an enterprise taxonomy model adopted across multiple merchandising teams."
+      "pullQuote": {
+        "quote": "Traditions are solutions to forgotten problems.",
+        "attribution": "G.K. Chesterton // Continuous Improvement Doctrine"
       },
-      "roadmap": [
-        {
-          "phase": "01",
-          "title": "Audit & Taxonomy Baseline",
-          "sentence": "Mapped 148 product categories to isolate vendor data friction and eliminate 40% redundant handoffs."
-        },
-        {
-          "phase": "02",
-          "title": "Smartsheet Automation Engine",
-          "sentence": "Engineered automated intake pipelines with deterministic validation rules for incoming supplier data."
-        },
-        {
-          "phase": "03",
-          "title": "Generative AI Research Integration",
-          "sentence": "Integrated custom prompt systems to harmonize unstructured manufacturer specs into clean schema."
-        },
-        {
-          "phase": "04",
-          "title": "Enterprise Scaling & Governance",
-          "sentence": "Scaled governance framework across $148M enterprise portfolio with zero catalog downtime."
-        }
-      ],
-      "beforeAfter": {
-        "before": {
-          "label": "Legacy Manual Workflow",
-          "value": "14-Day Ingestion • High Handoff Latency"
-        },
-        "after": {
-          "label": "Automated PIM Pipeline",
-          "value": "1.2-Hour Turnaround • 40% Task Compression"
-        }
-      },
-      "pullQuote": "Precision data engineering is not merely about organizing numbers—it is about liberating human teams from mechanical toil so they can focus on high-judgment stewardship."
+      "keyMetric": "40% Research Efficiency Gain",
+      "exhibit": {
+        "image": "./assets/thumb-story-ai-efficiency.jpg",
+        "title": "AI-Powered Category Research & PAV Auditing Pipeline",
+        "caption": "Figure 1.0: Automated attribute data health scanner and customer review sentiment analysis pipeline engineered to eliminate repetitive manual verification.",
+        "tag": "AI Workflow Architecture Exhibit"
+      }
     },
     {
-      "id": "corporate-merger-talent-acquisition",
+      "id": "operationalizing-organizational-recognition",
       "categoryId": "stories",
-      "domain": "talent-retention",
-      "image": "./assets/card-project-03.svg",
-      "categoryBadge": "Executive Case Study",
-      "title": "Corporate Merger Talent Acquisition Redesign",
-      "role": "Hiring Manager (Stretch Assignment)",
+      "domain": "culture-leadership",
+      "image": "./assets/thumb-story-recognition.jpg",
+      "categoryBadge": "Culture & Leadership",
+      "title": "Operationalizing Organizational Recognition",
+      "role": "Recognition Charter Lead & Analyst",
       "organization": "Grainger Industrial Supply",
-      "timeline": "2022 – 2023",
-      "teaser": "Redesigned interview workflows during a corporate site merger across 25+ cross-functional leaders, coordinating 40 weekly interviews and establishing an executive attrition analytics framework.",
-      "accentColor": "#f59e0b",
-      "itemType": "story",
-      "tags": [
-        "Site Merger Operations",
-        "Interview Funnel Optimization",
-        "25+ Stakeholders",
-        "40 Interviews/Wk",
-        "Attrition Analytics"
-      ],
-      "telemetry": [
-        {
-          "label": "Weekly Interviews Coordinated",
-          "value": 40,
-          "suffix": " / Wk",
-          "precision": 0
-        },
-        {
-          "label": "Cross-Functional Assembly",
-          "value": 25,
-          "suffix": "+",
-          "precision": 0
-        },
-        {
-          "label": "Turnover Data Integration",
-          "value": 100,
-          "suffix": "% Executive",
-          "precision": 0
-        }
-      ],
-      "story": {
-        "inception": "Evaluated structural recruitment challenges introduced by the corporate site merger, cultivating collaborative relationships across 25+ supervisors and business partners.",
-        "challenge": "Synchronized cross-functional hiring objectives in a hybrid setting, isolating evaluation bottlenecks and conflicting protocols across merging teams.",
-        "strategy": "Redesigned the interview funnel to coordinate an average of 40 weekly interviews while establishing a centralized data architecture to track historical cohort turnover.",
-        "outcome": "Synthesized raw attrition trends into strategic insights, delivering targeted retention briefings directly to senior executive leadership."
-      },
-      "storyNarrative": {
-        "context": "Following a high-stakes corporate acquisition, two distinct corporate cultures and operating rhythms were suddenly consolidated. Critical organizational capability hung in the balance, with immediate attrition risks threatening core institutional knowledge.",
-        "mandate": "Design a unified talent acquisition and organizational retention framework across 34 high-impact positions, ensuring cultural alignment, operational continuity, and executive stability within 90 days.",
-        "execution": "Applied SHRM-CP certified methodologies and structured behavioral competency matrices. Partnered directly with senior executive stakeholders to define unified success profiles, redesigned assessment rubrics, and led transparent compensation and career alignment dialogues.",
-        "impact": "Achieved 100% role fill rate across all 34 strategic positions and sustained a 95% retention rate over the critical first-year post-merger integration window."
-      },
-      "roadmap": [
-        {
-          "phase": "01",
-          "title": "Target Architecture & Skills Matrix",
-          "sentence": "Audited operational competencies across 34 cross-functional roles for the unified corporate entity."
-        },
-        {
-          "phase": "02",
-          "title": "Structured Assessment Rubrics",
-          "sentence": "Designed competency frameworks evaluating technical capability alongside cultural resilience."
-        },
-        {
-          "phase": "03",
-          "title": "Onboarding & Retention Guardrails",
-          "sentence": "Instituted structured 30/60/90-day check-in cadence to mitigate post-merger flight risk."
-        },
-        {
-          "phase": "04",
-          "title": "First-Year Retention Audit",
-          "sentence": "Documented 95% first-year retention rate, setting a company benchmark for post-merger stability."
-        }
-      ],
-      "beforeAfter": {
-        "before": {
-          "label": "Fragmented Merger Staffing",
-          "value": "Unstandardized Criteria • High Early Attrition"
-        },
-        "after": {
-          "label": "Unified Talent System",
-          "value": "95% 1-Year Retention • 100% Role Fill Rate"
-        }
-      },
-      "pullQuote": "A corporate merger succeeds or fails not in boardroom contracts, but in how transparently and empathetically you integrate the people executing daily operations."
-    },
-    {
-      "id": "onboarding-optimization-hybrid-development",
-      "categoryId": "stories",
-      "domain": "talent-retention",
-      "image": "./assets/card-project-05.svg",
-      "categoryBadge": "Executive Case Study",
-      "title": "Onboarding Optimization & Hybrid Team Development",
-      "role": "Customer Experience Supervisor",
-      "organization": "Grainger Industrial Supply",
-      "timeline": "2021 – 2022",
-      "teaser": "Restructured customer experience onboarding curriculum and led a 16-member hybrid team through daily standups and personalized coaching, cutting time-to-proficiency by an average of 60 days.",
-      "accentColor": "#10b981",
-      "itemType": "story",
-      "tags": [
-        "Onboarding Architecture",
-        "-60 Days Proficiency",
-        "16 Hybrid Reps",
-        "Daily Virtual Standups",
-        "Behavioral Coaching"
-      ],
-      "telemetry": [
-        {
-          "label": "Time-to-Proficiency Cut",
-          "value": 60,
-          "suffix": " Days Avg",
-          "precision": 0
-        },
-        {
-          "label": "Hybrid Team Led",
-          "value": 16,
-          "suffix": " Reps",
-          "precision": 0
-        },
-        {
-          "label": "Standup Cadence",
-          "value": 100,
-          "suffix": "% Daily",
-          "precision": 0
-        }
-      ],
-      "story": {
-        "inception": "Evaluated capability baselines across a 16-member customer experience team, auditing historical onboarding for training inconsistencies and practical milestone delays.",
-        "challenge": "Redesigned core onboarding modules to guarantee identical training experiences while creating individualized behavioral development frameworks.",
-        "strategy": "Instituted daily virtual standups to maintain strategic alignment, delivering structured 1-on-1 coaching sessions tailored to individual performance metrics.",
-        "outcome": "Reduced time-to-proficiency by an average of 60 days, decreased early new hire attrition, and sustained peak engagement across a distributed hybrid team."
-      },
-      "storyNarrative": {
-        "context": "As teams transitioned to distributed and hybrid operations, new analysts faced fragmented documentation and steep learning curves, requiring up to 120 days to reach autonomous contribution.",
-        "mandate": "Overhaul hybrid team enablement by building a modern, asynchronous onboarding ecosystem that accelerates time-to-productivity while strengthening team culture.",
-        "execution": "Architected a modular digital onboarding curriculum in Smartsheet, pairing interactive video walkthroughs, peer-buddy support channels, and weekly psychological safety retrospectives. Transformed scattered tribal knowledge into living, searchable documentation.",
-        "impact": "Cut time-to-full-autonomy by 60 days (a 50% velocity increase), lifted onboarding NPS to 94%, and maintained a 95% retention rate across all onboarded hybrid personnel."
-      },
-      "roadmap": [
-        {
-          "phase": "01",
-          "title": "Friction Point Diagnostic",
-          "sentence": "Interviewed 25+ distributed analysts to pinpoint knowledge transfer and tooling bottlenecks."
-        },
-        {
-          "phase": "02",
-          "title": "Asynchronous Enablement Hub",
-          "sentence": "Centralized living SOPs, video walkthroughs, and automated milestone tracking in Smartsheet."
-        },
-        {
-          "phase": "03",
-          "title": "Peer Stewardship Cadence",
-          "sentence": "Implemented structured pairing programs ensuring remote team members felt anchored and supported."
-        },
-        {
-          "phase": "04",
-          "title": "Velocity & Retention Benchmark",
-          "sentence": "Accelerated full autonomous productivity by 60 days with 95% team member retention."
-        }
-      ],
-      "beforeAfter": {
-        "before": {
-          "label": "Ad-Hoc Hybrid Onboarding",
-          "value": "120 Days to Autonomy • Isolated Remote Staff"
-        },
-        "after": {
-          "label": "Structured Velocity Framework",
-          "value": "60 Days to Autonomy • 94% Onboarding NPS"
-        }
-      },
-      "pullQuote": "Remote and hybrid teams do not thrive through micromanagement; they thrive through unambiguous systems, clear accountability, and trust built on shared clarity."
-    },
-    {
-      "id": "organizational-leadership-development",
-      "categoryId": "stories",
-      "domain": "data-ai",
-      "image": "./assets/card-project-02.svg",
-      "categoryBadge": "Executive Case Study",
-      "title": "Organizational Leadership Development Workshop Series",
-      "role": "Product Information Analyst",
-      "organization": "Grainger Industrial Supply",
-      "timeline": "2023 – Present",
-      "teaser": "Designed and facilitated organizational 'Lunch-&-Learn' workshop series equipping leaders with recognition strategies to foster a motivating, cross-departmental team culture.",
+      "timeline": "2024 – Present",
+      "teaser": "Elevating company culture and recognition program adoption across 1.5 years of active charter leadership and executive communications.",
       "accentColor": "#818cf8",
       "itemType": "story",
       "tags": [
-        "Leadership Development",
+        "Culture Leadership",
         "Lunch-&-Learns",
-        "Culture Engineering",
-        "Recognition Strategies",
-        "Cross-Departmental Reach"
+        "Firstup Publications",
+        "Change Management",
+        "Program Adoption"
       ],
-      "telemetry": [
-        {
-          "label": "Workshop Architecture",
-          "value": 1,
-          "suffix": " System",
-          "precision": 0
-        },
-        {
-          "label": "Delivery Model",
-          "value": 100,
-          "suffix": "% Hybrid",
-          "precision": 0
-        },
-        {
-          "label": "Leadership Culture Lift",
-          "value": 1,
-          "suffix": " Repeatable",
-          "precision": 0
-        }
-      ],
+      "storyText": "A key part of maintaining a strong company culture is ensuring that team members are supported in understanding and utilizing the programs available to them. For the past year and a half, I have served on our organizational recognition charter to help drive this initiative. My primary responsibility is leading our Lunch-&-Learn sessions, where I present the latest updates to our recognition platform and highlight best practices for meaningful appreciation. Beyond facilitating these live sessions, I also support our broader communication strategy by co-writing Firstup articles to keep everyone informed and aligned. By managing both the presentation and communication efforts, I help ensure our recognition program remains an active, visible part of our daily operations.",
       "story": {
-        "inception": "Analyzed organizational culture feedback to isolate gaps in leadership recognition, employee motivation, and peer engagement across multiple operational departments.",
-        "challenge": "Engineered a versatile curriculum architecture branded as 'Lunch-&-Learns' designed to maximize voluntary executive and supervisory attendance.",
-        "strategy": "Authored interactive course materials and facilitated live workshops to train organizational leaders on concrete, actionable recognition techniques.",
-        "outcome": "Established a repeatable organizational workshop framework that enhanced leadership culture and strengthened employee motivation."
+        "inception": "Served on the organizational recognition charter for 1.5 years to ensure team members understand and utilize available recognition programs.",
+        "challenge": "Maintaining a strong culture across a large organization requires continuous engagement and clear understanding of appreciation tools.",
+        "strategy": "Led live Lunch-&-Learn sessions demonstrating platform updates and co-wrote enterprise Firstup communication articles.",
+        "outcome": "Ensured the recognition program remains an active, visible, and embraced part of daily operations across departments."
       },
-      "storyNarrative": {
-        "context": "Rapid team scaling often outpaces leadership capability, leading to communication silos, inconsistent delegation, and reactive conflict management across cross-functional departments.",
-        "mandate": "Formulate and facilitate a cohort-based leadership development workshop series designed to bridge technical analytical rigor with empathetic, high-trust team leadership.",
-        "execution": "Synthesized tactical military decision-making doctrine with SHRM-CP executive leadership frameworks. Conducted interactive scenario simulations addressing real-time operational dilemmas, feedback loops, and empathetic conflict de-escalation.",
-        "impact": "Graduated multiple cohort groups achieving a 92% Net Promoter Score, with participating managers demonstrating measurable decreases in team friction and documented increases in retention."
+      "pullQuote": {
+        "quote": "Leadership is not about being in charge. It is about taking care of those in your charge.",
+        "attribution": "Simon Sinek (Leaders Eat Last) // Culture & Recognition Charter"
       },
-      "roadmap": [
-        {
-          "phase": "01",
-          "title": "SHRM-CP Curriculum Design",
-          "sentence": "Synthesized tactical military compute doctrine with human resource leadership frameworks."
-        },
-        {
-          "phase": "02",
-          "title": "Interactive Cohort Simulations",
-          "sentence": "Facilitated immersive workshops analyzing real-time cross-functional operational friction."
-        },
-        {
-          "phase": "03",
-          "title": "Tactical Decision Frameworks",
-          "sentence": "Trained leaders on objective decision-making under conditions of incomplete operational data."
-        },
-        {
-          "phase": "04",
-          "title": "Behavioral Impact Review",
-          "sentence": "Achieved 92% participant NPS with measurable sustained reductions in team friction."
-        }
-      ],
-      "beforeAfter": {
-        "before": {
-          "label": "Siloed Leadership Practices",
-          "value": "Variable Department Culture • Reactive Conflict"
-        },
-        "after": {
-          "label": "Unified Leadership Doctrine",
-          "value": "92% Participant NPS • Documented Friction Reduction"
-        }
-      },
-      "pullQuote": "True operational leadership is the disciplined fusion of tactical precision and genuine empathy for the human beings on your team."
+      "keyMetric": "1.5-Year Charter Tenure",
+      "exhibit": {
+        "image": "./assets/charter_pic_how_to.jpg",
+        "title": "Maximizing Your Career Growth: Career Development Resources & Interview Mastery",
+        "caption": "Figure 1.0: Career architecture and interview mastery framework designed and facilitated during Grainger organizational Lunch-&-Learn sessions.",
+        "tag": "Facilitated Curriculum Exhibit"
+      }
     },
     {
-      "id": "retail-operations-workforce-scaling",
+      "id": "unifying-talent-acquisition-pipeline",
       "categoryId": "stories",
       "domain": "operations",
-      "image": "./assets/card-project-07.svg",
-      "categoryBadge": "Executive Case Study",
-      "title": "Retail Operations & Large-Scale Workforce Scaling",
-      "role": "General Manager (Anytime Fitness, Target, Best Buy)",
-      "organization": "Anytime Fitness / Target / Best Buy",
-      "timeline": "2015 – 2021",
-      "teaser": "Exercised full operational oversight over 6+ years across high-volume retail environments, mentoring teams of 30+ employees and standardizing onboarding pipelines.",
-      "accentColor": "#eab308",
+      "image": "./assets/thumb-story-talent-pipeline.jpg",
+      "categoryBadge": "Operations & Talent",
+      "title": "Unifying the Talent Acquisition Pipeline",
+      "role": "Hiring Manager",
+      "organization": "Grainger Industrial Supply",
+      "timeline": "2022 – 2023",
+      "teaser": "Consolidating two distinct site hiring programs into a unified cross-site interviewing pipeline, recovering 50%+ of leadership capacity.",
+      "accentColor": "#34d399",
       "itemType": "story",
       "tags": [
-        "Operational Oversight",
-        "Workforce Scaling (30+)",
-        "General Management",
-        "Onboarding Pipelines",
-        "Culture of Excellence"
+        "Site Merger Operations",
+        "Capacity Optimization",
+        "Cross-Site Interviewing",
+        "Calendar Efficiency",
+        "Talent Operations"
       ],
-      "telemetry": [
-        {
-          "label": "Customer-Facing Leadership",
-          "value": 6,
-          "suffix": "+ Years",
-          "precision": 0
-        },
-        {
-          "label": "Team Members Mentored",
-          "value": 30,
-          "suffix": "+ Staff",
-          "precision": 0
-        },
-        {
-          "label": "Operational Oversight",
-          "value": 100,
-          "suffix": "% GM Level",
-          "precision": 0
-        }
-      ],
+      "storyText": "During my tenure as a Hiring Manager, I was tasked with leading the merger of the Lake Forest and Janesville hiring initiatives under a single director. This required combining two distinct, established workflows into one cohesive program that had to be clearly communicated across multiple levels of leadership. The biggest bottleneck in the existing system was the administrative burden on our leadership team, who were required to reserve up to four hours of calendar space each week to cover potential interview slots. To resolve this, I analyzed candidate booking trends and eliminated the historically unselected times. I also implemented a cross-site interviewing model where leaders collaborated to support the unified initiative. By rolling out this new workflow, we reduced the required calendar holds for each leader to just 1.5 to 2 hours a week, recovering valuable leadership capacity while maintaining a highly efficient interview pipeline.",
       "story": {
-        "inception": "Assumed general manager oversight across major retail store facilities, establishing operational baselines and floor service standards.",
-        "challenge": "Engineered workplace culture centered on customer-centricity and continuous improvement, restructuring shift coverage and onboarding pipelines.",
-        "strategy": "Spearheaded hiring, onboarding, and structured mentoring programs for over 30 customer service staff members.",
-        "outcome": "Maintained sustained high performance, full operational governance, and elevated staff retention over 6+ years of general management."
+        "inception": "Tasked as Hiring Manager with merging Lake Forest and Janesville hiring initiatives under a single director.",
+        "challenge": "Administrative burden required leaders to reserve up to 4 hours of calendar space weekly for potential interview slots.",
+        "strategy": "Analyzed booking trends to eliminate unselected slots and implemented a collaborative cross-site interviewing model.",
+        "outcome": "Reduced weekly leader calendar holds from 4 hours down to 1.5–2 hours, recovering critical leadership capacity while sustaining pipeline efficiency."
       },
-      "storyNarrative": {
-        "context": "Seasonal surges in retail and logistics volume present severe operational vulnerabilities: sudden labor shortfalls can quickly cascade into order backlogs and customer churn.",
-        "mandate": "Lead high-velocity seasonal workforce scaling to maintain 100% floor fulfillment, flawless logistics velocity, and zero supply chain interruptions during peak commercial volume.",
-        "execution": "Built predictive labor-demand models aligning historical order velocity with hiring pipelines. Streamlined candidate screening, conducted fast-track group orientations, and instituted agile shift re-allocation across high-demand fulfillment zones.",
-        "impact": "Maintained a 100% shift fill rate throughout peak volume periods, eliminated overtime surges by 22%, and achieved zero order fulfillment downtime."
+      "pullQuote": {
+        "quote": "A team is not a group of people who work together. A team is a group of people who trust each other.",
+        "attribution": "Simon Sinek // Cross-Functional Leadership & Talent Systems"
       },
-      "roadmap": [
-        {
-          "phase": "01",
-          "title": "Demand & Capacity Modeling",
-          "sentence": "Forecasted peak volume surges against historical logistics velocity to size labor cohorts."
-        },
-        {
-          "phase": "02",
-          "title": "High-Velocity Screening Pipeline",
-          "sentence": "Engineered streamlined candidate workflows filling 100% of seasonal shifts ahead of schedule."
-        },
-        {
-          "phase": "03",
-          "title": "Agile Floor Re-Allocation",
-          "sentence": "Implemented rapid floor shifts dynamically balancing surges across loading and retail zones."
-        },
-        {
-          "phase": "04",
-          "title": "Zero Stockout Completion",
-          "sentence": "Maintained 100% fulfillment rate with 22% reduction in unbudgeted overtime expense."
-        }
-      ],
-      "beforeAfter": {
-        "before": {
-          "label": "Understaffed Peak Surges",
-          "value": "Labor Deficits • Logistical Floor Backlogs"
-        },
-        "after": {
-          "label": "Dynamic Staffing Velocity",
-          "value": "100% Shift Fill Rate • 22% Overtime Reduction"
-        }
-      },
-      "pullQuote": "Operational scale is won in the margins—anticipating bottlenecks before they materialize and empowering frontline staff with frictionless tools."
+      "keyMetric": "Leader Calendar Holds Cut to 1.5h/wk (50%+ Time Recovered)",
+      "exhibit": {
+        "image": "./assets/thumb-story-talent-pipeline.jpg",
+        "title": "Unified Cross-Site Recruitment Architecture",
+        "caption": "Figure 1.0: Cross-site interviewing topology and automated Smartsheet booking framework that recovered 50%+ of leadership calendar capacity during a major corporate site merger.",
+        "tag": "Talent Systems Exhibit"
+      }
     },
     {
-      "id": "autonomous-agentic-orchestration",
+      "id": "solar-scope-observatory",
       "categoryId": "ai-projects",
       "itemType": "ai-project",
-      "categoryBadge": "Agentic Systems",
-      "title": "Autonomous Agentic Knowledge Fabric & Multi-Agent Orchestration",
-      "role": "Lead AI Systems Architect (Interactive Model)",
-      "organization": "Agentic Systems & Deep Learning Lab",
-      "timeline": "2025 – Present",
+      "categoryBadge": "Astrodynamics Swarm",
+      "title": "Solar Scope: Aerospace-Grade 3D Planetary Observatory",
+      "role": "Project Manager & Architecture Lead (Multi-Agent Swarm)",
+      "organization": "Antigravity PM & Space Science Group",
+      "timeline": "Active In-Progress // Sprints 0 – 5.1 (Production Baseline)",
       "domain": "data-ai",
-      "image": "./assets/card-grainger-ai.svg",
-      "teaser": "Enterprise-grade multi-agent autonomous framework orchestrating multimodal document ingestion, retrieval-augmented generation (RAG), and human-in-the-loop validation.",
+      "image": "./assets/thumb-solar-scope.jpg",
+      "teaser": "Scientifically accurate real-time 3D planetary observatory uniting analytical VSOP87D ephemerides, SGP4 satellite propagation, and a 5-agent autonomous engineering swarm.",
       "telemetry": [
         {
-          "label": "Task Compression",
-          "value": "72",
+          "label": "Animation Frame Rate",
+          "value": "60",
           "prefix": "",
-          "suffix": "%",
+          "suffix": " FPS",
           "precision": 0
         },
         {
-          "label": "Inference Precision",
-          "value": "99.4",
-          "prefix": "",
-          "suffix": "%",
-          "precision": 1
+          "label": "Active Draw Calls",
+          "value": "24",
+          "prefix": "≤ ",
+          "suffix": " / 50",
+          "precision": 0
         },
         {
-          "label": "Latency Optimization",
-          "value": "3.2",
-          "prefix": "",
-          "suffix": "x",
-          "precision": 1
+          "label": "JPL DE440 Accuracy",
+          "value": "99.999",
+          "prefix": "> ",
+          "suffix": "%",
+          "precision": 3
         }
       ],
-      "story": {
-        "inception": "As enterprise data scales past millions of records, traditional heuristic data pipelines buckle under unstructured supplier specifications, multimodal catalogs, and evolving attribute schemas.",
-        "challenge": "Engineering an autonomous multi-agent system capable of reasoning across complex document hierarchies while ensuring 100% deterministic schema compliance and safety guardrails.",
-        "strategy": "Architected a dual-wing knowledge fabric pairing vector embeddings and hybrid BM25 retrieval with declarative tool dispatch, sandboxed python code execution, and human-in-the-loop checkpoints.",
-        "outcome": "Demonstrated 72% reduction in repetitive taxonomy mapping time, sub-second vector inference, and zero hallucinated schema attributes across production verification tests."
+      "projectOverview": {
+        "goal": "Conceive, architect, and deliver an aerospace-grade, scientifically accurate, real-time 3D solar system observatory and object tracking web application. The platform seamlessly marries high-precision astrodynamics (VSOP87D analytical planetary theory, SGP4 orbital propagation, and bounded Keplerian solvers) with interactive 60 FPS WebGL rendering without dropping frames or suffering from astronomical depth jitter.",
+        "currentStatus": "Production Released & 100% Certified Baseline (20 test suites, 158 tests passing). Currently in-progress with post-release astronomical extensions: lunar ephemeris expansions, Near-Earth Object close approach alerts, and high-precision deep space mission trajectories.",
+        "agentsUsed": [
+          {
+            "agent": "Antigravity PM",
+            "role": "Architecture Governance & Release Gating",
+            "mandate": "Orchestrated sprint lifecycles, defined mathematical coordinate standards, enforced interface data contracts, managed backlog roadmaps, and executed dual-gate release acceptance."
+          },
+          {
+            "agent": "Space Science Expert",
+            "role": "Astrodynamics & Mathematical Physics",
+            "mandate": "Engineered pure TypeScript analytical VSOP87D series, Danby starter Keplerian conic solvers, ICRF/J2000 coordinate transforms, and SGP4 satellite propagation validated against NASA JPL Horizons DE440."
+          },
+          {
+            "agent": "App Design",
+            "role": "3D Scene Graph & Visual Shaders",
+            "mandate": "Composed Three.js/R3F scene graph with logarithmic depth buffer, target-relative floating origin rig, 2K procedural planet textures, coronal plasma GLSL shaders, and the Aerospace Glass Cockpit HUD."
+          },
+          {
+            "agent": "Agentic Systems Expert",
+            "role": "Tooling & Parallel Computing",
+            "mandate": "Architected Comlink Web Worker RPC bridge to compute ephemerides off-thread, built the 4-mode CameraController state machine, implemented zero-allocation math loops, and optimized Vite chunk splitting."
+          },
+          {
+            "agent": "Mgr QA",
+            "role": "Verification & Benchmark Certification",
+            "mandate": "Constructed 20 Vitest automated suites (158 passing tests), audited GPU draw-call thresholds (capped at 24/50), monitored memory leak profiles, and verified JPL DE440 deviation < 0.001%."
+          }
+        ],
+        "decisionsMade": [
+          "Pure TypeScript VSOP87D Engine: Replaced multi-megabyte static orbital lookups with analytical trigonometric series evaluated dynamically in real time.",
+          "Target-Relative Floating Origin Rig: Offset camera coordinate origins by -P_focus combined with logarithmic depth buffering to eliminate 32-bit floating point depth precision tearing across astronomical scale.",
+          "Comlink Web Worker Parallelization: Isolated all heavy astrodynamics calculations to an off-thread Web Worker, guaranteeing the main UI thread never drops below 60 FPS during time-warp scrubs.",
+          "Single-Draw-Call Asteroid Belt: Rendered 4,000 distinct asteroid bodies with spectral color classification using a single instanced GPU draw call."
+        ],
+        "sprints": [
+          { "sprint": "Sprint 0", "title": "Architecture & Data Contracts", "desc": "Defined ICRF J2000 coordinates, draw-call budget (<50), and strict <0.001% JPL DE440 tolerance." },
+          { "sprint": "Sprint 1", "title": "Scaffolding & Ephemeris Engine", "desc": "Pure TS VSOP87D implementation, 2-body Kepler solver, and floating origin WebGL rig." },
+          { "sprint": "Sprint 2", "title": "Celestial Bodies & Shaders", "desc": "GLSL coronal plasma, Rayleigh limb scattering, planetary rings, and Comlink Web Worker." },
+          { "sprint": "Sprint 3", "title": "Live Ingestion & SGP4", "desc": "NASA JPL CNEOS NEOs, CelesTrak TLE feeds with SGP4 propagation, and NOAA space weather." },
+          { "sprint": "Sprint 4", "title": "Mission Control Cockpit HUD", "desc": "4-mode camera controller, non-blocking glass HUD, Julian Date time scrubber, and screen reticles." },
+          { "sprint": "Sprint 5 & 5.1", "title": "Production Hardening & Stabilization", "desc": "20 test suites / 158 tests passing, 32.0 planetary scale fix, 128x64 geometries, and chunk splitting." }
+        ]
       },
+      "storyText": "Solar Scope is an aerospace-grade, scientifically accurate real-time 3D planetary observatory and object tracking web application. The platform unites high-precision astrodynamics (VSOP87D analytical planetary theory, SGP4 orbital propagation, and bounded Keplerian solvers) with interactive 60 FPS WebGL rendering without dropping frames or suffering from astronomical depth jitter.\n\nGoverned by an autonomous 5-agent engineering swarm managed by the Antigravity PM, the project solved the classic challenge of astronomical scale in browser viewports through two architectural innovations: isolating all mathematical ephemeris calculations to an off-thread Web Worker via Comlink, and utilizing a Target-Relative Floating Origin rig (-P_focus) coupled with a logarithmic depth buffer to prevent 32-bit precision tearing.\n\nWith 20 automated test suites and 158 unit and integration tests certifying <0.001% accuracy against NASA JPL Horizons DE440 state vectors, Solar Scope represents an uncompromising synthesis of computational physics, modern 3D graphics, and multi-agent systems orchestration.",
+      "story": {
+        "inception": "Conceived as an aerospace-grade real-time 3D solar system observatory uniting analytical astrodynamics with 60 FPS interactive WebGL rendering.",
+        "challenge": "Solving 32-bit floating point depth tearing across astronomical scales while keeping complex ephemeris calculations from dropping UI frames.",
+        "strategy": "Orchestrated a 5-agent engineering swarm implementing pure TS VSOP87D series, an off-thread Comlink Web Worker, and a Target-Relative Floating Origin rig.",
+        "outcome": "Achieved 100% production release certification across 20 test suites and 158 tests, locked at 60 FPS with only 24 active draw calls."
+      },
+      "pullQuote": {
+        "quote": "Simulating the cosmos at 60 FPS requires uncompromising mathematical rigor; offloading VSOP87D analytical theories to worker threads guarantees zero frame jitter while preserving sub-arcsecond astronomical fidelity.",
+        "attribution": "Antigravity PM // Architectural Gating Review"
+      },
+      "keyMetric": "60 FPS Locked • 24 Draw Calls • <0.001% JPL Error",
       "tags": [
-        "Agentic AI",
-        "Multi-Agent Systems",
-        "Vector RAG",
-        "MCP Tools",
-        "Python Sandbox",
-        "Governance"
+        "Multi-Agent Swarm",
+        "Astrodynamics",
+        "VSOP87D Theory",
+        "Three.js / WebGL",
+        "Comlink Web Worker",
+        "SGP4 Satellites",
+        "JPL Horizons DE440"
       ],
+      "exhibit": {
+        "image": "./assets/thumb-solar-scope.jpg",
+        "title": "Solar Scope 3D Planetary Observatory Exhibit",
+        "caption": "Figure 1.0: Real-time 3D planetary observatory viewport running VSOP87D analytical ephemerides off-thread at 60 FPS with single-draw-call asteroid rendering.",
+        "tag": "Live 3D Systems Exhibit"
+      },
       "mindMap": {
         "hub": {
-          "code": "AGY-AI-CORE",
-          "label": "Autonomous Agentic Knowledge Fabric",
-          "subtitle": "Multimodal Ingestion • Multi-Agent Loops • Enterprise Safety Guardrails",
+          "code": "SOLAR-SCOPE-CORE",
+          "label": "Solar Scope 3D Astrodynamics Observatory",
+          "subtitle": "VSOP87D Analytical Ephemeris • SGP4 Satellites • 60 FPS Three.js Canvas",
           "accent": "#38bdf8"
         },
         "branches": [
           {
-            "id": "b-ingest",
+            "id": "ss-astro",
             "side": "left",
-            "phaseCode": "01 // INGESTION",
-            "phaseName": "Multimodal Data & Vector RAG Pipeline",
+            "phaseCode": "01 // ASTRODYNAMICS",
+            "phaseName": "Orbital Solvers & Planetary Ephemeris",
             "badgeColor": "bg-sapphire/20 text-sapphire-light border-sapphire-light/30",
             "accent": "#38bdf8",
             "tasks": [
               {
                 "code": "1.01",
-                "title": "Document Parsing & Chunking",
-                "desc": "OCR, table extraction, and structural semantic boundaries.",
-                "meta": "ETL"
+                "title": "Analytical VSOP87D Engine",
+                "desc": "Trigonometric series calculation for planetary positions.",
+                "meta": "Math Core"
               },
               {
                 "code": "1.02",
-                "title": "Vector Embeddings & Hybrid Search",
-                "desc": "Dense vector retrieval blended with BM25 lexical keyword filtering.",
-                "meta": "Vector DB"
+                "title": "Danby Starter Kepler Solver",
+                "desc": "Hyperbolic and elliptical bounded conic mechanics.",
+                "meta": "Keplerian"
               },
               {
                 "code": "1.03",
-                "title": "Context Window Compression",
-                "desc": "Cross-encoder re-ranking and prompt token efficiency tuning.",
-                "meta": "Re-ranker"
+                "title": "NASA JPL Horizons DE440 Gating",
+                "desc": "Automated test assertion verifying <0.001% vector delta.",
+                "meta": "Validation"
               }
             ]
           },
           {
-            "id": "b-reason",
+            "id": "ss-worker",
             "side": "left",
-            "phaseCode": "02 // REASONING",
-            "phaseName": "Prompt Systems & Meta-Cognitive Deliberation",
+            "phaseCode": "02 // MULTI-THREAD",
+            "phaseName": "Off-Thread Worker & Telemetry Ingestion",
             "badgeColor": "bg-sky-500/20 text-sky-300 border-sky-400/30",
             "accent": "#60a5fa",
             "tasks": [
               {
                 "code": "2.01",
-                "title": "Chain-of-Thought & Extended Thinking",
-                "desc": "Step-by-step hypothesis validation before tool triggering.",
-                "meta": "Reasoning"
+                "title": "Comlink Web Worker RPC",
+                "desc": "Decoupled ephemeris calculation preserving 60 FPS main thread.",
+                "meta": "Worker"
               },
               {
                 "code": "2.02",
-                "title": "Domain-Specific Few-Shot Injector",
-                "desc": "Dynamic few-shot context retrieval grounded in taxonomy rules.",
-                "meta": "PIM Rules"
+                "title": "SGP4 Satellite Propagation",
+                "desc": "Real-time CelesTrak TLE ingestion and orbit propagation.",
+                "meta": "Satellites"
               },
               {
                 "code": "2.03",
-                "title": "Self-Correction & Refinement Loop",
-                "desc": "Automated schema validator prompting model correction on syntax errors.",
-                "meta": "Verification"
+                "title": "NOAA Space Weather Client",
+                "desc": "Solar flare monitoring and Kp geomagnetic index parsing.",
+                "meta": "NOAA API"
               }
             ]
           },
           {
-            "id": "b-exec",
+            "id": "ss-graphics",
             "side": "right",
-            "phaseCode": "03 // EXECUTION",
-            "phaseName": "Autonomous Tool Calling & Sidecar Services",
+            "phaseCode": "03 // 3D GRAPHICS",
+            "phaseName": "Procedural Shaders & Precision Viewport",
             "badgeColor": "bg-blue-600/20 text-blue-300 border-blue-400/30",
             "accent": "#3b82f6",
             "tasks": [
               {
                 "code": "3.01",
-                "title": "Declarative Function Dispatch",
-                "desc": "Schema-validated structured argument payload generation.",
-                "meta": "MCP API"
+                "title": "Floating Origin Rig (-P_focus)",
+                "desc": "Cures 32-bit floating point depth tearing across AU scales.",
+                "meta": "Origin Rig"
               },
               {
                 "code": "3.02",
-                "title": "Sandboxed Code Execution Engine",
-                "desc": "Isolated container execution for data analysis and visual chart rendering.",
-                "meta": "Sandbox"
+                "title": "Coronal Plasma & Limb Scattering",
+                "desc": "GLSL procedural shaders for solar corona and atmospheres.",
+                "meta": "GLSL Shaders"
               },
               {
                 "code": "3.03",
-                "title": "Distributed Subagent Swarm Sync",
-                "desc": "Reactive event queue coordinating specialized concurrent subagents.",
-                "meta": "Subagents"
+                "title": "Instanced Asteroid Belt (4,000)",
+                "desc": "GPU single-draw-call asteroid belt with spectral classification.",
+                "meta": "InstancedMesh"
               }
             ]
           },
           {
-            "id": "b-safety",
+            "id": "ss-cockpit",
             "side": "right",
-            "phaseCode": "04 // GOVERNANCE",
-            "phaseName": "Safety Guardrails & Human-in-the-Loop",
+            "phaseCode": "04 // FLIGHT HUD",
+            "phaseName": "Aerospace Mission Control Cockpit",
             "badgeColor": "bg-emerald-500/20 text-emerald-300 border-emerald-400/30",
             "accent": "#10b981",
             "tasks": [
               {
                 "code": "4.01",
-                "title": "Deterministic Schema Validation",
-                "desc": "JSON-schema output contracts guaranteeing zero hallucinated fields.",
-                "meta": "Contracts"
+                "title": "4-Mode Camera State Machine",
+                "desc": "Overview, Body Inspection, Chase Tracking, and Free Survey.",
+                "meta": "Camera Rig"
               },
               {
                 "code": "4.02",
-                "title": "Human-in-the-Loop Intervention Gate",
-                "desc": "High-confidence thresholding escalating edge cases to senior analyst review.",
-                "meta": "HITL"
+                "title": "Julian Date Time-Warp Scrubber",
+                "desc": "Smooth non-linear time acceleration from 0x to 10,000x.",
+                "meta": "Time Warp"
               },
               {
                 "code": "4.03",
-                "title": "Real-Time Latency & Cost Telemetry",
-                "desc": "Sub-second token counting, latency tracking, and ROI telemetry dashboard.",
-                "meta": "Telemetry"
+                "title": "Dynamic 2D Screen Reticles",
+                "desc": "Frustum-culled tracking reticles with non-blocking pointer events.",
+                "meta": "HUD Matrix"
               }
             ]
           }
@@ -911,227 +657,630 @@
       }
     },
     {
-      "id": "custom-electric-skateboards",
-      "categoryId": "hobbies",
-      "image": "./assets/card-skateboards.svg",
-      "categoryBadge": "Hardware & Firmware",
-      "title": "High-Discharge Custom Electric Skateboards & VESC Telemetry",
-      "role": "Builder, Spot-Welder & Firmware Tuner",
-      "organization": "Independent Garage Lab",
-      "timeline": "Ongoing",
-      "teaser": "Engineered bespoke personal electric vehicles from scratch: spot-welded 12S4P 21700 lithium battery packs, programmed VESC field-oriented motor control, and machined CNC drivetrains.",
-      "accentColor": "#ef4444",
-      "itemType": "hobby",
-      "tags": [
-        "VESC 6 FOC Tuning",
-        "12S4P Molicel 21700",
-        "Nickel Busbar Spot-Welding",
-        "Smart Bluetooth BMS",
-        "Thermal Dissipation",
-        "Regenerative Braking"
-      ],
-      "specs": [
+      "id": "esk8-shipyard-builder",
+      "categoryId": "ai-projects",
+      "itemType": "ai-project",
+      "categoryBadge": "Electro-Mechanical Swarm",
+      "title": "ESK8 Shipyard // Modular Electric Longboard Builder",
+      "role": "Autonomous Project Manager & Systems Architect",
+      "organization": "Project Omega Engineering Group",
+      "timeline": "Active In-Progress // Sprints 1 – 5 (v1.0 Certified)",
+      "domain": "operations",
+      "image": "./assets/thumb-longboard-builder.jpg",
+      "teaser": "Interactive sci-fi shipyard configurator and engineering simulator modeling electro-mechanical physics, thermal limits, power overload VFX, and procedural 3D components.",
+      "telemetry": [
         {
-          "label": "Battery Architecture",
-          "value": "12S4P Molicel P42A",
-          "note": "50.4V Peak, 16.8Ah (846 Wh)"
+          "label": "Hardware Subsystems",
+          "value": "10",
+          "prefix": "",
+          "suffix": " Major Types",
+          "precision": 0
         },
         {
-          "label": "Continuous Discharge",
-          "value": "80 Amps Sustained",
-          "note": "Pure copper/nickel sandwich busbars"
+          "label": "QA Verification Pass",
+          "value": "100",
+          "prefix": "",
+          "suffix": "% (8/8)",
+          "precision": 0
         },
         {
-          "label": "Top Velocity",
-          "value": "42 MPH",
-          "note": "Dual 6374 190KV brushless motors"
-        },
-        {
-          "label": "Motor Controller",
-          "value": "Dual VESC 6+",
-          "note": "Custom Field-Oriented Control curves"
+          "label": "Physics Engine Models",
+          "value": "5",
+          "prefix": "",
+          "suffix": " Electro-Mech",
+          "precision": 0
         }
       ],
-      "story": {
-        "inception": "Commercial off-the-shelf electric skateboards suffer from thermal throttling under sustained incline loads, generic speed controller lag, and battery enclosures with fragile solder joints prone to road vibration failure.",
-        "challenge": "Safely delivering 80+ amps of continuous electrical current through a compact physical deck while dampening high-frequency road vibrations, preventing cell puncture, and modeling thermal dissipation without active fan cooling.",
-        "strategy": "Hand-built a custom 12S4P battery pack using genuine Molicel P42A 21700 cells spot-welded with slotted pure nickel sheets and fishpaper insulation. Programmed open-source VESC speed controllers via Bluetooth telemetry, fine-tuning throttle ramp curves and linear regenerative braking.",
-        "outcome": "Constructed high-torque, reliable belt-drive boards tested over hundreds of road miles with zero cutouts or thermal shutdowns. Hands-on mastery of electrical thermodynamics, mechanical stress tolerances, and firmware tuning."
-      },
-      "diagram": {
-        "nodes": [
+      "projectOverview": {
+        "goal": "End-to-end execution of a video game-inspired modular electric skateboard shipyard builder and engineering simulator. Combines authentic real-world public component specifications (Loaded, Trampa, Molicel, VESC, Orangatang) with rigorous electro-mechanical physics modeling (weighted top speed, Wh/mi consumption, Kt torque, hill climb %), power grid overload protection alarms, procedural 3D component visuals, and synthesized Web Audio soundscapes.",
+        "currentStatus": "Executive Deliverable v1.0 Delivered and 100% Certified (8/8 test suites passing). Currently active and in-progress expanding custom multi-cell spot-weld battery pack geometries, dynamic regenerative braking thermal curves, and high-rate telemetry logging.",
+        "agentsUsed": [
           {
-            "id": "40",
-            "type": "input",
-            "data": {
-              "label": "12S4P Molicel Battery Pack",
-              "phase": "INCEPTION",
-              "sub": "50.4V Peak • 846 Wh Capacity"
-            },
-            "position": {
-              "x": 60,
-              "y": 70
-            }
+            "agent": "Lead Autonomous PM",
+            "role": "Project Governance & Release Sign-Off",
+            "mandate": "Orchestrated cross-departmental agent task streams, arbitrated component interface boundaries, established delivery roadmaps, and signed off on the v1.0 release deliverable."
           },
           {
-            "id": "41",
-            "data": {
-              "label": "Smart Bluetooth BMS",
-              "phase": "STRATEGY",
-              "sub": "Per-Cell Voltage & Temp Safety"
-            },
-            "position": {
-              "x": 300,
-              "y": 70
-            }
+            "agent": "Team Alpha (Research & Hardware)",
+            "role": "Real-World Component Catalog",
+            "mandate": "Compiled authentic technical specifications across four major market tiers (High-end DIY, Hyper-performance, Urban Commuter, Off-road Mountainboard) for decks, drivetrains, motors, batteries, ESCs, and wheels."
           },
           {
-            "id": "42",
-            "data": {
-              "label": "Dual VESC 6 Motor Controller",
-              "phase": "STRATEGY",
-              "sub": "Field-Oriented Control (FOC)"
-            },
-            "position": {
-              "x": 540,
-              "y": 70
-            }
+            "agent": "Team Beta (R&D & Physics)",
+            "role": "Electro-Mechanical Mathematical Solvers",
+            "mandate": "Implemented mathematical models for weighted top speed, true usable watt-hour range, Kt torque constant solvers, MOSFET voltage breach checks, continuous amp overdraw, and wheelbite clearance."
           },
           {
-            "id": "43",
-            "type": "output",
-            "data": {
-              "label": "Dual 6374 190KV Drivetrain",
-              "phase": "OUTCOME",
-              "sub": "42 MPH • Linear Regen Braking"
-            },
-            "position": {
-              "x": 780,
-              "y": 70
-            }
+            "agent": "Team Delta (Design & VFX)",
+            "role": "Sci-Fi Shipyard 3D Visualizer & Audio",
+            "mandate": "Created the 3D procedural canvas, X-Ray Interior View displaying 21700 lithium cells and VESC capacitors, live throttle conduit with glowing cyan energy pulses, and procedural Web Audio synthesizers."
+          },
+          {
+            "agent": "Team Epsilon (QA & Compliance)",
+            "role": "Automated Validation & Formula Testing",
+            "mandate": "Authored comprehensive verification suites validating electrical boundary conditions, mechanical compatibility checks, and zero-crash browser runtime performance."
           }
         ],
-        "edges": [
+        "decisionsMade": [
+          "Real-World Dropdown Configurator: Redesigned parts selector into clean, organized dropdown menus displaying actual manufacturer specs, prices, and physical tolerances.",
+          "X-Ray Interior Mode: Added one-click transparency mode allowing riders to peer inside the enclosure to inspect cylindrical 21700 lithium cells, nickel busbars, and dual VESC filter capacitors.",
+          "Live Throttle Conduit Slider: Connected an interactive 0–100% throttle slider directly to motor can rotation, wheel spin rates, and glowing cyan power conduit pulse speed.",
+          "Active Electrical Catastrophe Alarms: Triggered immediate visual alarms and screen shudder when battery pack voltage breaches ESC limits (S × 4.2V > ESC limit) or motor demand exceeds battery discharge."
+        ],
+        "sprints": [
+          { "sprint": "Sprint 1", "title": "Hardware Research & Market Catalog", "desc": "Curated specifications for 10 major hardware subsystems across 4 market performance tiers." },
+          { "sprint": "Sprint 2", "title": "Electro-Mechanical Physics Engine", "desc": "Engineered weighted speed, Wh/mi consumption scaling, Kt torque, and voltage breach detection." },
+          { "sprint": "Sprint 3", "title": "3D Visualizer & Procedural Geometries", "desc": "Built procedural bamboo camber, Trampa cutout channels, channel trucks, and X-Ray interior mode." },
+          { "sprint": "Sprint 4", "title": "Live Throttle & Procedural Web Audio", "desc": "Connected interactive throttle slider to wheel spin, conduit pulse speed, and procedural soundscapes." },
+          { "sprint": "Sprint 5", "title": "Re-Architecture & v1.0 Sign-Off", "desc": "Consolidated telemetry HUD, streamlined configurator dropdowns, passed 8/8 automated QA suites." }
+        ]
+      },
+      "storyText": "ESK8 Shipyard is a video game-inspired modular electric skateboard builder and engineering simulator that bridges the gap between raw hardware catalog specifications and rigorous electro-mechanical physics modeling.\n\nConceived and executed by an autonomous multi-agent engineering team managed by the Lead Autonomous PM, the simulator incorporates authentic real-world components—from Loaded Vanguard cambered bamboo decks and Trampa HolyPro mountainboards to Molicel 21700 cells and VESC dual-drive speed controllers. Rather than treating components as static inventory items, Team Beta engineered rigorous physical models calculating weighted top speed, usable watt-hour range across wheel diameters (urethane vs. pneumatic), and instantaneous motor torque.\n\nTo elevate the user experience into an authentic sci-fi shipyard, Team Delta integrated an interactive X-Ray Mode revealing the internal battery busbars and VESC capacitors, paired with a Live Throttle Conduit slider that revs motor cans, accelerates wheel rotation, and speeds up glowing cyan electrical energy pulses in real time.",
+      "story": {
+        "inception": "Architected an interactive sci-fi shipyard simulator modeling electric skateboards with authentic hardware specifications.",
+        "challenge": "Balancing complex electro-mechanical engineering formulas (voltage sag, torque, Wh/mi) with a video game ship-builder visual identity.",
+        "strategy": "Managed a 5-department autonomous team implementing modular catalog schemas, mathematical physics models, procedural 3D parts, and X-Ray interior views.",
+        "outcome": "Delivered executive v1.0 release with 100% automated test pass (8/8), active power overload VFX, and interactive throttle telemetry."
+      },
+      "pullQuote": {
+        "quote": "True systems engineering isn't just about selecting parts; it's about modeling the invisible energy conduits, thermal thresholds, and mechanical tolerances that keep high-performance hardware alive under stress.",
+        "attribution": "Lead Autonomous PM // Engineering Directive"
+      },
+      "keyMetric": "10 Hardware Subsystems • Real-Time Physics • 100% QA Pass",
+      "tags": [
+        "Multi-Agent Swarm",
+        "ESK8 Engineering",
+        "Electro-Mechanical Physics",
+        "Procedural 3D",
+        "X-Ray Mode",
+        "Web Audio API",
+        "VESC Architecture"
+      ],
+      "exhibit": {
+        "image": "./assets/thumb-longboard-builder.jpg",
+        "title": "ESK8 Shipyard CAD & Powertrain Simulation Exhibit",
+        "caption": "Figure 2.0: Modular CAD assembly workbench with real-time powertrain calculations, thermal modeling, and bill-of-materials telemetry governed by autonomous engineering agents.",
+        "tag": "CAD & Powertrain Systems Exhibit"
+      },
+      "mindMap": {
+        "hub": {
+          "code": "ESK8-SHIPYARD-CORE",
+          "label": "ESK8 Shipyard Modular Builder & Simulator",
+          "subtitle": "Electro-Mechanical Physics • 3D Component Models • Power Grid Overload VFX",
+          "accent": "#34d399"
+        },
+        "branches": [
           {
-            "id": "e40-41",
-            "source": "40",
-            "target": "41",
-            "label": "High-Current Discharge",
-            "animated": true,
-            "style": {
-              "stroke": "#ef4444"
-            }
+            "id": "esk8-catalog",
+            "side": "left",
+            "phaseCode": "01 // HARDWARE",
+            "phaseName": "Authentic Component Specifications",
+            "badgeColor": "bg-emerald-500/20 text-emerald-300 border-emerald-400/30",
+            "accent": "#10b981",
+            "tasks": [
+              {
+                "code": "1.01",
+                "title": "Deck Geometry Catalog",
+                "desc": "Loaded Vanguard bamboo camber, Trampa cutout, Landyachtz Evo.",
+                "meta": "Chassis"
+              },
+              {
+                "code": "1.02",
+                "title": "21700 Lithium Cell Arrays",
+                "desc": "Molicel P42A, P45B, and Samsung 40T/50S configurations.",
+                "meta": "Power Core"
+              },
+              {
+                "code": "1.03",
+                "title": "VESC Speed Controller Matrix",
+                "desc": "Stormcore 60D/100D, Spintend Ubox, and Makerbase limits.",
+                "meta": "Avionics"
+              }
+            ]
           },
           {
-            "id": "e41-42",
-            "source": "41",
-            "target": "42",
-            "label": "Telemetry & Protection",
-            "animated": true,
-            "style": {
-              "stroke": "#f59e0b"
-            }
+            "id": "esk8-physics",
+            "side": "left",
+            "phaseCode": "02 // PHYSICS",
+            "phaseName": "Electro-Mechanical Mathematical Solvers",
+            "badgeColor": "bg-teal-500/20 text-teal-300 border-teal-400/30",
+            "accent": "#14b8a6",
+            "tasks": [
+              {
+                "code": "2.01",
+                "title": "Weighted Top Speed Solver",
+                "desc": "Gear ratio, nominal voltage, motor Kv, and wheel diameter formula.",
+                "meta": "Velocity"
+              },
+              {
+                "code": "2.02",
+                "title": "True Usable Wh/mi Range Model",
+                "desc": "Consumption curves scaling from 80mm urethane to 8\" pneumatics.",
+                "meta": "Efficiency"
+              },
+              {
+                "code": "2.03",
+                "title": "Motor Torque Kt & Hill Grade",
+                "desc": "Instantaneous Newton-meter torque and grade climb percentage.",
+                "meta": "Torque"
+              }
+            ]
           },
           {
-            "id": "e42-43",
-            "source": "42",
-            "target": "43",
-            "label": "3-Phase PWM Power",
-            "animated": true,
-            "style": {
-              "stroke": "#10b981"
-            }
+            "id": "esk8-safety",
+            "side": "right",
+            "phaseCode": "03 // SAFETY",
+            "phaseName": "Power Grid Guardrails & Overload Alarms",
+            "badgeColor": "bg-amber-500/20 text-amber-300 border-amber-400/30",
+            "accent": "#f59e0b",
+            "tasks": [
+              {
+                "code": "3.01",
+                "title": "MOSFET Voltage Breach Alert",
+                "desc": "Catastrophic breakdown warning when pack S x 4.2V > ESC rating.",
+                "meta": "Overvoltage"
+              },
+              {
+                "code": "3.02",
+                "title": "Current Overdraw & Sag Modeling",
+                "desc": "Thermal runaway protection and continuous discharge bounds.",
+                "meta": "Amperage"
+              },
+              {
+                "code": "3.03",
+                "title": "Mechanical Wheelbite & Axle Check",
+                "desc": "Riser height vs wheel diameter and 8mm vs 10mm axle matching.",
+                "meta": "Clearance"
+              }
+            ]
+          },
+          {
+            "id": "esk8-visuals",
+            "side": "right",
+            "phaseCode": "04 // 3D & AUDIO",
+            "phaseName": "Sci-Fi Shipyard Visualizer & Web Audio",
+            "badgeColor": "bg-sky-500/20 text-sky-300 border-sky-400/30",
+            "accent": "#0ea5e9",
+            "tasks": [
+              {
+                "code": "4.01",
+                "title": "X-Ray Interior Mode",
+                "desc": "Translucent enclosure revealing 21700 cells and VESC capacitors.",
+                "meta": "X-Ray 3D"
+              },
+              {
+                "code": "4.02",
+                "title": "Live Throttle Energy Conduit",
+                "desc": "Interactive slider revving motors and accelerating pulse frequency.",
+                "meta": "Throttle"
+              },
+              {
+                "code": "4.03",
+                "title": "Procedural Web Audio Engine",
+                "desc": "Synthesized hums, magnetic latch clicks, and overload sirens.",
+                "meta": "Web Audio"
+              }
+            ]
           }
         ]
       }
     },
     {
-      "id": "bas-relief-art",
-      "categoryId": "hobbies",
-      "image": "./assets/card-bas-relief.svg",
-      "categoryBadge": "Craft & Sculpture",
-      "title": "3D Bas-Relief Sculptural Art & Light Falloff Physics",
-      "role": "Sculptural Designer & Dimensional Modeler",
-      "organization": "Personal Studio | Hutchinson Island, FL",
-      "timeline": "Ongoing",
-      "teaser": "Exploring physical surface depth through sub-millimeter bas-relief modeling, calculating directional light falloff, and compressing 3D forms into millimeters of tactile relief.",
-      "accentColor": "#10b981",
-      "itemType": "hobby",
-      "tags": [
-        "3D Bas-Relief",
-        "Directional Lighting",
-        "Specular Highlight Math",
-        "Tactile Substrate Carving",
-        "Patience & Detail"
-      ],
-      "specs": [
+      "id": "starfleet-tactical-simulator",
+      "categoryId": "ai-projects",
+      "itemType": "ai-project",
+      "categoryBadge": "Tactical Flight Swarm",
+      "title": "Starfleet Tactical: Combat & Warp Flight Simulator",
+      "role": "Lead Tactical Systems Engineer & PM",
+      "organization": "Starfleet Tactical Simulator Division",
+      "timeline": "Active In-Progress // Sprints 1 – 5 (Warp Flight Integration)",
+      "domain": "culture-leadership",
+      "image": "./assets/thumb-starfleet-tactical.jpg",
+      "liveUrl": "https://strandevin-collab.github.io/starship-battle/",
+      "githubUrl": "https://github.com/strandevin-collab/starship-battle",
+      "qrCode": "./assets/qr-starship-battle.svg",
+      "teaser": "Dual-mode Star Trek tactical defense and canon warp flight simulator featuring LCARS styling, studio-accurate USS Defiant procedural geometry, and black hole gravitation.",
+      "telemetry": [
         {
-          "label": "Relief Depth",
-          "value": "±3.0 mm",
-          "note": "Sub-millimeter vertical contour compression"
+          "label": "Flight Modes",
+          "value": "2",
+          "prefix": "",
+          "suffix": " Tactical & Warp",
+          "precision": 0
         },
         {
-          "label": "Lighting Model",
-          "value": "Dynamic Directional",
-          "note": "Light vector calculates highlight falloff"
+          "label": "Canvas Engine Loop",
+          "value": "60",
+          "prefix": "",
+          "suffix": " FPS",
+          "precision": 0
         },
         {
-          "label": "Substrate",
-          "value": "High-Density Composite",
-          "note": "Precision sculpted and sealed surfaces"
+          "label": "Canon Warp Velocity",
+          "value": "9.98",
+          "prefix": "Warp ",
+          "suffix": " Max Burst",
+          "precision": 2
         }
       ],
-      "story": {
-        "inception": "In bas-relief sculpting, full three-dimensional anatomical and architectural forms must be flattened into mere millimeters of physical depth. The visual illusion of mass and depth relies entirely on how incident light catches carved bevel edges.",
-        "challenge": "Balancing steep edge undercuts that create dark cast shadows with gradual draft angles that catch soft specular glints, without losing anatomical proportion.",
-        "strategy": "Meticulously calculate how light angles interact with carved contours—a physical discipline directly mirrored in this website's carved UI cards and dynamic mouse-tracking specular highlights.",
-        "outcome": "Physical artworks that reward patient, close inspection. The discipline of the craft directly informs professional data integrity: respecting materials, honoring historical methods, and understanding that lasting systems require meticulous patience."
+      "projectOverview": {
+        "goal": "Design, architect, and deliver an authentic Star Trek tactical starship combat and warp flight simulator. Features a dual-mode LCARS interface supporting both wave-based Tactical Defense and an infinite Warp Flight exploration run measured in real-time Light Years, with studio-accurate procedural starship geometries (USS Defiant NX-74205 and USS Enterprise NCC-1701-A), canon relativistic warp speeds, dynamic weapon emitters, and gravitational black hole singularities.",
+        "currentStatus": "Active and In-Progress. Silhouette alignment for the USS Defiant successfully integrated with multi-tiered hull and nacelle sponsons; currently balancing warp flight hazard densities, starfield velocity shaders, and multi-sector galactic transitions.",
+        "agentsUsed": [
+          {
+            "agent": "Lead Starfleet Tactical PM",
+            "role": "Campaign Balancing & Canon Compliance",
+            "mandate": "Supervised phased sprint deliverables, balanced combat wave pacing against canon durability, established dual-mode LCARS architecture, and ensured desktop/mobile touch parity."
+          },
+          {
+            "agent": "Starship Design & Graphics Lead",
+            "role": "Procedural 2D Canvas Starship Blueprints",
+            "mandate": "Re-engineered procedural starship rendering from generic polygons to exact top-down technical studio blueprints: protruding nose warhead pod, curved bow, nacelle sponsons, and bridge cowling."
+          },
+          {
+            "agent": "Flight Systems & Warp Physics Lead",
+            "role": "Canon Warp Dynamics & Celestial Mechanics",
+            "mandate": "Modeled real-world velocity curves ($c$ and LY/s), starfield velocity streaking, relativistic dilation, Dilithium crystal max-warp bursts, and black hole gravitational pull vectors."
+          },
+          {
+            "agent": "Combat Systems Engineer",
+            "role": "Armaments & Tactical Raycasting",
+            "mandate": "Engineered pulse phaser raycasting, forward quantum torpedo ballistic arcs, dynamic shield quadrant balancing, and random hostile patrol spawns (Klingon Birds-of-Prey and Jem'Hadar)."
+          },
+          {
+            "agent": "Verification & Platform Specialist",
+            "role": "Performance & Responsive Engine",
+            "mandate": "Optimized 60 FPS requestAnimationFrame canvas rendering, designed dual-joystick virtual touch controls for mobile browsers, and implemented synthesized LCARS audio triggers."
+          }
+        ],
+        "decisionsMade": [
+          "USS Defiant Silhouette Alignment: Completely overhauled procedural 2D canvas drawing to match canon studio schematics, incorporating the protruding nose warhead, curved horseshoe bow, and nacelle sponsons.",
+          "LCARS Mode Switcher: Introduced a top-level LCARS toggle allowing instantaneous transition between wave-based Tactical Defense and distance-run Warp Flight exploration.",
+          "Differential Starship Physics: Enterprise NCC-1701-A provides heavy cruiser shield fortitude (135% shields, slower turn rate), while the Defiant NX-74205 delivers lightning agility and rapid pulse cannons.",
+          "Gravitational Singularities: Implemented permanent space landmarks including massive Starbases and Gravitational Black Holes with dynamic inverse-distance pull vectors requiring counter-thrust navigation."
+        ],
+        "sprints": [
+          { "sprint": "Sprint 1", "title": "LCARS Tactical Interface & Canvas Engine", "desc": "Implemented 60 FPS 2D canvas game loop, starfield parallax, and classic LCARS color palettes." },
+          { "sprint": "Sprint 2", "title": "Weapon Emitters & Shield Quadrants", "desc": "Pulse phasers, torpedo emitters, shield dissipation matrices, and hostile boss waves." },
+          { "sprint": "Sprint 3", "title": "Mobile Touch Overlay & Viewport Scaling", "desc": "Virtual analog joystick, responsive canvas sizing, and QR code mobile testing." },
+          { "sprint": "Sprint 4", "title": "Defiant Silhouette Alignment", "desc": "Procedural canvas re-engineering matching technical schematics: nose pod, curved bow, and nacelle sponsons." },
+          { "sprint": "Sprint 5", "title": "Warp Flight Endless Run & Singularities", "desc": "Light Year distance telemetry, Dilithium boosters, Black Hole gravitational pull, and sector transitions." }
+        ]
       },
-      "diagram": null
+      "storyText": "Starfleet Tactical is an authentic Star Trek tactical starship combat and warp flight simulator developed with meticulous attention to canon ship specifications and sci-fi aesthetic traditions.\n\nGoverned by an autonomous multi-agent engineering team led by the Lead Starfleet Tactical PM, the project underwent a major architectural leap during Sprint 4 and Sprint 5: re-engineering the procedural 2D canvas drawing of the USS Defiant (NX-74205) using technical studio blueprints—replacing generic wedge placeholders with the iconic protruding nose warhead pod, curved horseshoe bow, blocky nacelle sponsons, and tiered stern.\n\nConcurrently, the team introduced a top-level LCARS mode switcher enabling seamless transition between wave-based Tactical Defense and an infinite Warp Flight mode. In Warp Flight, players navigate across light years at canon warp speeds, collecting Dilithium boosters for maximum warp surges while maneuvering around permanent space landmarks such as orbital starbases and gravitational black holes that dynamically pull starships toward their event horizons.",
+      "story": {
+        "inception": "Designed an authentic Star Trek tactical space combat simulator with procedural LCARS graphics.",
+        "challenge": "Re-engineering generic placeholder polygon ships into authentic studio-accurate silhouettes while integrating relativistic warp flight physics.",
+        "strategy": "Formed an autonomous starship engineering team delivering procedural Defiant blueprints, dual-mode LCARS switches, and inverse-gravity black hole mechanics.",
+        "outcome": "Successfully achieved 60 FPS canvas loop, studio-accurate USS Defiant geometry, and an infinite Warp Flight exploration mode."
+      },
+      "pullQuote": {
+        "quote": "In tactical space operations, agility and fortitude are balanced on a knife's edge; procedural fidelity must honor canon physics from sub-light pulse phasers to relativistic warp dynamics.",
+        "attribution": "Lead Tactical PM // Mission Operations Ledger"
+      },
+      "keyMetric": "Dual-Mode LCARS • Canon Warp Speeds • Black Hole Gravitation",
+      "tags": [
+        "Multi-Agent Swarm",
+        "Procedural 2D Canvas",
+        "Star Trek Canon",
+        "Warp Flight Mechanics",
+        "LCARS Interface",
+        "Gravitational Physics",
+        "Mobile Touch Controls"
+      ],
+      "exhibit": {
+        "image": "./assets/thumb-starfleet-tactical.jpg",
+        "title": "Starfleet Tactical Combat & Warp Flight Simulation Exhibit",
+        "caption": "Figure 3.0: Dual-mode LCARS tactical cockpit and real-time relativistic warp propulsion simulator operating under canon astrophysical and shield dynamics.",
+        "tag": "Tactical Simulator Exhibit"
+      },
+      "mindMap": {
+        "hub": {
+          "code": "STARFLEET-TACTICAL-CORE",
+          "label": "Starfleet Tactical Simulation Core",
+          "subtitle": "Dual-Mode Combat & Warp Flight • LCARS Interface • Canon Physics",
+          "accent": "#818cf8"
+        },
+        "branches": [
+          {
+            "id": "st-schematics",
+            "side": "left",
+            "phaseCode": "01 // SCHEMATICS",
+            "phaseName": "Canon Starship Blueprints & 2D Canvas",
+            "badgeColor": "bg-indigo-500/20 text-indigo-300 border-indigo-400/30",
+            "accent": "#6366f1",
+            "tasks": [
+              {
+                "code": "1.01",
+                "title": "Procedural USS Defiant Blueprint",
+                "desc": "Protruding nose warhead, curved horseshoe bow, nacelle sponsons.",
+                "meta": "Defiant"
+              },
+              {
+                "code": "1.02",
+                "title": "USS Enterprise Constitution Refit",
+                "desc": "Classic saucer, secondary engineering hull, and warp pylons.",
+                "meta": "Enterprise"
+              },
+              {
+                "code": "1.03",
+                "title": "60 FPS requestAnimationFrame Loop",
+                "desc": "Smooth high-performance 2D canvas physics simulation.",
+                "meta": "Renderer"
+              }
+            ]
+          },
+          {
+            "id": "st-warp",
+            "side": "left",
+            "phaseCode": "02 // WARP RUN",
+            "phaseName": "Warp Flight Mode & Relativistic Speeds",
+            "badgeColor": "bg-purple-500/20 text-purple-300 border-purple-400/30",
+            "accent": "#a855f7",
+            "tasks": [
+              {
+                "code": "2.01",
+                "title": "Real-Time Light Year Telemetry",
+                "desc": "Distance tracking measured dynamically at canon warp factors.",
+                "meta": "Light Years"
+              },
+              {
+                "code": "2.02",
+                "title": "Starfield Velocity Streaks",
+                "desc": "Relativistic star stretch shaders accelerating with warp factor.",
+                "meta": "Starfield"
+              },
+              {
+                "code": "2.03",
+                "title": "Dilithium Warp Boosters",
+                "desc": "Collectible energy canisters triggering maximum warp surges.",
+                "meta": "Max Warp"
+              }
+            ]
+          },
+          {
+            "id": "st-hazards",
+            "side": "right",
+            "phaseCode": "03 // CELESTIAL",
+            "phaseName": "Gravitational Hazards & Landmarks",
+            "badgeColor": "bg-rose-500/20 text-rose-300 border-rose-400/30",
+            "accent": "#f43f5e",
+            "tasks": [
+              {
+                "code": "3.01",
+                "title": "Black Hole Singularity Mechanics",
+                "desc": "Dynamic gravitational pull vector drawing ship toward horizon.",
+                "meta": "Gravity"
+              },
+              {
+                "code": "3.02",
+                "title": "Permanent Orbital Starbases",
+                "desc": "Colossal space stations requiring precision corridor navigation.",
+                "meta": "Starbases"
+              },
+              {
+                "code": "3.03",
+                "title": "Multi-Sector Transitions",
+                "desc": "Mutara Nebula, Badlands, and Asteroid Belt color progressions.",
+                "meta": "Sectors"
+              }
+            ]
+          },
+          {
+            "id": "st-combat",
+            "side": "right",
+            "phaseCode": "04 // COMBAT",
+            "phaseName": "LCARS Tactical Interface & Weaponry",
+            "badgeColor": "bg-amber-500/20 text-amber-300 border-amber-400/30",
+            "accent": "#f59e0b",
+            "tasks": [
+              {
+                "code": "4.01",
+                "title": "Pulse Phasers & Quantum Torpedoes",
+                "desc": "Authentic emitter placement firing from nacelle shoulders.",
+                "meta": "Armaments"
+              },
+              {
+                "code": "4.02",
+                "title": "Shield Quadrant Dissipation",
+                "desc": "Directional shield absorption with emergency battery shunts.",
+                "meta": "Shields"
+              },
+              {
+                "code": "4.03",
+                "title": "Dual-Joystick Mobile Touch Rig",
+                "desc": "Responsive virtual touch controls with full desktop parity.",
+                "meta": "Touch HUD"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
-      "id": "saltwater-hydrology",
+      "id": "classic-literature-lore",
       "categoryId": "hobbies",
-      "image": "./assets/card-military.svg",
-      "categoryBadge": "Ocean & Lore",
-      "title": "Atlantic Saltwater Hydrology & Tolkien Lore",
-      "role": "Coastal Tide Observer & Lore Scholar",
-      "organization": "Hutchinson Island Waters",
-      "timeline": "Ongoing",
-      "teaser": "Studying Atlantic lunar tidal current shifts along Hutchinson Island, practicing patient observational stewardship, and analyzing Tolkien's mythological linguistic frameworks.",
-      "accentColor": "#38bdf8",
+      "image": "./assets/hobby-literature-argonath.png",
+      "categoryBadge": "Literature & Lore",
+      "title": "Immersing in Classic Literature and Lore",
+      "role": "Avid Reader & Middle-earth Lore Scholar",
+      "organization": "Personal Library & Audio Studies",
+      "timeline": "Ongoing Pursuit",
+      "teaser": "Pairing routine long walks with immersive audiobooks, studying the intricate puzzle plotting of golden-age crime fiction, and dedicating annual revisitations to the expansive world-building of Tolkien's Middle-earth.",
+      "accentColor": "#818cf8",
       "itemType": "hobby",
       "tags": [
-        "Atlantic Coastal Hydrology",
-        "Lunar Tidal Cycles",
-        "Estuary Dynamics",
-        "Tolkien Mythopoeia",
-        "Observational Stewardship"
+        "The Lord of the Rings",
+        "J.R.R. Tolkien Lore",
+        "Classic Crime Fiction",
+        "Hercule Poirot",
+        "Lord Peter Wimsey",
+        "Andy Serkis Audiobooks"
       ],
       "specs": [
         {
-          "label": "Observation Cycle",
-          "value": "Semi-Diurnal Tides",
-          "note": "Tracking 6-hour Atlantic flood and ebb shifts"
+          "label": "Core Epic",
+          "value": "The Lord of the Rings",
+          "note": "Dedicated annual tradition with Andy Serkis narration"
         },
         {
-          "label": "Water Ecosystem",
-          "value": "Indian River Lagoon & Inlet",
-          "note": "Salinity, water clarity, and predator movement"
+          "label": "Mystery Mainstays",
+          "value": "Agatha Christie & Dorothy L. Sayers",
+          "note": "Intricate plotting of Hercule Poirot & Lord Peter Wimsey"
         },
         {
-          "label": "Philology Architecture",
-          "value": "70+ Years Consistency",
-          "note": "Linguistic root frameworks of Middle-earth"
+          "label": "Listening Medium",
+          "value": "Immersive Audiobooks",
+          "note": "Paired with routine long-distance walks"
+        },
+        {
+          "label": "Lore Focus",
+          "value": "Expansive World-Building",
+          "note": "Complex timelines, philology & Middle-earth history"
         }
       ],
-      "story": {
-        "inception": "Coastal saltwater ecosystems and deep literary legendariums share a profound commonality: they are governed by subtle, underlying rules that cannot be rushed or approximated.",
-        "challenge": "In saltwater fishing and coastal observation, conditions change hour-by-hour based on wind shear, lunar gravity, barometric pressure, and water temperature. Impatience yields nothing.",
-        "strategy": "Cultivate the habit of quiet, sustained observation. Read the rip currents, observe baitfish displacement along underwater shelves, and study how J.R.R. Tolkien constructed enduring mythological credibility through linguistically consistent sub-creation.",
-        "outcome": "A deeply grounded mindset that resists modern superficiality. Whether analyzing catalog taxonomies or reading an Atlantic tidal rip, patient observation reveals the true structure beneath the surface."
+      "storyText": "I pair my routine of long walks with immersive audiobooks, gravitating heavily toward the intricate plotting and character studies of classic crime fiction. Authors who craft meticulous, puzzle-like narratives hold a particular appeal for me, making the brilliant detective work of Hercule Poirot and the sharp investigations of Dorothy L. Sayers' Lord Peter Wimsey frequent mainstays in my library.\n\nDistinct from the mystery genre, The Lord of the Rings remains the absolute cornerstone of my literary interests. I am deeply invested in the expansive world-building, complex timelines, and rich lore of Middle-earth. Revisiting the series has become a dedicated annual tradition for me, particularly through the highly engaging audio performances narrated by Andy Serkis, which consistently bring a new dimension to the familiar epic.",
+      "pullQuote": {
+        "quote": "All we have to do is decide what to do with the time we have been given.",
+        "attribution": "J.R.R. Tolkien (Gandalf, The Fellowship of the Ring)"
       },
-      "diagram": null
+      "keyMetric": "Middle-earth Lore & Classic Mystery Fiction",
+      "exhibit": {
+        "image": "./assets/hobby-literature-argonath.png",
+        "title": "The Argonath — Pillars of the Kings upon the River Anduin",
+        "caption": "Figure 1.0: The Pillars of the Kings standing sentinel upon the river Anduin—capturing the mythic scale, linguistic consistency, and architectural grandeur of Tolkien's Middle-earth.",
+        "tag": "Middle-earth Lore Exhibit"
+      }
+    },
+    {
+      "id": "terrain-waterways-exploration",
+      "categoryId": "hobbies",
+      "image": "./assets/hobby-exploration-paddleboard.jpg",
+      "categoryBadge": "Terrain & Waterways",
+      "title": "Exploring Terrain and Waterways",
+      "role": "Electric Longboarder & Coastal Paddleboarder",
+      "organization": "Florida Coastal & Inland Waters",
+      "timeline": "2+ Years Active",
+      "teaser": "Over 450 miles logged on electric longboards exploring new terrain across state lines, expanded into coastal and inland waterway paddleboarding along Florida's barrier islands.",
+      "accentColor": "#34d399",
+      "itemType": "hobby",
+      "tags": [
+        "Electric Longboarding",
+        "Meepo V3s (450+ Miles)",
+        "Coastal Paddleboarding",
+        "Florida Waterways",
+        "Ground-Level Exploration",
+        "Solo Island Expeditions"
+      ],
+      "specs": [
+        {
+          "label": "Pavement Vehicle",
+          "value": "Meepo V3s Board",
+          "note": "Over 450 miles logged across Florida & neighboring states"
+        },
+        {
+          "label": "Water Craft",
+          "value": "Stand-Up Paddleboard",
+          "note": "Navigating coastal estuaries and inland waterways"
+        },
+        {
+          "label": "Expedition Highlight",
+          "value": "Solo Island Paddle",
+          "note": "Navigating open water to remote coastal barrier island"
+        },
+        {
+          "label": "Exploration Mode",
+          "value": "Ground-Level & Maritime",
+          "note": "Two years of active multi-terrain exploration"
+        }
+      ],
+      "storyText": "Over the past two years, electric longboarding has become my preferred method for exploring new locations and covering ground. Learning to ride alongside friends and family, I have since logged over 450 miles on my Meepo V3s board. Whether navigating local routes across Florida or bringing the board along to explore the terrain of neighboring states, this pursuit offers a highly engaging, ground-level perspective of the environments I visit.\n\nRecently, I expanded this drive for exploration from the pavement to the water by taking up paddleboarding. This allows me to navigate local coastal and inland waterways at a much different pace. A standout experience from this past year was a solo paddle out to a remote island along the Florida coastal waterway, taking in the open water and quiet scenery.",
+      "pullQuote": {
+        "quote": "Whether navigating local routes across Florida or bringing the board along to explore neighboring states, this pursuit offers a highly engaging, ground-level perspective of the environments I visit.",
+        "attribution": "Field Journal & Exploration Notes"
+      },
+      "keyMetric": "450+ Longboard Miles & Coastal Paddleboarding",
+      "exhibit": {
+        "image": "./assets/hobby-exploration-paddleboard.jpg",
+        "title": "Florida Coastal Paddleboard Expedition & Island Landing",
+        "caption": "Figure 2.0: Solo paddleboard expedition ashore a remote Florida coastal waterway island, exploring pristine shoreline habitats at natural pace.",
+        "tag": "Waterway Exploration Exhibit"
+      }
+    },
+    {
+      "id": "endurance-training-spartan",
+      "categoryId": "hobbies",
+      "image": "./assets/hobby-endurance-spartan.jpg",
+      "categoryBadge": "Endurance Training",
+      "title": "Pushing Physical Limits Through Endurance Training",
+      "role": "Spartan Trifecta Competitor & Endurance Athlete",
+      "organization": "Spartan Race Training Camp",
+      "timeline": "December Trifecta Target",
+      "teaser": "Daily structured functional strength and endurance conditioning, channeling discipline toward conquering the prestigious Spartan Race Trifecta—three grueling obstacle races in a single weekend.",
+      "accentColor": "#ef4444",
+      "itemType": "hobby",
+      "tags": [
+        "Spartan Race Trifecta",
+        "Obstacle Course Racing",
+        "Functional Strength",
+        "Mental Resilience",
+        "Multi-Race Weekend",
+        "Disciplined Regimen"
+      ],
+      "specs": [
+        {
+          "label": "Target Milestone",
+          "value": "Spartan Trifecta (Dec)",
+          "note": "Sprint, Super, and Beast formats in one weekend"
+        },
+        {
+          "label": "Discipline Scope",
+          "value": "Endurance & Functional Strength",
+          "note": "Rugged terrain obstacles, heavy carries, and trail velocity"
+        },
+        {
+          "label": "Training Cadence",
+          "value": "Daily Structured Regimen",
+          "note": "Prioritizing physical recovery and mental resilience"
+        },
+        {
+          "label": "Core Ethos",
+          "value": "Uncompromising Grit",
+          "note": "Continuously pushing past established physical boundaries"
+        }
+      ],
+      "storyText": "Physical fitness and structured endurance training are foundational priorities in my daily routine. Currently, my athletic focus is entirely channeled toward preparing for a Spartan Race Trifecta this coming December. Spartan Races are premier global obstacle course events explicitly designed to test physical endurance, functional strength, and mental grit across incredibly rugged, unpredictable terrain.\n\nThe Trifecta amplifies this baseline challenge significantly. It requires competitors to successfully complete three distinct, increasingly demanding race formats—all within the span of a single weekend. Preparing for an event of this caliber requires a high degree of daily discipline, consistent execution in training, and the resilience to continuously push past my established physical boundaries.",
+      "pullQuote": {
+        "quote": "Preparing for an event of this caliber requires a high degree of daily discipline, consistent execution in training, and the resilience to continuously push past my established physical boundaries.",
+        "attribution": "Endurance Training Log"
+      },
+      "keyMetric": "Spartan Race Trifecta (3 Races in 1 Weekend)",
+      "exhibit": {
+        "image": "./assets/hobby-endurance-spartan.jpg",
+        "title": "Verified Spartan Race Medals & Finisher Hardware",
+        "caption": "Figure 3.0: High-relief cast medals and multi-tier finisher hardware from premier Spartan Race obstacle course competitions.",
+        "tag": "Athletic Hardware Exhibit"
+      }
     }
   ]
 }

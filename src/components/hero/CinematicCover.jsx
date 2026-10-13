@@ -4,39 +4,42 @@ import { ChevronDown, Mail } from 'lucide-react'
 import { usePortfolio } from '../../context/PortfolioContext'
 import HoverLightButton from '../ui/HoverLightButton'
 
-export default function CinematicCover() {
+export default function CinematicCover({ onExplore }) {
   const { profile, goToCategory, setContactModalOpen } = usePortfolio()
-  const [activePillar, setActivePillar] = useState(null)
 
   const pillars = [
     {
       id: 'resume-docs',
       number: '01',
       title: 'Resume',
-      subtitle: 'Credentials & Dossier'
+      subtitle: 'Leadership & Dossier'
     },
     {
       id: 'stories',
       number: '02',
       title: 'Stories',
-      subtitle: '5 Flagship Case Studies'
+      subtitle: 'Team Enablement'
     },
     {
       id: 'ai-projects',
       number: '03',
       title: 'AI Projects',
-      subtitle: 'Autonomous Mind Map'
+      subtitle: 'Autonomous Swarms'
     },
     {
       id: 'hobbies',
       number: '04',
       title: 'Hobbies',
-      subtitle: 'Crafts & Physics'
+      subtitle: 'Discipline & Craft'
     }
   ]
 
-  const scrollToDomains = () => {
-    const el = document.getElementById('core-domains-section') || document.getElementById('portfolio-overview')
+  const scrollToOverview = () => {
+    if (onExplore) {
+      onExplore()
+      return
+    }
+    const el = document.getElementById('scene-profile') || document.getElementById('portfolio-overview')
     if (el) {
       el.scrollIntoView({ behavior: 'smooth', block: 'start' })
     }
@@ -113,7 +116,7 @@ export default function CinematicCover() {
           className="inline-flex items-center gap-2 mb-6"
         >
           <span className="text-[11px] sm:text-xs font-mono font-medium uppercase tracking-[0.32em] text-ivory-300">
-            Data Analytics • AI Integration • Continuous Improvement
+            Resilient Teams • Continuous Improvement • Modern AI Tools
           </span>
         </motion.div>
 
@@ -155,7 +158,7 @@ export default function CinematicCover() {
           <span className="text-slate-300">Hutchinson Island, FL</span>
         </motion.div>
 
-        {/* Subtle, Understated Frosted Glass "Explore 3 Domains" Button */}
+        {/* Prominent Frosted Glass "Explore Overview" Action with Radiant Sapphire Sheen */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -163,16 +166,17 @@ export default function CinematicCover() {
           className="mt-10"
         >
           <button
-            onClick={scrollToDomains}
-            className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/10 hover:bg-white/15 text-ivory-200 hover:text-white backdrop-blur-md transition-all duration-300 text-xs font-mono font-medium shadow-md hover:shadow-lg cursor-pointer"
+            onClick={scrollToOverview}
+            className="group relative inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r from-white/10 via-sapphire/20 to-white/10 hover:from-sapphire/35 hover:via-sapphire/50 hover:to-sapphire/35 border border-sapphire-light/40 hover:border-sapphire-light text-ivory-50 hover:text-white backdrop-blur-xl transition-all duration-300 text-xs font-mono font-bold tracking-wider uppercase shadow-[0_0_25px_rgba(56,189,248,0.25)] hover:shadow-[0_0_40px_rgba(56,189,248,0.65)] hover:scale-105 cursor-pointer"
           >
-            <span>Explore 4 Domains</span>
-            <ChevronDown className="w-3.5 h-3.5 transform group-hover:translate-y-0.5 text-ivory-300 group-hover:text-white transition-transform" />
+            <span className="w-2 h-2 rounded-full bg-sapphire-glow animate-ping" />
+            <span>Explore Overview</span>
+            <ChevronDown className="w-4 h-4 text-sapphire-light group-hover:text-white transition-all transform group-hover:translate-y-1 group-hover:scale-110" />
           </button>
         </motion.div>
       </div>
 
-      {/* 3. Bottom Row: Telemetry Coordinates on Left, 3 Perfectly Aligned Pillars on Right */}
+      {/* 3. Bottom Row: Telemetry Coordinates on Left, 4 Perfectly Aligned Pillars on Right */}
       <div className="relative z-20 w-full flex flex-col md:flex-row items-end md:items-center justify-between gap-6 pt-4 pb-2 border-t border-white/5">
         
         {/* Bottom Left: Quiet Dossier Badge & Scope */}
@@ -189,44 +193,27 @@ export default function CinematicCover() {
           </span>
         </div>
 
-        {/* Bottom Right: 3 Numbered Architectural Pillars with Exact Per-Pillar Highlight Line */}
-        <div className="flex items-center gap-8 sm:gap-12 w-full md:w-auto justify-end">
-          {pillars.map((pillar) => {
-            const isHovered = activePillar === pillar.id
-
-            return (
-              <button
-                key={pillar.id}
-                onMouseEnter={() => setActivePillar(pillar.id)}
-                onMouseLeave={() => setActivePillar(null)}
-                onClick={() => goToCategory(pillar.id)}
-                className="group relative text-left cursor-pointer transition-all duration-200 py-1"
-              >
-                <div className="flex items-center gap-2">
-                  <span className="font-mono text-[11px] text-slate-400 group-hover:text-ivory-200 font-semibold transition-colors">
-                    /{pillar.number}
-                  </span>
-                  <span className="font-sans text-xs sm:text-sm font-semibold tracking-wide text-ivory group-hover:text-white transition-colors">
-                    {pillar.title}
-                  </span>
-                </div>
-                <span className="block text-[10px] font-mono text-slate-400 group-hover:text-slate-300 transition-colors truncate max-w-[130px] mt-0.5 font-light">
-                  {pillar.subtitle}
+        {/* Bottom Right: 4 Numbered Architectural Domain Indices (Static Telemetry) */}
+        <div className="flex items-center gap-6 sm:gap-10 w-full md:w-auto justify-end">
+          {pillars.map((pillar) => (
+            <div
+              key={pillar.id}
+              className="relative text-left select-none py-1"
+            >
+              <div className="flex items-center gap-2">
+                <span className="font-mono text-[11px] font-semibold text-slate-400">
+                  /{pillar.number}
                 </span>
-
-                {/* Per-Pillar Active Underline Highlight (100% Mathematically Aligned) */}
-                <div className="relative w-full h-0.5 bg-white/10 rounded-full overflow-hidden mt-1.5">
-                  {isHovered && (
-                    <motion.div
-                      layoutId="activePillarUnderline"
-                      className="absolute inset-0 bg-gradient-to-r from-sapphire-light to-white shadow-[0_0_8px_#38bdf8]"
-                      transition={{ type: 'spring', stiffness: 400, damping: 30 }}
-                    />
-                  )}
-                </div>
-              </button>
-            )
-          })}
+                <span className="font-sans text-xs sm:text-sm font-semibold tracking-wide text-ivory-100">
+                  {pillar.title}
+                </span>
+              </div>
+              <span className="block text-[10px] font-mono text-slate-400 truncate max-w-[130px] mt-0.5 font-light">
+                {pillar.subtitle}
+              </span>
+              <div className="w-full h-0.5 bg-white/10 rounded-full mt-1.5" />
+            </div>
+          ))}
         </div>
       </div>
     </div>

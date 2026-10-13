@@ -21,13 +21,15 @@
     background-color: var(--bg-dark);
     color: var(--text-ivory);
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
 
   body {
     background-color: var(--bg-dark);
     min-height: 100vh;
-    overflow-x: hidden;
+    overflow-x: clip;
+    -webkit-overflow-scrolling: touch;
   }
 
   /* Sleek custom scrollbars in deep blue & ivory */
@@ -46,6 +48,17 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #2563eb;
   }
+}
+
+/* Clean Viewport Snapping Utility for Page 1 */
+html.snap-page-container {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.snap-scene {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 /* Custom Scrollbar Utility with Overscroll Containment */
@@ -184,11 +197,17 @@
 }
 
 /* Print Optimization */
+@page {
+  size: letter portrait;
+  margin: 8mm 10mm;
+}
+
 @media print {
-  body {
+  html, body {
     background: #ffffff !important;
-    color: #111827 !important;
-    font-size: 11pt !important;
+    color: #0f172a !important;
+    font-size: 10pt !important;
+    line-height: 1.25 !important;
   }
 
   .no-print,
@@ -203,6 +222,7 @@
 
   .print-only {
     display: block !important;
+    width: 100% !important;
   }
 
   .print-break-inside-avoid {

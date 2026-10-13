@@ -15,7 +15,7 @@ export default function NarrativeView({ item, isSingleColumn = false }) {
   const { story, telemetry, specs, tags } = item
 
   return (
-    <div className="w-full h-full overflow-y-auto pr-2 custom-scrollbar space-y-6 text-ivory">
+    <div className={`w-full space-y-6 text-ivory ${isSingleColumn ? '' : 'h-full overflow-y-auto pr-2 custom-scrollbar'}`}>
       {/* Tactical Header with Instant Serif Typography (No Decoder) */}
       <div className="pb-5">
         <div className="flex flex-wrap items-center gap-3 text-xs font-mono text-slate-300 mb-3">

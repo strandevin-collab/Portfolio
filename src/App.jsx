@@ -65,10 +65,10 @@ export default function App() {
                   onClick={() => window.print()}
                   variant="ghost"
                   className="hidden sm:inline-flex px-3.5 py-1.5"
-                  title="Print Portfolio"
+                  title="Print Executive 1-Pager Dossier"
                 >
                   <Printer className="w-3.5 h-3.5 text-sapphire-light" />
-                  <span>Print</span>
+                  <span>1-Pager (PDF)</span>
                 </HoverLightButton>
 
                 <HoverLightButton

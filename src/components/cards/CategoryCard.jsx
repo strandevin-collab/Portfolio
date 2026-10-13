@@ -17,9 +17,12 @@ export default function CategoryCard({ category, onClick }) {
       onClick={onClick}
       className="p-6 h-full flex flex-col justify-between overflow-hidden"
     >
-      <div>
-        {/* Card Visual Thumbnail (Borderless) */}
-        <div className="relative h-60 w-full rounded-2xl overflow-hidden bg-navy-950 mb-5 shadow-inner">
+      <div style={{ transformStyle: 'preserve-3d' }}>
+        {/* Card Visual Thumbnail (Borderless with Z-Elevation) */}
+        <div
+          style={{ transform: 'translateZ(24px)' }}
+          className="relative h-60 w-full rounded-2xl overflow-hidden bg-navy-950 mb-5 shadow-[0_15px_30px_rgba(2,6,17,0.8)]"
+        >
           <img
             src={category.image}
             alt={category.title}
@@ -29,19 +32,22 @@ export default function CategoryCard({ category, onClick }) {
             }}
           />
 
-          {/* Badges Overlay (Soft Glassmorphic, No Outlines) */}
-          <div className="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between">
-            <span className="text-[11px] font-mono uppercase tracking-wider font-semibold px-3 py-1 rounded-full bg-navy-950/75 backdrop-blur-md text-ivory-50 shadow-md">
+          {/* Badges Overlay (Elevated Z-Layer) */}
+          <div
+            style={{ transform: 'translateZ(32px)' }}
+            className="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between"
+          >
+            <span className="text-[11px] font-mono uppercase tracking-wider font-semibold px-3 py-1 rounded-full bg-navy-950/80 backdrop-blur-md text-ivory-50 shadow-md border border-white/10">
               {category.badge}
             </span>
-            <span className="text-[11px] font-mono text-ivory-300 px-2.5 py-1 rounded-full bg-navy-950/75 backdrop-blur-md">
+            <span className="text-[11px] font-mono text-ivory-300 px-2.5 py-1 rounded-full bg-navy-950/80 backdrop-blur-md border border-white/5">
               {category.itemCount} Items
             </span>
           </div>
         </div>
 
-        {/* Title & Description in Ivory */}
-        <div className="px-1">
+        {/* Title & Description in Ivory with Spatial Offset */}
+        <div style={{ transform: 'translateZ(16px)' }} className="px-1">
           <h3 className="text-xl sm:text-2xl font-bold font-sans text-ivory-50 group-hover:text-white transition-colors mb-1.5 leading-snug">
             {category.title}
           </h3>
@@ -57,7 +63,10 @@ export default function CategoryCard({ category, onClick }) {
       </div>
 
       {/* Action Footer (Borderless, Clean Whitespace) */}
-      <div className="px-1 pt-3 flex items-center justify-between text-xs font-mono text-ivory-300 group-hover:text-white transition-colors">
+      <div
+        style={{ transform: 'translateZ(20px)' }}
+        className="px-1 pt-3 flex items-center justify-between text-xs font-mono text-ivory-300 group-hover:text-white transition-colors"
+      >
         <span className="text-slate-400">
           {category.featuredTag}
         </span>

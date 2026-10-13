@@ -59,6 +59,53 @@ export function PortfolioProvider({ children }) {
     window.scrollTo({ top: 0, behavior: 'instant' })
   }
 
+  const currentItemIndex = useMemo(() => {
+    if (!selectedItemId || !categoryItems.length) return -1
+    return categoryItems.findIndex(i => i.id === selectedItemId)
+  }, [selectedItemId, categoryItems])
+
+  const nextItem = useMemo(() => {
+    if (currentItemIndex === -1 || categoryItems.length <= 1) return null
+    return categoryItems[(currentItemIndex + 1) % categoryItems.length]
+  }, [currentItemIndex, categoryItems])
+
+  const prevItem = useMemo(() => {
+    if (currentItemIndex === -1 || categoryItems.length <= 1) return null
+    return categoryItems[(currentItemIndex - 1 + categoryItems.length) % categoryItems.length]
+  }, [currentItemIndex, categoryItems])
+
+  const goToNextItem = () => {
+    if (nextItem) setSelectedItemId(nextItem.id)
+  }
+
+  const goToPrevItem = () => {
+    if (prevItem) setSelectedItemId(prevItem.id)
+  }
+
+  // Category sequencing
+  const currentCategoryIndex = useMemo(() => {
+    if (!selectedCategoryId) return -1
+    return portfolioData.categories.findIndex(c => c.id === selectedCategoryId)
+  }, [selectedCategoryId])
+
+  const nextCategory = useMemo(() => {
+    if (currentCategoryIndex === -1) return null
+    return portfolioData.categories[(currentCategoryIndex + 1) % portfolioData.categories.length]
+  }, [currentCategoryIndex])
+
+  const prevCategory = useMemo(() => {
+    if (currentCategoryIndex === -1) return null
+    return portfolioData.categories[(currentCategoryIndex - 1 + portfolioData.categories.length) % portfolioData.categories.length]
+  }, [currentCategoryIndex])
+
+  const goToNextCategory = () => {
+    if (nextCategory) goToCategory(nextCategory.id)
+  }
+
+  const goToPrevCategory = () => {
+    if (prevCategory) goToCategory(prevCategory.id)
+  }
+
   const value = {
     data: portfolioData,
     profile: portfolioData.profile,
@@ -70,6 +117,15 @@ export function PortfolioProvider({ children }) {
     selectedItemId,
     selectedItem,
     categoryItems,
+    currentItemIndex,
+    nextItem,
+    prevItem,
+    goToNextItem,
+    goToPrevItem,
+    nextCategory,
+    prevCategory,
+    goToNextCategory,
+    goToPrevCategory,
     goToCategory,
     goToItem,
     closeItemModal,

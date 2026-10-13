@@ -275,8 +275,18 @@ const edgeTypes = {
 function MindMapCanvas({ mindMap, diagramData, item }) {
   const { fitView } = useReactFlow()
 
-  // State: Set of expanded branch IDs. Default: empty set (COLLAPSED as requested)
-  const [expandedBranches, setExpandedBranches] = useState(() => new Set())
+  // State: Set of expanded branch IDs. Default: ALL branches FULLY EXPANDED
+  const [expandedBranches, setExpandedBranches] = useState(() => {
+    if (!mindMap?.branches) return new Set()
+    return new Set(mindMap.branches.map(b => b.id))
+  })
+
+  // Ensure all branches are expanded whenever a new mindMap loads
+  useEffect(() => {
+    if (mindMap?.branches) {
+      setExpandedBranches(new Set(mindMap.branches.map(b => b.id)))
+    }
+  }, [mindMap])
 
   const toggleBranch = useCallback((branchId) => {
     setExpandedBranches(prev => {
@@ -302,8 +312,8 @@ function MindMapCanvas({ mindMap, diagramData, item }) {
   // Auto-fit camera whenever expansion state changes
   useEffect(() => {
     const timer = setTimeout(() => {
-      fitView({ padding: 0.22, duration: 400 })
-    }, 50)
+      fitView({ padding: 0.18, duration: 450 })
+    }, 60)
     return () => clearTimeout(timer)
   }, [expandedBranches, fitView])
 
