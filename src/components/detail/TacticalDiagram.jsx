@@ -274,6 +274,7 @@ const edgeTypes = {
 // Internal Flow Canvas
 function MindMapCanvas({ mindMap, diagramData, item }) {
   const { fitView } = useReactFlow()
+  const canvasWrapperRef = React.useRef(null)
 
   // State: Set of expanded branch IDs. Default: ALL branches FULLY EXPANDED
   const [expandedBranches, setExpandedBranches] = useState(() => {
@@ -309,13 +310,30 @@ function MindMapCanvas({ mindMap, diagramData, item }) {
     setExpandedBranches(new Set())
   }, [])
 
-  // Auto-fit camera whenever expansion state changes
+  // Auto-fit camera whenever expansion state changes AND after DetailModal's spring entrance settles
   useEffect(() => {
-    const timer = setTimeout(() => {
-      fitView({ padding: 0.18, duration: 450 })
+    const fastTimer = setTimeout(() => {
+      fitView({ padding: 0.18, duration: 300 })
     }, 60)
-    return () => clearTimeout(timer)
-  }, [expandedBranches, fitView])
+    const postAnimTimer = setTimeout(() => {
+      fitView({ padding: 0.18, duration: 350 })
+    }, 340)
+    return () => {
+      clearTimeout(fastTimer)
+      clearTimeout(postAnimTimer)
+    }
+  }, [expandedBranches, item?.id, fitView])
+
+  // Observe container resize so switching tabs or window resizing keeps the graph centered
+  useEffect(() => {
+    const el = canvasWrapperRef.current
+    if (!el || typeof ResizeObserver === 'undefined') return
+    const observer = new ResizeObserver(() => {
+      fitView({ padding: 0.18, duration: 250 })
+    })
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [fitView])
 
   // Dual-Wing Radial Layout Generator
   const { nodes, edges } = useMemo(() => {
@@ -444,7 +462,7 @@ function MindMapCanvas({ mindMap, diagramData, item }) {
   const isAllExpanded = totalBranches > 0 && expandedBranches.size === totalBranches
 
   return (
-    <div className="w-full h-full relative rounded-2xl overflow-hidden bg-navy-950/95 shadow-2xl">
+    <div ref={canvasWrapperRef} className="w-full h-full relative rounded-2xl overflow-hidden bg-navy-950/85 shadow-2xl">
       {/* Top Tactical Command Toolbar */}
       <div className="absolute top-3 left-3 right-3 z-10 flex flex-wrap items-center justify-between gap-2 pointer-events-auto">
         <div className="flex items-center gap-2">

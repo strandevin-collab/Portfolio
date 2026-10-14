@@ -8,22 +8,26 @@ export function PortfolioProvider({ children }) {
   const [selectedCategoryId, setSelectedCategoryId] = useState(null)
   const [selectedItemId, setSelectedItemId] = useState(null)
   const [contactModalOpen, setContactModalOpen] = useState(false)
+  const [activeSceneIndex, setActiveSceneIndex] = useState(0)
 
   // Computed state
-  const selectedCategory = useMemo(() => {
-    if (!selectedCategoryId) return null
-    return portfolioData.categories.find(c => c.id === selectedCategoryId) || null
-  }, [selectedCategoryId])
-
   const selectedItem = useMemo(() => {
     if (!selectedItemId) return null
     return portfolioData.items.find(item => item.id === selectedItemId) || null
   }, [selectedItemId])
 
+  // Effective category supports Prev/Next modal cycling even when opened directly from Level 1 Hub
+  const effectiveCategoryId = selectedCategoryId || (selectedItem ? selectedItem.categoryId : null)
+
+  const selectedCategory = useMemo(() => {
+    if (!effectiveCategoryId) return null
+    return portfolioData.categories.find(c => c.id === effectiveCategoryId) || null
+  }, [effectiveCategoryId])
+
   const categoryItems = useMemo(() => {
-    if (!selectedCategoryId) return []
-    return portfolioData.items.filter(item => item.categoryId === selectedCategoryId)
-  }, [selectedCategoryId])
+    if (!effectiveCategoryId) return []
+    return portfolioData.items.filter(item => item.categoryId === effectiveCategoryId)
+  }, [effectiveCategoryId])
 
   const activeLevel = useMemo(() => {
     if (selectedItemId) return 3
@@ -40,22 +44,23 @@ export function PortfolioProvider({ children }) {
   }
 
   const goToItem = (itemId) => {
-    const item = portfolioData.items.find(i => i.id === itemId)
-    if (item && !selectedCategoryId) {
-      setSelectedCategoryId(item.categoryId)
-    }
     setSelectedItemId(itemId)
   }
 
   const closeItemModal = () => {
     setSelectedItemId(null)
-    document.body.style.overflow = 'unset'
+    if (selectedCategoryId) {
+      document.body.style.overflow = 'unset'
+    }
   }
 
-  const goBackToHub = () => {
+  const goBackToHub = (targetSceneIndex) => {
     document.body.style.overflow = 'unset'
     setSelectedItemId(null)
     setSelectedCategoryId(null)
+    if (typeof targetSceneIndex === 'number') {
+      setActiveSceneIndex(targetSceneIndex)
+    }
     window.scrollTo({ top: 0, behavior: 'instant' })
   }
 
@@ -131,7 +136,9 @@ export function PortfolioProvider({ children }) {
     closeItemModal,
     goBackToHub,
     contactModalOpen,
-    setContactModalOpen
+    setContactModalOpen,
+    activeSceneIndex,
+    setActiveSceneIndex
   }
 
   return (

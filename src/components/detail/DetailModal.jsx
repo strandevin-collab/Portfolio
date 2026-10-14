@@ -41,14 +41,14 @@ export default function DetailModal({ item, onClose }) {
 
   return (
     <AnimatePresence>
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 overflow-hidden">
+      <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 overflow-hidden overscroll-contain">
         {/* Backdrop in Soft Transparent Navy (Allows Rich Misty Forest & Trees to Bleed Through) */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           onClick={onClose}
-          className="absolute inset-0 bg-navy-950/25 backdrop-blur-[2px] transition-opacity"
+          className="absolute inset-0 bg-navy-950/35 backdrop-blur-[3px] overflow-hidden overscroll-contain transition-opacity"
         />
 
         {/* Modal Window Container (Luminous Crystal Frosted Glass with Direct Tree Visibility) */}
@@ -57,10 +57,10 @@ export default function DetailModal({ item, onClose }) {
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.94, y: 20 }}
           transition={{ type: 'spring', damping: 28, stiffness: 300 }}
-          className="relative w-full max-w-[1550px] 2xl:max-w-[1650px] h-[92vh] max-h-[960px] bg-slate-950/30 backdrop-blur-2xl rounded-[2.5rem] shadow-[0_30px_100px_rgba(0,0,0,0.7),inset_0_1px_1px_rgba(255,255,255,0.22),0_0_80px_rgba(56,189,248,0.08)] flex flex-col overflow-hidden z-10 text-ivory"
+          className="relative w-full max-w-[1550px] 2xl:max-w-[1650px] h-[92vh] max-h-[960px] bg-navy-950/45 backdrop-blur-2xl border border-white/10 rounded-[2.5rem] shadow-[0_30px_100px_rgba(0,0,0,0.75),inset_0_1px_1px_rgba(255,255,255,0.22),0_0_80px_rgba(56,189,248,0.08)] flex flex-col overflow-hidden overscroll-contain z-10 text-ivory"
         >
           {/* Top Editorial Status Bar (Luminous Frosted Glass with Seamless Pager) */}
-          <div className="px-5 sm:px-8 py-3.5 bg-slate-950/20 backdrop-blur-md flex items-center justify-between select-none">
+          <div className="px-5 sm:px-8 py-3.5 bg-white/[0.02] backdrop-blur-md flex items-center justify-between select-none">
             {/* Left: Breadcrumb / Category indicator */}
             <div className="flex items-center gap-3">
               <span className="w-2 h-2 rounded-full bg-sapphire-glow shadow-[0_0_8px_rgba(56,189,248,0.8)]" />

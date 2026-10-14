@@ -7,6 +7,7 @@ import {
   X,
   Sparkles,
   ArrowRight,
+  ArrowLeft,
   GitBranch,
   Eye,
   Cpu,
@@ -15,8 +16,7 @@ import {
   Compass,
   CheckCircle2,
   Smartphone,
-  ExternalLink,
-  QrCode
+  ExternalLink
 } from 'lucide-react'
 import { usePortfolio } from '../../context/PortfolioContext'
 import TacticalDiagram from './TacticalDiagram'
@@ -47,7 +47,9 @@ export default function StoryDetailView({ item }) {
   const hasMindMap = Boolean(mindMap)
   const [isZoomed, setIsZoomed] = useState(false)
   const [activeRightTab, setActiveRightTab] = useState(hasMindMap ? 'mindmap' : 'exhibit')
-  const { nextItem, goToNextItem } = usePortfolio()
+  const { prevItem, nextItem, goToPrevItem, goToNextItem } = usePortfolio()
+
+  const crystalSlab = "bg-white/[0.03] border border-white/10 shadow-[0_15px_35px_rgba(2,6,17,0.45),inset_0_1px_1px_rgba(255,255,255,0.18)]"
 
   useEffect(() => {
     setActiveRightTab(hasMindMap ? 'mindmap' : 'exhibit')
@@ -165,7 +167,7 @@ export default function StoryDetailView({ item }) {
               
               {/* 1. System Vision & Core Goal */}
               {projectOverview.goal && (
-                <div className="p-4 rounded-2xl bg-slate-950/40 border border-white/10 shadow-sm space-y-1.5">
+                <div className={`p-4 rounded-2xl ${crystalSlab} space-y-1.5`}>
                   <div className="flex items-center gap-2 text-xs font-mono font-bold text-sapphire-light uppercase tracking-wider">
                     <Compass className="w-4 h-4 text-sapphire-glow" />
                     <span>System Vision & Operational Goal</span>
@@ -185,7 +187,7 @@ export default function StoryDetailView({ item }) {
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                     {projectOverview.agentsUsed.map((agent, aIdx) => (
-                      <div key={aIdx} className="p-3 rounded-xl bg-slate-950/40 border border-white/5 space-y-1 hover:border-sapphire-light/30 transition-colors">
+                      <div key={aIdx} className={`p-3 rounded-xl ${crystalSlab} space-y-1 hover:border-sapphire-light/35 transition-colors`}>
                         <div className="flex items-center justify-between">
                           <span className="font-mono text-xs font-bold text-ivory-50 flex items-center gap-1.5">
                             <span className="w-1.5 h-1.5 rounded-full bg-sapphire-glow" />
@@ -211,7 +213,7 @@ export default function StoryDetailView({ item }) {
                   </div>
                   <div className="space-y-2">
                     {projectOverview.decisionsMade.map((dec, dIdx) => (
-                      <div key={dIdx} className="p-3 rounded-xl bg-slate-950/30 border border-white/5 flex items-start gap-2.5">
+                      <div key={dIdx} className={`p-3 rounded-xl ${crystalSlab} flex items-start gap-2.5`}>
                         <CheckCircle2 className="w-4 h-4 text-sapphire-light shrink-0 mt-0.5" />
                         <p className="text-xs sm:text-sm font-sans text-ivory-200 font-light leading-relaxed">
                           {dec}
@@ -231,7 +233,7 @@ export default function StoryDetailView({ item }) {
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
                     {projectOverview.sprints.map((sp, sIdx) => (
-                      <div key={sIdx} className="p-2.5 rounded-xl bg-slate-950/40 border border-white/5 space-y-1">
+                      <div key={sIdx} className={`p-2.5 rounded-xl ${crystalSlab} space-y-1`}>
                         <div className="flex items-center justify-between text-[11px] font-mono">
                           <span className="font-bold text-sapphire-light">{sp.sprint}</span>
                           <span className="text-slate-400 text-[10px] truncate max-w-[120px]">{sp.title}</span>
@@ -262,7 +264,7 @@ export default function StoryDetailView({ item }) {
 
               {/* 6. Live Mobile Flight Simulator & Interactive QR Code */}
               {(liveUrl || qrCode) && (
-                <div className="p-4 sm:p-5 rounded-2xl bg-slate-950/60 border border-sapphire-light/35 shadow-xl space-y-3">
+                <div className={`p-4 sm:p-5 rounded-2xl ${crystalSlab} border-sapphire-light/35 space-y-3`}>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2 text-xs font-mono font-bold text-sapphire-light uppercase tracking-wider">
                       <Smartphone className="w-4 h-4 text-sapphire-glow" />
@@ -323,13 +325,13 @@ export default function StoryDetailView({ item }) {
             </div>
           )}
 
-          {/* Sleek Technical Specifications Grid (Floating Frosted Glass, No Nested Blurs) */}
+          {/* Sleek Technical Specifications Grid (Floating Crystal Glass, No Nested Blurs) */}
           {specs && specs.length > 0 && (
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-1">
               {specs.map((sp, idx) => (
                 <div
                   key={idx}
-                  className="p-3 rounded-2xl bg-slate-950/40 border border-white/5 shadow-sm space-y-1"
+                  className={`p-3 rounded-2xl ${crystalSlab} space-y-1`}
                 >
                   <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 block truncate">
                     {sp.label}
@@ -347,13 +349,13 @@ export default function StoryDetailView({ item }) {
             </div>
           )}
 
-          {/* Sleek Project Telemetry Grid (Floating Frosted Glass, No Nested Blurs) */}
+          {/* Sleek Project Telemetry Grid (Floating Crystal Glass, No Nested Blurs) */}
           {telemetry && telemetry.length > 0 && (
             <div className="grid grid-cols-3 gap-3 pt-1">
               {telemetry.map((tel, idx) => (
                 <div
                   key={idx}
-                  className="p-3.5 rounded-2xl bg-slate-950/40 border border-white/5 shadow-sm flex flex-col items-center text-center space-y-1"
+                  className={`p-3.5 rounded-2xl ${crystalSlab} flex flex-col items-center text-center space-y-1`}
                 >
                   <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 block">
                     {tel.label}
@@ -381,25 +383,48 @@ export default function StoryDetailView({ item }) {
             </div>
           )}
 
-          {/* Direct "Up Next" Story Progression Banner */}
-          {nextItem && nextItem.id !== item.id && (
-            <button
-              onClick={goToNextItem}
-              className="group text-left mt-2 flex items-center justify-between p-3.5 rounded-2xl bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-sapphire-light/40 transition-all duration-300 cursor-pointer shadow-sm select-none"
-            >
-              <div className="flex flex-col">
-                <span className="text-[10px] font-mono text-slate-400 uppercase tracking-widest group-hover:text-sapphire-light transition-colors">
-                  Up Next in Archive:
-                </span>
-                <span className="text-xs sm:text-sm font-sans font-semibold text-ivory-100 group-hover:text-white transition-colors truncate max-w-[340px]">
-                  {nextItem.title}
-                </span>
-              </div>
-              <div className="flex items-center gap-1 text-xs font-mono text-sapphire-light font-semibold group-hover:translate-x-0.5 transition-transform">
-                <span className="hidden sm:inline">Advance</span>
-                <ArrowRight className="w-4 h-4" />
-              </div>
-            </button>
+          {/* Dual "Previous / Next Dossier" Progression Bar */}
+          {(prevItem || nextItem) && (
+            <div className="pt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {prevItem && prevItem.id !== item.id && (
+                <button
+                  onClick={goToPrevItem}
+                  className="group text-left flex items-center justify-between p-3.5 rounded-2xl bg-white/[0.03] hover:bg-white/[0.07] border border-white/10 hover:border-sapphire-light/40 transition-all duration-300 cursor-pointer shadow-sm select-none"
+                >
+                  <div className="flex items-center gap-2.5 min-w-0">
+                    <ArrowLeft className="w-4 h-4 text-sapphire-light shrink-0 group-hover:-translate-x-0.5 transition-transform" />
+                    <div className="flex flex-col min-w-0">
+                      <span className="text-[10px] font-mono text-slate-400 uppercase tracking-widest group-hover:text-sapphire-light transition-colors">
+                        Previous Dossier
+                      </span>
+                      <span className="text-xs sm:text-sm font-sans font-semibold text-ivory-100 group-hover:text-white transition-colors truncate">
+                        {prevItem.title}
+                      </span>
+                    </div>
+                  </div>
+                </button>
+              )}
+
+              {nextItem && nextItem.id !== item.id && (
+                <button
+                  onClick={goToNextItem}
+                  className="group text-left flex items-center justify-between p-3.5 rounded-2xl bg-white/[0.03] hover:bg-white/[0.07] border border-white/10 hover:border-sapphire-light/40 transition-all duration-300 cursor-pointer shadow-sm select-none"
+                >
+                  <div className="flex flex-col min-w-0 pr-2">
+                    <span className="text-[10px] font-mono text-slate-400 uppercase tracking-widest group-hover:text-sapphire-light transition-colors">
+                      Next in Archive
+                    </span>
+                    <span className="text-xs sm:text-sm font-sans font-semibold text-ivory-100 group-hover:text-white transition-colors truncate">
+                      {nextItem.title}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-1 text-xs font-mono text-sapphire-light font-semibold shrink-0 group-hover:translate-x-0.5 transition-transform">
+                    <span className="hidden xl:inline">Advance</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </div>
+                </button>
+              )}
+            </div>
           )}
         </div>
 
@@ -419,7 +444,7 @@ export default function StoryDetailView({ item }) {
               </div>
 
               {hasMindMap ? (
-                <div className="flex items-center gap-1.5 p-1 rounded-xl bg-slate-950/60 border border-white/10 shadow-sm">
+                <div className="flex items-center gap-1.5 p-1 rounded-xl bg-white/[0.03] border border-white/10 shadow-sm">
                   <button
                     onClick={() => setActiveRightTab('mindmap')}
                     className={`flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-mono transition-all cursor-pointer ${
@@ -452,16 +477,16 @@ export default function StoryDetailView({ item }) {
 
             {/* Mind Map Viewport (When Mind Map is Active) */}
             {hasMindMap && activeRightTab === 'mindmap' ? (
-              <div className="w-full h-[580px] sm:h-[640px] xl:h-[720px] rounded-3xl overflow-hidden bg-slate-950/40 border border-white/10 shadow-[0_25px_60px_rgba(2,6,17,0.7),inset_0_1px_1px_rgba(255,255,255,0.18)]">
+              <div className="w-full h-[580px] sm:h-[640px] xl:h-[720px] rounded-3xl overflow-hidden bg-white/[0.03] border border-white/10 shadow-[0_25px_60px_rgba(2,6,17,0.7),inset_0_1px_1px_rgba(255,255,255,0.18)]">
                 <TacticalDiagram item={item} mindMap={mindMap} />
               </div>
             ) : (
               /* Museum-Grade Glass Showcase Frame (Image Gallery View) */
               <div
                 onClick={() => setIsZoomed(true)}
-                className="group relative rounded-3xl overflow-hidden bg-slate-950/40 p-3 sm:p-4 shadow-[0_25px_60px_rgba(2,6,17,0.7),inset_0_1px_1px_rgba(255,255,255,0.18)] cursor-pointer transition-all duration-300 hover:shadow-[0_25px_60px_rgba(2,6,17,0.85),0_0_40px_rgba(56,189,248,0.2)] flex flex-col justify-between"
+                className="group relative rounded-3xl overflow-hidden bg-white/[0.03] border border-white/10 p-3 sm:p-4 shadow-[0_25px_60px_rgba(2,6,17,0.7),inset_0_1px_1px_rgba(255,255,255,0.18)] cursor-pointer transition-all duration-300 hover:shadow-[0_25px_60px_rgba(2,6,17,0.85),0_0_40px_rgba(56,189,248,0.2)] flex flex-col justify-between"
               >
-                <div className="relative rounded-2xl overflow-hidden bg-slate-900/90 flex items-center justify-center p-2 min-h-[280px] sm:min-h-[340px] lg:min-h-[400px] max-h-[500px]">
+                <div className="relative rounded-2xl overflow-hidden bg-navy-950/85 flex items-center justify-center p-2 min-h-[280px] sm:min-h-[340px] lg:min-h-[400px] max-h-[500px]">
                   <img
                     src={visualImage}
                     alt={visualTitle}

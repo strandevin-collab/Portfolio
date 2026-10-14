@@ -37,9 +37,8 @@ Evin Strand is a Product Information Analyst stewarding enterprise catalog portf
 - **Build Tool:** Vite 5.4 with `@vitejs/plugin-react`
 - **Styling:** Tailwind CSS 3.4 with custom `@layer base` deep blue/ivory tokens, custom scrollbars, and print stylesheets
 - **Animation & Physics:** Framer Motion 11 (`motion`, `useSpring`, `useTransform`, `useScroll`, `AnimatePresence`)
-- **Interactive Mind Maps:** `@xyflow/react` (React Flow 12) with custom nodes, dagre layouts, and viewport zoom controls
+- **Interactive Mind Maps:** `@xyflow/react` (React Flow 12) with custom nodes, radial dual-wing layout, `ResizeObserver` auto-centering, and viewport zoom controls
 - **Icons:** `lucide-react`
-- **3D Foundations:** Three.js / `@react-three/fiber` / `@react-three/drei` (modularized vendor chunks)
 - **CI/CD Pipeline:** GitHub Actions (`.github/workflows/deploy.yml`) compiling on `push: main` and publishing to GitHub Pages
 - **Base Path:** `base: './'` in `vite.config.js` (ensures zero broken asset paths across subpaths and custom domains)
 
@@ -47,115 +46,111 @@ Evin Strand is a Product Information Analyst stewarding enterprise catalog portf
 
 ## 3. Three-Tier Navigation Architecture
 
-The portfolio follows a strict 3-tier SPA information hierarchy:
+The portfolio follows a strict 3-tier SPA information hierarchy managed via `src/context/PortfolioContext.jsx`:
 
 ```
-Level 1: CategoryHub (Kinetic 3-Scene Presentation Deck, Zero Free Scrolling)
+Level 1: CategoryHub (Kinetic 3-Scene Presentation Deck, Zero Free Scrolling on Desktop)
    ├── Scene 1: CinematicCover (100vh Full-Bleed Architectural Intro)
    ├── Scene 2: Executive Profile & Dossier (Ticker + HeroSection + Patton Quote)
-   └── Scene 3: Core Domains Gallery (Resume, Stories, AI Projects, Hobbies)
+   └── Scene 3: Core Domains Gallery (Resume, Stories, AI Projects, Hobbies + Integrated Footer Bar)
+          │
+          ├── (Click Resume / Cover Letter on Level 1) ──> Opens DetailModal directly over Level 1
+          │     └── Closing modal returns directly to the exact active Scene (01/02/03)
           │
           └── (Click Domain Card)
                  │
 Level 2: SubItemsView (Category Sub-Grid, Fluid Scrolling Restored)
    ├── Category Status Banners (e.g. AI Projects Under Construction)
    ├── Item Cards with Bas-Relief Sheen & Telemetry Badges
-   └── Integrated Breadcrumb Navigation
+   └── Integrated Breadcrumb Navigation & Site Footer
           │
           └── (Click Item Card)
                  │
-Level 3: DetailModal (Floating Glass Dossier Screen)
+Level 3: DetailModal (Floating Crystal Glass Dossier Screen)
+   ├── Top & Bottom Prev / Next Dossier Cycling (Plus Left/Right Arrow Key Shortcuts)
    ├── StoryDetailView (Executive Narrative, Mind Map Flowchart, Mobile QR Launcher)
-   ├── DocumentDetailView (Curriculum Vitae, Executive Cover Letter, Official Records)
-   └── NarrativeView (Physical Specs, Artisan Craftsmanship, Literary Profiles)
+   └── DocumentDetailView (Curriculum Vitae, Executive Cover Letter, Military Compute Record)
 ```
 
 ---
 
 ## 4. Page 1 Kinetic Presentation Engine
 
-Page 1 (`CategoryHub.jsx`) is engineered as a **zero free scroll presentation stage**:
+Page 1 (`CategoryHub.jsx`) is engineered as a **zero free scroll presentation stage on desktop with boundary-aware responsive overflow on mobile/tablet**:
 
-1. **Scroll-Locking:**
-   - Native free scrolling is completely disabled on Level 1 (`overflow: hidden` on `html, body`).
-   - Every scene is guaranteed to land **100% centered** in the viewport without halfway cutoffs or portrait clipping.
-2. **Kinetic Slider (`motion.div`):**
+1. **Scroll-Locking & Boundary-Aware Scene Stepping:**
+   - Native document scrolling is locked on Level 1 (`overflow: hidden` on `html, body`).
+   - On desktop screens where each scene fits within `100vh`, wheel/touch/keyboard input snaps immediately to the next or previous scene with zero free scrolling, keeping every scene 100% centered.
+   - On mobile, tablet, or compact laptop screens where a scene's cards exceed `100vh`, `canStepScene()` allows smooth internal scrolling inside that scene first and triggers the kinetic scene transition once the user reaches the top or bottom boundary.
+2. **Modal Input Isolation:**
+   - Wheel, touch, and keyboard listeners in `CategoryHub.jsx` check `if (contactModalOpen || selectedItemId) return;`, and modals enforce `overscroll-contain` so scrolling inside an open modal never shifts the 3-scene stage behind it.
+3. **Global Scene Memory (`activeSceneIndex`):**
+   - Stored in `PortfolioContext.jsx` so opening a modal or visiting a category and returning to the hub preserves the visitor's active scene (`01 // COVER`, `02 // PROFILE`, or `03 // DOMAINS`).
+4. **Kinetic Slider (`motion.div`):**
    - Moves with a hardware-accelerated transform: `animate={{ y: -${activeSceneIndex * 100}vh }}`.
    - Organic easing curve: `transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}`.
-3. **Discrete Gestures:**
-   - Mouse wheel and trackpad gestures are intercepted with an 800ms debounce cooldown—flicking the wheel advances strictly 1 scene at a time.
-   - Touch drag / swipe up & down advance or return by 1 scene.
-   - Keyboard support: `ArrowDown` / `PageDown` (next scene), `ArrowUp` / `PageUp` (previous scene).
-4. **Floating Vertical Scene Indicator:**
-   - Positioned on the right margin with a minimalist hairline vertical track.
-   - Displays `01 // COVER`, `02 // PROFILE`, `03 // DOMAINS`.
+5. **Floating Vertical Scene Indicator:**
+   - Positioned on the right margin with a minimalist hairline vertical track (`01 // COVER`, `02 // PROFILE`, `03 // DOMAINS`).
    - Active node illuminates with a radiant sapphire beacon and ping aura; clicking any node glides to that scene.
-5. **Level 2 Auto-Release:**
-   - Navigating to Level 2 (`SubItemsView`) automatically disengages the scroll lock, restoring native fluid scrolling for reading dossiers.
 
 ---
 
 ## 5. Visual Language & Component Design Standards
 
-### Color Palette:
+### Color Palette & Clear Floating Crystal Glass:
 - **Base Background:** Deep Midnight Navy (`#050a14`, `#070f20`, `#0a1426`)
 - **Foreground / Text:** Crisp Ivory (`#fbf9f5`, `#f3f0e6`, `#e2e8f0`)
 - **Primary Accent:** Radiant Sapphire & Sky Blue (`#38bdf8`, `#2563eb`, `#60a5fa`)
-- **Secondary Accent:** Warm Brass / Amber Gold (`#f59e0b`, `#d97706`)
+- **Clear Floating Crystal Glass:** Unified across `HeroSection.jsx`, `CategoryCard.jsx`, `DetailModal.jsx`, `DocumentDetailView.jsx`, `StoryDetailView.jsx`, and `ContactModal.jsx` using `bg-white/[0.03] border border-white/10 shadow-[0_15px_35px_rgba(2,6,17,0.45),inset_0_1px_1px_rgba(255,255,255,0.18)]` so the misty forest background bleeds subtly through every glass surface.
 
 ### Apple-Style 3D Specular Tilt (`BasReliefWrapper.jsx` & `CategoryCard.jsx`):
 - Dynamic 3D perspective tilt reacting to cursor coordinates (`perspective: 1000px`, `rotateX: [-7.5°, 7.5°]`, `rotateY: [-7.5°, 7.5°]`, `scale: 1.02`).
 - Spring physics: `stiffness: 300, damping: 25, mass: 0.5`.
 - Dynamic specular glare overlay reflecting across frosted glass following cursor position.
-- Multi-layer spatial Z-axis pop:
-  - Cover image thumbnail: `translateZ: 24px`
-  - Badge pill: `translateZ: 32px`
-  - Typography & headings: `translateZ: 16px`
-  - Footer action pill: `translateZ: 20px`
+- Multi-layer spatial Z-axis pop (`translateZ: 16px` to `32px`).
 
 ### Editorial Typography (Patton Quote):
 - Completely unboxed—no nested card borders or heavy widget rectangles.
-- Styled in pure italic serif, backed by a translucent 7xl watermark quotation mark (`“`), accented by a horizontal sapphire hairline, and anchored by location/credentials.
-
-### Color-Harmonized Category Covers (`public/assets/`):
-- `editorial_resume_card.jpg`: Slate drafting desk, leather folio, brass pen, desk lamp.
-- `editorial_projects_card.jpg`: Executive leadership team at dark table overlooking misty forest with flowcharts.
-- `editorial_ai_card.jpg`: Systems war room overlooking dusk pine forest with subtle holographic sapphire node topologies.
-- `editorial_hobbies_card.jpg`: Artisan workshop with carbon longboard, leather Tolkien books, brass compass, and Spartan finisher medals.
+- Styled in pure italic serif, backed by a translucent watermark quotation mark (`“`), accented by a horizontal sapphire hairline, and vertically centered in `HeroSection.jsx`.
 
 ### Ambient Depth Parallax (`StaticRainForestBackground.jsx`):
-- Multi-layer background depth using Framer Motion `useScroll` + `useTransform`.
-- Gentle vertical translation of forest trees (`[0, -65px]`) and atmospheric mist vignette (`[0, -25px]`) creating the physical illusion of looking through frosted glass into misty woods.
+- Synchronized with both `activeSceneIndex` on Level 1 (`0px` → `-32px` → `-64px` with subtle scale progression) and `useScroll` on Level 2 (`SubItemsView`), creating a continuous multi-plane depth shift as the user glides between scenes.
 
 ---
 
 ## 6. Executive 1-Pager Print Engine (`PrintDossier.jsx`)
 
-- **Format:** Single-page executive summary layout optimized for print and PDF export.
-- **Page Rules:** Defined in `src/styles/index.css` via `@page { size: letter portrait; margin: 8mm 10mm; }`.
-- **Content:**
-  - Executive header with verified contact coordinates.
-  - People-first mission summary and General Patton quote callout.
-  - 4-metric Telemetry Summary Box ($148M+, 60-Day Gain, 40% AI Efficiency, 100% Tactical Compute).
-  - Executive Career Highlights (W.W. Grainger & Wisconsin Army National Guard).
-  - Education & Certifications (UW-Whitewater, SHRM-CP, Tactical Compute Honor Graduate).
+- **Format:** Single-page executive summary layout optimized for print and PDF export (`@page { size: letter portrait; margin: 8mm 10mm; }`).
 - **Trigger:** One-click `Executive 1-Pager (PDF)` buttons in `HeroSection.jsx` and top navigation header invoking `window.print()`.
 
 ---
 
-## 7. Rules & Operational Directives for Future AI Agents
+## 7. Recent Sprint & Architectural Update Log
+
+- **Sprint 13 (Argon Full-System Audit & Polish):**
+  - Fixed Direct Modal Return Trap in `PortfolioContext.jsx` and `App.jsx`: opening `Resume Dossier` or `Cover Letter` from Page 1 now keeps `CategoryHub` mounted behind the modal, preserves `Prev / Next` category cycling via `effectiveCategoryId`, and returns directly to the active scene on close.
+  - Added boundary-aware responsive scene stepping in `CategoryHub.jsx` so smaller viewports (mobile/tablet/compact laptops) can scroll overflowing scene content before stepping between scenes, while desktop remains 100% locked.
+  - Added modal scroll-bleed guards (`contactModalOpen || selectedItemId`) and `overscroll-contain` on `DetailModal.jsx` and `ContactModal.jsx`.
+  - Connected `StaticRainForestBackground.jsx` to `activeSceneIndex` so the misty forest canopy and mist layers shift in depth parallax across Scenes 01, 02, and 03.
+  - Added an integrated Scene 03 footer bar on Level 1 (`CategoryHub.jsx`) and dual `Previous / Next Dossier` progression bars in `DocumentDetailView.jsx` and `StoryDetailView.jsx`.
+  - Added post-animation `fitView` and `ResizeObserver` in `TacticalDiagram.jsx` so React Flow mind maps always center automatically after modal entrance transitions.
+  - Removed unused Three.js packages (`three`, `@react-three/fiber`, `@react-three/drei`) and dead files (`TopographicalBackground.jsx`, `NarrativeView.jsx`, root `styles.css`).
+
+---
+
+## 8. Rules & Operational Directives for Future AI Agents
 
 When modifying or extending this codebase, **ALL agents must adhere to the following rules**:
 
-1. **Preserve Zero Free Scrolling on Page 1:**
-   - Never reintroduce standard unconstrained document scrolling or default scrollbars to `CategoryHub.jsx`. Every scene on Page 1 must remain 100% centered and locked.
+1. **Preserve Zero Free Scrolling on Page 1 Desktop:**
+   - Never reintroduce unconstrained document scrolling or default scrollbars to `CategoryHub.jsx`.
 2. **Never Add Broken-Button Effects to Cover Telemetry:**
-   - The lower-right indicators on `CinematicCover.jsx` (`01 //`, `02 //`, `03 //`, `04 //`) must remain clean, quiet architectural telemetry labels—NEVER make them hover-lift or look like clickable buttons.
+   - The lower-right indicators on `CinematicCover.jsx` (`01 //`, `02 //`, `03 //`, `04 //`) must remain clean, quiet architectural telemetry labels.
 3. **Preserve Relative Asset Paths:**
-   - Always use `./assets/...` for images, SVGs, and documents. Never use absolute root `/assets/...` because GitHub Pages hosts the repository at subpath `/Portfolio/`.
+   - Always use `./assets/...` for images, SVGs, and documents so GitHub Pages subpath `/Portfolio/` resolves every asset cleanly.
 4. **Mind Map Scroll Isolation:**
-   - Any React Flow instance (`TacticalDiagram.jsx`) must keep `zoomOnScroll={false}` and `preventScrolling={true}` so zooming inside the canvas never hijacks page navigation.
+   - Any React Flow instance (`TacticalDiagram.jsx`) must keep `zoomOnScroll={false}` and `preventScrolling={true}`.
 5. **No Nested Boxes on Quotes:**
-   - Maintain the unboxed, clean editorial typography for executive quotes. Do not wrap quotes in bordered card widgets.
+   - Maintain unboxed, clean editorial typography for executive quotes.
 6. **Production Verification Requirement:**
-   - Before pushing to `main`, always execute `npm run build` locally to verify that all 2,100+ modules compile with zero syntax or bundle errors.
+   - Before pushing to `main`, always execute `npm run build` locally to verify zero build or bundle errors.

@@ -8,11 +8,7 @@ import {
   CheckCircle2,
   Sparkles,
   ArrowRight,
-  Building2,
-  Calendar,
-  Mail,
-  Phone,
-  MapPin,
+  ArrowLeft,
   Quote
 } from 'lucide-react'
 import HoverLightButton from '../ui/HoverLightButton'
@@ -20,7 +16,9 @@ import { usePortfolio } from '../../context/PortfolioContext'
 
 export default function DocumentDetailView({ item }) {
   const { document: doc, title, role, organization, timeline, tags } = item
-  const { nextItem, goToNextItem } = usePortfolio()
+  const { prevItem, nextItem, goToPrevItem, goToNextItem } = usePortfolio()
+
+  const crystalSlab = "bg-white/[0.03] border border-white/10 shadow-[0_15px_35px_rgba(2,6,17,0.45),inset_0_1px_1px_rgba(255,255,255,0.18)]"
 
   return (
     <div className="w-full h-full flex flex-col justify-start text-ivory">
@@ -28,7 +26,7 @@ export default function DocumentDetailView({ item }) {
       <div className="pb-5">
         <div className="flex flex-wrap items-center justify-between gap-4 mb-3">
           <div className="flex flex-wrap items-center gap-2 text-xs font-mono text-slate-300">
-            <span className="px-3.5 py-1 rounded-full bg-sapphire/20 text-ivory-50 font-semibold shadow-sm">
+            <span className="px-3.5 py-1 rounded-full bg-sapphire/20 border border-sapphire-light/30 text-ivory-50 font-semibold shadow-sm">
               {item.categoryBadge}
             </span>
             <span className="text-slate-500">•</span>
@@ -78,9 +76,9 @@ export default function DocumentDetailView({ item }) {
           {/* Left Column (5 Cols): Profile Statement, Education, Certifications & Quant Telemetry */}
           <div className="lg:col-span-5 space-y-6">
             
-            {/* Executive Summary in Floating Frosted Glass */}
+            {/* Executive Summary in Floating Crystal Glass */}
             {doc.summary && (
-              <div className="p-6 rounded-3xl bg-slate-950/40 shadow-xl space-y-2">
+              <div className={`p-6 rounded-3xl ${crystalSlab} space-y-2`}>
                 <span className="text-[11px] font-mono uppercase tracking-widest text-sapphire-light font-bold">
                   Executive Profile Statement
                 </span>
@@ -92,26 +90,26 @@ export default function DocumentDetailView({ item }) {
 
             {/* Core Operational Scope Metrics (2x2 Grid) */}
             <div className="grid grid-cols-2 gap-3">
-              <div className="p-3.5 rounded-2xl bg-slate-950/40 shadow-md flex flex-col">
+              <div className={`p-3.5 rounded-2xl ${crystalSlab} flex flex-col`}>
                 <span className="text-[10px] font-mono uppercase text-slate-400">Enterprise Scope</span>
                 <span className="text-lg font-mono font-bold text-sapphire-light">$148M+</span>
               </div>
-              <div className="p-3.5 rounded-2xl bg-slate-950/40 shadow-md flex flex-col">
+              <div className={`p-3.5 rounded-2xl ${crystalSlab} flex flex-col`}>
                 <span className="text-[10px] font-mono uppercase text-slate-400">Tactical Precision</span>
                 <span className="text-lg font-mono font-bold text-ivory">100%</span>
               </div>
-              <div className="p-3.5 rounded-2xl bg-slate-950/40 shadow-md flex flex-col">
+              <div className={`p-3.5 rounded-2xl ${crystalSlab} flex flex-col`}>
                 <span className="text-[10px] font-mono uppercase text-slate-400">Onboarding Gain</span>
                 <span className="text-lg font-mono font-bold text-sapphire-light">-60 Days</span>
               </div>
-              <div className="p-3.5 rounded-2xl bg-slate-950/40 shadow-md flex flex-col">
+              <div className={`p-3.5 rounded-2xl ${crystalSlab} flex flex-col`}>
                 <span className="text-[10px] font-mono uppercase text-slate-400">Workflow Efficiency</span>
                 <span className="text-lg font-mono font-bold text-sapphire-light">+40% Gain</span>
               </div>
             </div>
 
-            {/* Education & Credentials in Floating Frosted Glass */}
-            <div className="p-5 rounded-3xl bg-slate-950/40 shadow-xl space-y-4">
+            {/* Education & Credentials in Floating Crystal Glass */}
+            <div className={`p-5 rounded-3xl ${crystalSlab} space-y-4`}>
               {/* Education */}
               <div>
                 <div className="flex items-center gap-2 mb-2 text-sapphire-light">
@@ -127,7 +125,7 @@ export default function DocumentDetailView({ item }) {
               </div>
 
               {/* Certifications */}
-              <div className="pt-3 border-t border-white/5">
+              <div className="pt-3 border-t border-white/10">
                 <div className="flex items-center gap-2 mb-2 text-sapphire-glow">
                   <Award className="w-4 h-4" />
                   <h4 className="font-mono text-xs uppercase tracking-wider font-bold text-ivory">Credentials & Honors</h4>
@@ -143,23 +141,9 @@ export default function DocumentDetailView({ item }) {
               </div>
             </div>
 
-            {/* Direct Advance to Next Record */}
-            {nextItem && nextItem.id !== item.id && (
-              <button
-                onClick={goToNextItem}
-                className="w-full text-left p-3.5 rounded-2xl bg-white/[0.04] hover:bg-white/[0.08] transition-all duration-300 flex items-center justify-between shadow-sm cursor-pointer"
-              >
-                <div className="flex flex-col">
-                  <span className="text-[10px] font-mono text-slate-400 uppercase tracking-widest">Next Record:</span>
-                  <span className="text-xs font-sans font-semibold text-ivory truncate max-w-[260px]">{nextItem.title}</span>
-                </div>
-                <ArrowRight className="w-4 h-4 text-sapphire-light" />
-              </button>
-            )}
-
           </div>
 
-          {/* Right Column (7 Cols): Experience Chronology in Floating Slabs */}
+          {/* Right Column (7 Cols): Experience Chronology in Floating Crystal Slabs */}
           <div className="lg:col-span-7 space-y-4">
             <div className="flex items-center gap-2 pb-1">
               <Briefcase className="w-4 h-4 text-sapphire-light" />
@@ -172,7 +156,7 @@ export default function DocumentDetailView({ item }) {
               {doc.experience.map((exp, expIdx) => (
                 <div
                   key={expIdx}
-                  className="p-5 sm:p-6 rounded-3xl bg-slate-950/40 shadow-xl space-y-4"
+                  className={`p-5 sm:p-6 rounded-3xl ${crystalSlab} space-y-4`}
                 >
                   <div className="flex flex-wrap items-center justify-between gap-2">
                     <div>
@@ -181,7 +165,7 @@ export default function DocumentDetailView({ item }) {
                       </h4>
                       <p className="text-xs font-mono text-sapphire-light">{exp.location}</p>
                     </div>
-                    <span className="text-xs font-mono text-slate-300 px-3 py-1 rounded-full bg-navy-900/80 shadow-sm">
+                    <span className="text-xs font-mono text-slate-300 px-3 py-1 rounded-full bg-white/[0.04] border border-white/10 shadow-sm">
                       {exp.period}
                     </span>
                   </div>
@@ -207,7 +191,7 @@ export default function DocumentDetailView({ item }) {
                       </ul>
 
                       {r.spotlight && (
-                        <div className="mt-2.5 p-3 rounded-2xl bg-sapphire/15 space-y-1">
+                        <div className="mt-2.5 p-3 rounded-2xl bg-sapphire/15 border border-sapphire-light/25 space-y-1">
                           <div className="flex items-center gap-1.5 text-[11px] font-mono font-semibold text-sapphire-light uppercase tracking-wider">
                             <Sparkles className="w-3.5 h-3.5 text-sapphire-glow" />
                             <span>{r.spotlight.title}</span>
@@ -233,7 +217,7 @@ export default function DocumentDetailView({ item }) {
           
           {/* Left Column (5 Cols): Thesis, Quote & Contact Signature */}
           <div className="lg:col-span-5 space-y-6">
-            <div className="p-6 rounded-3xl bg-slate-950/40 shadow-xl space-y-4">
+            <div className={`p-6 rounded-3xl ${crystalSlab} space-y-4`}>
               <span className="text-[11px] font-mono uppercase tracking-widest text-sapphire-light font-bold">
                 Executive Core Thesis
               </span>
@@ -245,27 +229,13 @@ export default function DocumentDetailView({ item }) {
                 </p>
               </div>
 
-              <div className="pt-4 border-t border-white/5 space-y-1 font-mono text-xs text-slate-300">
+              <div className="pt-4 border-t border-white/10 space-y-1 font-mono text-xs text-slate-300">
                 <p className="text-ivory-50 font-bold font-serif text-base">Evin Strand</p>
                 <p className="text-sapphire-light">Product Information Analyst</p>
                 <p className="text-[11px] text-slate-400">strandevin@gmail.com • (262) 325-2112</p>
                 <p className="text-[11px] text-slate-400">Hutchinson Island, FL</p>
               </div>
             </div>
-
-            {/* Advance to Next Record */}
-            {nextItem && nextItem.id !== item.id && (
-              <button
-                onClick={goToNextItem}
-                className="w-full text-left p-3.5 rounded-2xl bg-white/[0.04] hover:bg-white/[0.08] transition-all duration-300 flex items-center justify-between shadow-sm cursor-pointer"
-              >
-                <div className="flex flex-col">
-                  <span className="text-[10px] font-mono text-slate-400 uppercase tracking-widest">Next Record:</span>
-                  <span className="text-xs font-sans font-semibold text-ivory truncate max-w-[260px]">{nextItem.title}</span>
-                </div>
-                <ArrowRight className="w-4 h-4 text-sapphire-light" />
-              </button>
-            )}
           </div>
 
           {/* Right Column (7 Cols): The 4 Strategic Letter Sections */}
@@ -273,7 +243,7 @@ export default function DocumentDetailView({ item }) {
             {doc.letterSections.map((sec, idx) => (
               <div
                 key={idx}
-                className="p-6 rounded-3xl bg-slate-950/40 shadow-xl space-y-2"
+                className={`p-6 rounded-3xl ${crystalSlab} space-y-2`}
               >
                 <h3 className="font-serif text-lg font-bold text-ivory-50">
                   {sec.heading}
@@ -294,7 +264,7 @@ export default function DocumentDetailView({ item }) {
           
           {/* Left Column (5 Cols): Defense Doctrine, School, Honors & Liaison Role */}
           <div className="lg:col-span-5 space-y-6">
-            <div className="p-6 rounded-3xl bg-slate-950/40 shadow-xl space-y-4">
+            <div className={`p-6 rounded-3xl ${crystalSlab} space-y-4`}>
               <span className="text-[11px] font-mono uppercase tracking-widest text-sapphire-light font-bold">
                 Defense Service Doctrine
               </span>
@@ -306,7 +276,7 @@ export default function DocumentDetailView({ item }) {
                 <p className="text-slate-400">{doc.militaryTenure}</p>
               </div>
 
-              <div className="pt-3 border-t border-white/5 space-y-2">
+              <div className="pt-3 border-t border-white/10 space-y-2">
                 <p className="text-xs font-sans text-ivory-100 leading-relaxed font-light">
                   Flawless 100% computational data fidelity record during live-fire tactical field artillery exercises under austere, degraded communication environments.
                 </p>
@@ -315,31 +285,17 @@ export default function DocumentDetailView({ item }) {
                 </p>
               </div>
             </div>
-
-            {/* Advance to Next Record */}
-            {nextItem && nextItem.id !== item.id && (
-              <button
-                onClick={goToNextItem}
-                className="w-full text-left p-3.5 rounded-2xl bg-white/[0.04] hover:bg-white/[0.08] transition-all duration-300 flex items-center justify-between shadow-sm cursor-pointer"
-              >
-                <div className="flex flex-col">
-                  <span className="text-[10px] font-mono text-slate-400 uppercase tracking-widest">Next Record:</span>
-                  <span className="text-xs font-sans font-semibold text-ivory truncate max-w-[260px]">{nextItem.title}</span>
-                </div>
-                <ArrowRight className="w-4 h-4 text-sapphire-light" />
-              </button>
-            )}
           </div>
 
           {/* Right Column (7 Cols): Verified Duties & Compute Responsibilities */}
           <div className="lg:col-span-7 space-y-4">
-            <div className="p-6 rounded-3xl bg-slate-950/40 shadow-xl space-y-4">
+            <div className={`p-6 rounded-3xl ${crystalSlab} space-y-4`}>
               <h3 className="font-mono text-xs uppercase tracking-wider text-ivory-100 font-bold">
                 Operational Doctrine & Verified Responsibilities:
               </h3>
               <ul className="space-y-3 text-xs sm:text-sm font-sans text-ivory-200 font-light">
                 {doc.coreDuties.map((duty, idx) => (
-                  <li key={idx} className="flex items-start gap-3 p-4 rounded-2xl bg-slate-900/60 shadow-sm">
+                  <li key={idx} className="flex items-start gap-3 p-4 rounded-2xl bg-white/[0.03] border border-white/5 shadow-sm">
                     <ShieldCheck className="w-5 h-5 text-sapphire-light shrink-0 mt-0.5" />
                     <span className="leading-relaxed">{duty}</span>
                   </li>
@@ -351,19 +307,51 @@ export default function DocumentDetailView({ item }) {
         </div>
       )}
 
-      {/* Tags footer */}
-      {tags && tags.length > 0 && (
-        <div className="pt-6 flex flex-wrap gap-2">
-          {tags.map((tag, idx) => (
-            <span
-              key={idx}
-              className="text-xs font-mono px-3.5 py-1 rounded-full bg-slate-950/40 text-ivory-200 shadow-sm"
-            >
-              #{tag}
-            </span>
-          ))}
-        </div>
-      )}
+      {/* Tags & Dual Prev/Next Dossier Progression Footer */}
+      <div className="pt-6 mt-6 border-t border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        {tags && tags.length > 0 ? (
+          <div className="flex flex-wrap gap-2">
+            {tags.map((tag, idx) => (
+              <span
+                key={idx}
+                className="text-xs font-mono px-3.5 py-1 rounded-full bg-white/[0.03] border border-white/10 text-ivory-200 shadow-sm"
+              >
+                #{tag}
+              </span>
+            ))}
+          </div>
+        ) : <div />}
+
+        {(prevItem || nextItem) && (
+          <div className="flex items-center gap-3 w-full sm:w-auto justify-between sm:justify-end">
+            {prevItem && prevItem.id !== item.id && (
+              <button
+                onClick={goToPrevItem}
+                className="group flex items-center gap-2.5 px-4 py-2.5 rounded-2xl bg-white/[0.03] hover:bg-white/[0.07] border border-white/10 hover:border-sapphire-light/40 transition-all cursor-pointer text-left"
+              >
+                <ArrowLeft className="w-4 h-4 text-sapphire-light group-hover:-translate-x-0.5 transition-transform" />
+                <div className="flex flex-col">
+                  <span className="text-[9px] font-mono uppercase tracking-widest text-slate-400">Previous Record</span>
+                  <span className="text-xs font-sans font-semibold text-ivory truncate max-w-[160px]">{prevItem.title}</span>
+                </div>
+              </button>
+            )}
+
+            {nextItem && nextItem.id !== item.id && (
+              <button
+                onClick={goToNextItem}
+                className="group flex items-center gap-2.5 px-4 py-2.5 rounded-2xl bg-white/[0.03] hover:bg-white/[0.07] border border-white/10 hover:border-sapphire-light/40 transition-all cursor-pointer text-right"
+              >
+                <div className="flex flex-col">
+                  <span className="text-[9px] font-mono uppercase tracking-widest text-slate-400">Next Record</span>
+                  <span className="text-xs font-sans font-semibold text-ivory truncate max-w-[160px]">{nextItem.title}</span>
+                </div>
+                <ArrowRight className="w-4 h-4 text-sapphire-light group-hover:translate-x-0.5 transition-transform" />
+              </button>
+            )}
+          </div>
+        )}
+      </div>
     </div>
   )
 }

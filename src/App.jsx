@@ -14,6 +14,7 @@ import { Printer, Mail } from 'lucide-react'
 export default function App() {
   const {
     activeLevel,
+    selectedCategoryId,
     selectedItem,
     closeItemModal,
     setContactModalOpen,
@@ -22,6 +23,8 @@ export default function App() {
     goToItem
   } = usePortfolio()
 
+  const isCategoryView = Boolean(selectedCategoryId)
+
   return (
     <div className="min-h-screen bg-navy-950 text-ivory flex flex-col relative selection:bg-sapphire selection:text-white">
       {/* Serene Static Misty Rain Forest Background (Faded Out Atmosphere) */}
@@ -29,14 +32,14 @@ export default function App() {
 
       {/* Screen view content */}
       <div className="no-print relative z-10 flex flex-col min-h-screen">
-        {/* Sleek Top Navigation Bar (Visible on Level 2/3, Borderless) */}
-        {activeLevel >= 2 && (
+        {/* Sleek Top Navigation Bar (Visible on Level 2 Category View, Borderless) */}
+        {isCategoryView && (
           <header className="sticky top-0 z-30 w-full backdrop-blur-xl bg-navy-950/85 shadow-lg transition-all duration-200">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
               {/* Logo / Brand Header */}
               <button
-                onClick={goBackToHub}
-                className="flex items-center gap-3 text-left group transition-all"
+                onClick={() => goBackToHub()}
+                className="flex items-center gap-3 text-left group transition-all cursor-pointer"
               >
                 <div className="w-8 h-8 rounded-xl bg-navy-900 flex items-center justify-center text-ivory font-mono font-bold text-xs shadow-md group-hover:shadow-[0_0_15px_rgba(56,189,248,0.3)] transition-all">
                   ES
@@ -87,15 +90,13 @@ export default function App() {
         )}
 
         {/* Level 2 Breadcrumb Trail */}
-        <Breadcrumbs />
+        {isCategoryView && <Breadcrumbs />}
 
         {/* Main 3-Tier SPA View Container */}
         <main className="flex-1 w-full relative">
-          {activeLevel === 1 && (
+          {!isCategoryView ? (
             <CategoryHub key="level-1-hub" />
-          )}
-
-          {activeLevel >= 2 && (
+          ) : (
             <SubItemsView key="level-2-subitems" />
           )}
         </main>
@@ -114,37 +115,39 @@ export default function App() {
         {/* Direct Contact Modal */}
         <ContactModal />
 
-        {/* Site Footer (Borderless) */}
-        <footer className="mt-auto bg-navy-950/90 py-8 px-4 sm:px-6 lg:px-8 text-center text-xs font-mono text-slate-400 relative z-10">
-          <div className="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent mb-6 max-w-7xl mx-auto" />
-          <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p>
-              © {new Date().getFullYear()} {profile.name} • Portfolio Dossier in Deep Blue & Ivory
-            </p>
-            <div className="flex items-center gap-4 text-slate-300">
-              <button
-                onClick={() => goToItem('curriculum-vitae')}
-                className="hover:text-ivory transition-colors"
-              >
-                Resume Dossier
-              </button>
-              <span>•</span>
-              <button
-                onClick={() => goToItem('executive-cover-letter')}
-                className="hover:text-ivory transition-colors"
-              >
-                Cover Letter
-              </button>
-              <span>•</span>
-              <button
-                onClick={() => setContactModalOpen(true)}
-                className="hover:text-ivory transition-colors"
-              >
-                Contact Info
-              </button>
+        {/* Site Footer (Visible on Level 2 Category View; Level 1 has integrated Scene 03 footer bar) */}
+        {isCategoryView && (
+          <footer className="mt-auto bg-navy-950/90 py-8 px-4 sm:px-6 lg:px-8 text-center text-xs font-mono text-slate-400 relative z-10">
+            <div className="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent mb-6 max-w-7xl mx-auto" />
+            <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+              <p>
+                © {new Date().getFullYear()} {profile.name} • Portfolio Dossier in Deep Blue & Ivory
+              </p>
+              <div className="flex items-center gap-4 text-slate-300">
+                <button
+                  onClick={() => goToItem('curriculum-vitae')}
+                  className="hover:text-ivory transition-colors cursor-pointer"
+                >
+                  Resume Dossier
+                </button>
+                <span>•</span>
+                <button
+                  onClick={() => goToItem('executive-cover-letter')}
+                  className="hover:text-ivory transition-colors cursor-pointer"
+                >
+                  Cover Letter
+                </button>
+                <span>•</span>
+                <button
+                  onClick={() => setContactModalOpen(true)}
+                  className="hover:text-ivory transition-colors cursor-pointer"
+                >
+                  Contact Info
+                </button>
+              </div>
             </div>
-          </div>
-        </footer>
+          </footer>
+        )}
       </div>
 
       {/* Clean Document Print Dossier (Visible ONLY during print/PDF export) */}
